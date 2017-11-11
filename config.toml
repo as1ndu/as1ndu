@@ -1,4 +1,4 @@
-baseURL = "http://as1ndu.github.io/"			# Site's URL
+baseURL = "https://asindu.drileba.capital/"			# Site's URL
 title = "Asindu's Blog"								# Site's Name
 theme = "manis"
 copyright = "&copy; 2017  Asindu Drileba"	# Copyright notice. Note: You can use HTML tag here
