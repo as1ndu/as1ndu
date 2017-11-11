@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Asindu&#39;s Blog</title>
-    <link>https://asindu.drileba.capital/tags/</link>
+    <link>https://as1ndu.github.io/tags/</link>
     <description>Recent content in Tags on Asindu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017  Asindu Drileba</copyright>
     <lastBuildDate>Sat, 11 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://asindu.drileba.capital/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://as1ndu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://asindu.drileba.capital/tags/hugo/</link>
+      <link>https://as1ndu.github.io/tags/hugo/</link>
       <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/tags/hugo/</guid>
+      <guid>https://as1ndu.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
