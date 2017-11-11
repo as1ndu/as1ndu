@@ -6,6 +6,7 @@ pluralizeListTitles = false
 paginate = 50								# Minimum number of item before paginate navigation show up
 canonifyURL = true
 disqusShortname = ""                        # Your disqus shortname
+publishDir = "docs"
 
 [taxonomies]
 	tag = "tags"
