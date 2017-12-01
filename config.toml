@@ -22,7 +22,7 @@ publishDir = "docs"
 	licenseURL = "/about/license"           # URL to license file, can be outside of your domain
 
 	# 404 Configuration
-	head404 = "Sorry, I can find what you want."
+	head404 = "Error 404 Sorry, I can find what you want."
 	sub404 = "Back to <a href='/'>Home</a>."
 
 	colorTheme = "#008080"                  # Color of your website
@@ -36,7 +36,7 @@ publishDir = "docs"
 	highlightJsStyle = "ocean"
 
 	# Social Links
-	email = "adwillfred@gmail.com"
+	email = "asindu@drileba.capital"
 	github = "https://github.com/as1ndu/"
 	twitter = "https://twitter.com/as1ndu"
 
