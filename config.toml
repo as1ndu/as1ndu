@@ -27,7 +27,7 @@ publishDir = "docs"
 
 	colorTheme = "#008080"                  # Color of your website
 	latestCount = 3                         # Maximum number of item in Latest Posts or Works
-	faviconImg = ""                         # Path to site's favicon image
+	faviconImg = "avatar.png"                         # Path to site's favicon image
 	dateFmt = "Jan 02, 2006"                # Date format in item list
 
 	# Code Highlighting (HighlightJS)
