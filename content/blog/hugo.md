@@ -1,6 +1,8 @@
 +++
 title = "From Lektor to Hugo"
 description = ""
+slug: "lektor-from-to-hugo"
+draft = "false"
 tags = [
     "hugo"
 ]

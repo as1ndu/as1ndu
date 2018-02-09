@@ -3,7 +3,7 @@ title = "About"
 date = "2017-06-24T18:57:12+07:00"
 menu = "main"
 +++
-"I was born in the era of the specialist, but I did not set out to be purposefully comprehensive but rather the opposite.
-And I made up my mind that I would not learn things for entertainment nor just make a philosophical statement, but rather to use my knowledge as tools that reorganize the order of man, into a new format by which greater numbers of men can prosper."
+"I was born in the era of the specialist, and I set about to be purposefully comprehensive just the opposite.
+And I made up my mind that you don't just find out something to entertain yourself. You may find out things in order to be able to turn everything not just in a philosophical statement, but in to actually tools. I must reorganize the environment of man by which then greater numbers of men can prosper. That's been my main udertaking"
 
 — Buckminister Fuller

@@ -1,7 +1,7 @@
 baseURL = "https://asindu.drileba.capital/"			# Site's URL
 title = "Asindu's Blog"								# Site's Name
 theme = "manis"
-copyright = "&copy; 2017  Asindu Drileba"	# Copyright notice. Note: You can use HTML tag here
+copyright = "&copy; 2018 Asindu Drileba"	# Copyright notice. Note: You can use HTML tag here
 pluralizeListTitles = false
 paginate = 50								# Minimum number of item before paginate navigation show up
 canonifyURL = true
