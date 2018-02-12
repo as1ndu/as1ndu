@@ -4,10 +4,10 @@ description = ""
 slug: "what-bitcoin-critics-have-never-understood"
 draft = "true"
 tags = [
-    ""
+    "fintech"
 ]
 date = "2017-11-11"
 +++
 
-## Patterns For Fiancial Exclusion
+## What Bitcoin Crirtics Have Never Understood
 

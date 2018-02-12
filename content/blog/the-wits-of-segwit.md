@@ -1,7 +1,7 @@
 +++
-title = "The Insiduous Bubble"
+title = "The Wits Of SegWit"
 description = ""
-slug: "the-insiduous-bubble"
+slug: "the-wits-of-segwit"
 draft = "true"
 tags = [
     "fintech"
@@ -9,5 +9,5 @@ tags = [
 date = "2017-11-11"
 +++
 
-## The Insiduous bubble
+## The Wits Of SegWit
 
