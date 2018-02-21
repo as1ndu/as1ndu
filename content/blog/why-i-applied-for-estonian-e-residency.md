@@ -1,7 +1,7 @@
 +++
 title = "The Wits Of SegWit"
 description = ""
-slug: "why-i-applied-for-estonian-e-residency"
+slug = "why-i-applied-for-estonian-e-residency"
 draft = "true"
 tags = [
     "policy"

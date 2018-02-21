@@ -1,7 +1,7 @@
 +++
 title = "Iron Birds"
 description = ""
-slug: "iron-birds"
+slug = "iron-birds"
 draft = "true"
 tags = [
     "policy"

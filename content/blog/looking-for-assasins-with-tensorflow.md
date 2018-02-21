@@ -1,7 +1,7 @@
 +++
 title = "Looking For Assasins With Tensorflow"
 description = ""
-slug: "looking-for-assasins-with-tensorflow"
+slug = "looking-for-assasins-with-tensorflow"
 draft = "true"
 tags = [
     "machine-intelligence"

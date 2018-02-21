@@ -1,7 +1,7 @@
 +++
 title = "The Insiduous Bubble"
 description = ""
-slug: "the-insiduous-bubble"
+slug = "the-insiduous-bubble"
 draft = "true"
 tags = [
     "fintech"

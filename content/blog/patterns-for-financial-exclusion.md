@@ -1,7 +1,7 @@
 +++
 title = "Patterns For Fiancial Exclusion"
 description = ""
-slug: "patterns-for-financial-exclusion"
+slug = "patterns-for-financial-exclusion"
 draft = "true"
 tags = [
     "policy"

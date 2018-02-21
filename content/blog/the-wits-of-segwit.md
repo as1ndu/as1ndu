@@ -1,7 +1,7 @@
 +++
 title = "The Wits Of SegWit"
 description = ""
-slug: "the-wits-of-segwit"
+slug = "the-wits-of-segwit"
 draft = "true"
 tags = [
     "fintech"

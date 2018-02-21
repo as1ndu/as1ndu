@@ -1,7 +1,7 @@
 +++
 title = "Resuming Numerai Competitions"
 description = ""
-slug: "resuming-numerai-competitions"
+slug = "resuming-numerai-competitions"
 draft = "true"
 tags = [
     "machine-intelligence"

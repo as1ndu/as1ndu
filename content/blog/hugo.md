@@ -1,7 +1,7 @@
 +++
 title = "From Lektor to Hugo"
 description = ""
-slug: "lektor-from-to-hugo"
+slug = "lektor-from-to-hugo"
 draft = "false"
 tags = [
     "hugo"
@@ -34,6 +34,6 @@ Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph
 For instance, you might declare:
 
 ```python
-print "hello world"
+print "Hugo"
 ```
 

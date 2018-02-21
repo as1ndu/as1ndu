@@ -16,7 +16,7 @@ publishDir = "docs"
 	debugCSS = false                        # If false, use minified CSS (ui.min.css)
 	disqusSections = ["blog"]               # list of section support disqus comments
 	# Site meta description
-	description = "Sweet little Hugo's theme for personal website or blog."
+	description = "Asindu's Blog."
 	tagline = "Synchronising Life and Dreams"   # Site's Tagline (Subtitle or Keyword)
 	themeAttrib = true                      # If true give attribution to this theme
 	licenseURL = "/about/license"           # URL to license file, can be outside of your domain
