@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content="Hugo 0.36" />
+		<title>On EIP 186 and Ethereum&#39;s Greatest Weakness - Asindu&#39;s Blog</title>
+
+		<meta name="description" content="On EIP 186 and Ethereum&rsquo;s Greatest Weakness The arguments of BTC maximalists are starting to make sense I have followed the likes of [Beatyon]() &amp; [Saife Dean Ammounis]() (author of [The Bitcoin Standard]()) for some time now &amp; one of the things that facinate ma about their content is that how they consider Bitcoin the only cryptocurrency worth using &amp; lable al other projects (alt coins) like Ethereum as scams.">
+
+
+		
+		<link rel="shortcut icon" href="avatar.png">
+		
+
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+		
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+		
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
+		
+		
+
+		
+		<link rel="stylesheet" href="/css/ui.min.css"/>
+		
+		<style>
+	a { color: #008080; }
+	blockquote {
+		border-left-color: #008080;
+		border-right-color: #008080; }
+	.bar a:hover {
+		color: #008080;
+		text-decoration: none; }
+	.sep {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		margin-left:0;
+		width: 24rem;
+		border-top: 2px solid #008080; }
+</style>
+
+	</head>
+
+<body>
+<header class="container">
+	<div class="u-header">
+		<nav class="bar">
+	<ul><li>
+			<a href="/">
+				<img class="icon-text" src="/img/prev.svg"/>
+			</a>
+		</li><li><a href="/about/">About</a></li><li><a href="/blog/">Blog</a></li></ul>
+</nav>
+
+	</div>
+</header>
+<main class="container">
+
+<article>
+	<header><hgroup id="brand">
+	<h1>On EIP 186 and Ethereum&#39;s Greatest Weakness</h1>
+	<h5>
+		<time datetime="2017-11-11 00:00:00 &#43;0000 UTC">Nov 11, 2017</time>
+		-
+			
+			<a href="/tags/fintech">fintech</a>
+			</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	
+
+<h2 id="on-eip-186-and-ethereum-s-greatest-weakness">On EIP 186 and Ethereum&rsquo;s Greatest Weakness</h2>
+
+<h3 id="the-arguments-of-btc-maximalists-are-starting-to-make-sense">The arguments of BTC maximalists are starting to make sense</h3>
+
+<p>I have followed the likes of [Beatyon]() &amp; [Saife Dean Ammounis]() (author of [The Bitcoin Standard]()) for some time now &amp; one of the things that facinate ma about their content is that how they consider Bitcoin the only cryptocurrency worth using &amp; lable al other projects (alt coins) like Ethereum as scams.</p>
+
+<p>Reading content from these guys made me initiatly think that they neither understand the value proposition of altcoins nor limitations  bitcoin.</p>
+
+<h3 id="halal-pork">Halal Pork</h3>
+
+<p><a href="https://github.com/ethereum/EIPs/pull/867#issuecomment-364178634">EIP(Ethereum Improvement Proposal) #867</a> is titled &ldquo;Standardized Ethereum Recovery Proposals (ERPs)&rdquo; from the first comment this proposal will;</p>
+
+<blockquote>
+<p>&ldquo;Provide a standardized format for Ethereum Recovery Proposals (ERPs), which relate to recovery of certain classes of lost funds&rdquo;</p>
+</blockquote>
+
+<p>So what are the examples of the &ldquo;classes of lost funds&rdquo; ? from <a href="https://github.com/ethereum/EIPs/pull/867/files/ff62912051fd23d023bb338ba46ab09698d83a20?diff=split#diff-796ab9c4af846b312e8e75cadb5c7bee">The Markdown file belonging to the EIP</a>;</p>
+
+<p><strong>Good example</strong> (concise, includes supporting evidence, no negative impact):
+<em>A crowdsale run by XYZ incorrectly published the testnet address of their crowdsale contract to their public website at the start of the their crowdsale on Jan 19, 2018.  501 ETH was sent by 328 users on the mainnet to the incorrect address between block 4,235,987 and 4,236,050.  See here for the testnet contract, and see here for the transactions to the same address on the mainnet.  See here for a statement made by XYZ on their website.  Because there is a contract at this address on the testnet, it is considered effectively impossible that anyone coincidentally holds the private key. We have verified that all transactions came from addresses with no associated code, so there should be no issue returning eth to the senders.</em></p>
+
+<p><strong>Bad example</strong> (not enough detail, no supporting evidence):
+<em>We accidentally put the wrong contract address up on our website.  Can you please refund any eth sent to 0x1234 back to the senders.  Thanks.</em></p>
+
+<p><strong>Very Bad example</strong> (not objective, one person’s word against another):
+<em>I sent tokens to X for services and he did a lousy job.  I want my money back but he won’t refund me.  Please help!!</em></p>
+
+<h3 id="bus-number">Bus Number</h3>
+
+<h3 id="the-greatest-vulnerability">The greatest Vulnerability ?</h3>
+
+	<nav>
+	
+	
+		<a class="next-post" href="https://asindu.drileba.capital/blog/lektor-from-to-hugo/">From Lektor to Hugo<img class="icon-text" src="/img/next.svg"/>
+		</a>
+	
+	</nav>
+</article>
+
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+			<hr class="sep" />
+		</main>
+		<footer class="container">
+			<div class="u-footer">
+				
+<a href="mailto:asindu@drileba.capital"><img class="icon-social" src="/img/email.svg" alt="Email Me!"/></a>
+
+
+<a href="https://github.com/as1ndu/"><img class="icon-social" src="/img/github.svg" alt="Github"/></a>
+
+
+<a href="https://twitter.com/as1ndu"><img class="icon-social" src="/img/twitter.svg" alt="Twitter"/></a>
+
+<a href="https://asindu.drileba.capital/index.xml" target="_blank"><img class="icon-social" src="/img/feed.svg" alt="Feed"></a>
+
+				<p>
+					
+					Theme used: <a href="https://github.com/yursan9/manis-hugo-theme">Manis</a><br>
+					
+					
+					&copy; 2018 Asindu Drileba
+					
+					
+					| <a href="/about/license">License</a>
+					
+				</p>
+				
+				<a href="#">
+					<img class="icon-text" src="/img/toup.svg" alt="To Up"/>
+					<span>Back to Up</span>
+				</a>
+				
+			</div>
+		</footer>
+		
+		<script>hljs.initHighlightingOnLoad();</script>
+		
+	</body>
+</html>
+
