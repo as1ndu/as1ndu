@@ -135,6 +135,6 @@ For instance;
 
 **Price Volatility:** [Digix's DGD](https://digix.global/) tokenising gold tokens to offer protection from volatility, [Dai's Maker DAO](https://makerdao.com/) & [Basis](http://www.basis.io/) intend to create cryptocurrency with stable prices completely maintained by digital resources.
 
-Fell free to send comments on [twitter thread]()
+Fell free to send comments on [twitter thread](https://twitter.com/as1ndu/status/997162192133910528)
 
 
