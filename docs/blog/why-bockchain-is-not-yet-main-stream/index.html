@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content="Hugo 0.36" />
+		<title>Why Blockchain Is Not Yet Main Stream - Asindu&#39;s Blog</title>
+
+		<meta name="description" content="In this post I will outline my reasons as to why blockchain based applications are not ready for the mass market. ">
+
+
+		
+		<link rel="shortcut icon" href="avatar.png">
+		
+
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+		
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+		
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
+		
+		
+
+		
+		<link rel="stylesheet" href="/css/ui.min.css"/>
+		
+		<style>
+	a { color: #008080; }
+	blockquote {
+		border-left-color: #008080;
+		border-right-color: #008080; }
+	.bar a:hover {
+		color: #008080;
+		text-decoration: none; }
+	.sep {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		margin-left:0;
+		width: 24rem;
+		border-top: 2px solid #008080; }
+</style>
+
+	</head>
+
+<body>
+<header class="container">
+	<div class="u-header">
+		<nav class="bar">
+	<ul><li>
+			<a href="/">
+				<img class="icon-text" src="/img/prev.svg"/>
+			</a>
+		</li><li><a href="/about/">About</a></li><li><a href="/blog/">Blog</a></li></ul>
+</nav>
+
+	</div>
+</header>
+<main class="container">
+
+<article>
+	<header><hgroup id="brand">
+	<h1>Why Blockchain Is Not Yet Main Stream</h1>
+	<h5>
+		<time datetime="2018-05-15 00:00:00 &#43;0000 UTC">May 15, 2018</time>
+		-
+			
+			<a href="/tags/fintech">fintech</a>
+			</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	
+
+<h2 id="the-current-state">The current state</h2>
+
+<p>There is a lot of hype about what the global distributed ledger aka &ldquo;Blockchain&rdquo; can do for society.
+A &ldquo;trust machine&rdquo; as some people call it that will bring the power of finance, data sovereignty and inclusion to the people,
+hence rendering  centralized intermediaries like Visa, Barclays &amp; Facebook obsolete.</p>
+
+<p>We shall achieve this by using  a combination of robust, battle tested cryptography &amp; game theory.</p>
+
+<p>While  this vision is plausible, realising it is not a easy as it may seem.</p>
+
+<p>The blockchain is not yet ready.</p>
+
+<h2 id="the-core-barriers-to-main-stream-adoption">The core barriers to main stream adoption</h2>
+
+<p>The blockchain, while being a new concept in decentralized distributed databases has also presented very unique set of problems in computer science &amp; economics that have never been solved at the time of this writing.</p>
+
+<p>Is this post, I will talk about the the 6 most important issues only with which if solved, shall we blockchain enthusiasts ever achieve our vision.</p>
+
+<h3 id="1-scalability-issues">1. Scalability Issues.</h3>
+
+<p>The current bandwidth, i.e the data that can be transmitted through a blockchain with in a given time is simply too bounded for main stream adoption.</p>
+
+<p>Ethereum for instance does a maximum of 13 transactions per second.  Visa on the other hand can do 24,000 Transaction per second and peak over 40,000 transactions per second.</p>
+
+<p>So as you can see, the blockchain is thousands of magnitudes unable to manage a global traffic fo financial transactions.
+This is what they call the &ldquo;Scalability Problem&rdquo;</p>
+
+<p>Coming up with a solution to scalability the problems without tarnishing the original value propositions of a blockchain (immutability/security, decentralisation &amp; censorship resistance) is not trivial. It has been nick named the <a href="https://github.com/ethereum/wiki/wiki/Sharding-FAQ#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it">&ldquo;scalability trilemma&rdquo;</a> by Vitalik Ethereum&rsquo;s co-author.</p>
+
+<h3 id="2-lack-of-intuitive-private-key-management">2. Lack of Intuitive Private Key Management.</h3>
+
+<p>Ordinary users will simply never wrap their heads around private keys.</p>
+
+<p>Private keys, which are a string of text  used to sign transactions and make other proofs(cryptographic).
+The purpose for these proofs or signatures is for other entities on a blockchain network to verify  identities &amp; messages amongst themselves without reasonable doubt.</p>
+
+<p>Private keys have two main problems first, how to store them securely.<br />
+Anyone who can memorise, take a picture, or copy  your private key can literally steal all your money.
+Because they have your private key, they can make the cryptographic proofs/signatures and <em>accurately prove to everyone on the network they are you</em> even with out your consent. Even when they are not you.</p>
+
+<p>Second, you loose your key you loose access to all your money &amp; <em>no one can ever help you out</em>.
+There is no &ldquo;click here to remember your private key&rdquo;</p>
+
+<p>We need to first come up with something as intuitive using ATM/Debit cards.</p>
+
+<p>Imagine you if bank told you, if you forgot your Debit card PIN, you loose access to all your money with <em>zero hope of recovering it how ever large a sum of money it would be</em>.</p>
+
+<p>If the above was the case, i dont think any one would use debit cards. For the reason, find it fair to call people that keep significant amounts of cryptocurrency  with under a private key <em>Ultra risk takers</em>.</p>
+
+<h3 id="3-contract-unsafety">3. Contract unsafety.</h3>
+
+<p>It is simply not reliable &amp; safe for responsible institutions &amp; individuals to deploy smart contracts on blockchains like Ethereum.</p>
+
+<p>Due to the blockchains having an immutable and unpredictable state. Smart contracts deployed on such a platform are also expected to suffer from immutable bugs &amp; unpredictable events.</p>
+
+<p>As a result, millions of dollars have been lost in events such as the <a href="https://www.bloomberg.com/features/2017-the-ether-thief/">theft of $50 million from TheDAO</a> and  <a href="https://www.coindesk.com/startup-lost-160-million-still-wants-shake-ethereum/"> Parity&rsquo;s $160 Million loss of funds</a></p>
+
+<p>I was glad that Rick dudley <a href="https://youtu.be/1AGHAuWz_4U?t=986">talked about this</a></p>
+
+<h3 id="4-consensus-algorithms-are-wack">4. Consensus algorithms are wack.</h3>
+
+<p>The popular blockchains only don&rsquo;t offer transaction finality i.e you will never be 100% sure that you have gotten funds.</p>
+
+<p>You can only be <a href="https://ethereum.stackexchange.com/questions/319/what-number-of-confirmations-is-considered-secure-in-ethereum">probabilistically to a high degree</a> (but with zero guarantee) that you have received your funds.
+This is because in major consensus algorithm called Proof Of Work the miners elect the longest chain with the most computational work
+that are with in the same protocol i.e consensus rules.</p>
+
+<p>For instance imagine  your bank tells you that you that, &ldquo;there is a 95% chance that we <em>might</em> have your life savings, however you may also not poses it in 5 years in case we discovered that the longest chain with the most work does not have your transaction in it&rdquo;</p>
+
+<p>Yes, I dont think anyone wants to keep their life savings in such a bank.</p>
+
+<h3 id="5-privacy">5. Privacy.</h3>
+
+<p>Just by knowing someone&rsquo;s cryptocurrency address, you can know there account balance &amp; transaction history simply by pasting it in a blockchain explorer like <a href="https://blockchain.info">blockchain</a> and <a href="https://etherscan.io">etherscan</a></p>
+
+<p>Meaning its very easy for anyone to keep track of your financial activities without permission.</p>
+
+<p>You buy HIV drugs? I now know your HIV positive, Your paying schools fees? now your local kidnapper knows where your kids study.
+No careful person wants that!</p>
+
+<h3 id="6-price-volatility">6. Price volatility.</h3>
+
+<p>Very few people simple dont have  the stomach to hold a financial instrument that drops by over %50 with in <a href="https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html">a few moths</a>.</p>
+
+<h2 id="what-are-people-are-doing">What are People are doing?</h2>
+
+<p>There are mostly two thing that go on in the blockchains industry, a) Building of blockchain solutions,
+and b) Speculation/Investing</p>
+
+<h3 id="a-building">a) Building</h3>
+
+<p>Most projects are building on platforms that have these problems regardless in hopes that they will integrate solutions to the issues in the future.</p>
+
+<p>The risk they face however is that the platform they built on my become obsolete after a heavy investment of time &amp; resources on the wrong platform.</p>
+
+<p>Think how the <a href="https://bitcoinmagazine.com/articles/bitcoin-now-useless-micropayments-solutions-are-coming1/">micro payments industry died in bitcoin because of high fees</a></p>
+
+<p>It&rsquo;s like building your phone app around a windows smart phone only to be made irrelevant because the next generation of your will not be using windows smart phones, but iOS and Android.</p>
+
+<h3 id="b-speculation-not-investment-advise-i-am-not-a-financial-adviser">b) Speculation (not investment advise, i am not a financial adviser)</h3>
+
+<p>Personally speaking, if I was to speculate it would only make sense for me to look at only on projects that are solving the above 6 problems.</p>
+
+<p>For instance;</p>
+
+<p>Scalability:  <a href="https://www.rchain.coop/">Rchain</a> Doing work on sharding, <a href="https://www.hederahashgraph.com/">HashGraph</a> using the gossip protocol to achieve finality and consensus in permission systems.</p>
+
+<p>Key Management: <a href="https://www.ledgerwallet.com/">Ledger</a> using Hierarchal  Key Derivation to store private keys in a secure easy manner. i.e easy to ready &amp; store 24 english words fond in literature.</p>
+
+<p>Contract safety: <a href="http://zilliqa.com">Zilliqa</a> with their automata based programming language called, scilica that employ&rsquo;s formal verification using Coq. That will allow contracts to run safely &amp; predictably.</p>
+
+<p>Consensus Algorithms: <a href="https://www.algorand.com/">Alogorand</a> using what they call a &ldquo;rapid and efficient user consensus, enabling even the smallest transactions, regardless of transaction volume or number of users&rdquo; to achieve transaction finality.</p>
+
+<p>Privacy: <a href="https://z.cash/">Zcash</a>, <a href="https://zcoin.io/">Zcoin</a> &amp; <a href="https://getmonero.org/">Monero</a> using [Zero knowledge proofs]() and [Ring signatures]() respectively to achieve privacy benefits.</p>
+
+<p>Price Volatility: <a href="https://digix.global/">Digix&rsquo;s DGD</a> tokenising gold tokens to offer protection from volatility, <a href="https://makerdao.com/">Dai&rsquo;s Maker DAO</a> &amp; <a href="http://www.basis.io/">Basis</a> intend to create cryptocurrency with stable prices completely maintained by digital resources.</p>
+
+<p>Fell free to send comments on [twitter thread]()</p>
+
+	<nav>
+	
+	
+	</nav>
+</article>
+
+	<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+			<hr class="sep" />
+		</main>
+		<footer class="container">
+			<div class="u-footer">
+				
+<a href="mailto:asindu@drileba.capital"><img class="icon-social" src="/img/email.svg" alt="Email Me!"/></a>
+
+
+<a href="https://github.com/as1ndu/"><img class="icon-social" src="/img/github.svg" alt="Github"/></a>
+
+
+<a href="https://twitter.com/as1ndu"><img class="icon-social" src="/img/twitter.svg" alt="Twitter"/></a>
+
+<a href="https://asindu.drileba.capital/index.xml" target="_blank"><img class="icon-social" src="/img/feed.svg" alt="Feed"></a>
+
+				<p>
+					
+					Theme used: <a href="https://github.com/yursan9/manis-hugo-theme">Manis</a><br>
+					
+					
+					&copy; 2018 Asindu Drileba
+					
+					
+					| <a href="/about/license">License</a>
+					
+				</p>
+				
+				<a href="#">
+					<img class="icon-text" src="/img/toup.svg" alt="To Up"/>
+					<span>Back to Up</span>
+				</a>
+				
+			</div>
+		</footer>
+		
+		<script>hljs.initHighlightingOnLoad();</script>
+		
+		
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118402288-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-118402288-1');
+		</script>
+
+	</body>
+</html>
+

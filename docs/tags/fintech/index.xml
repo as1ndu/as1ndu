@@ -6,18 +6,19 @@
     <description>Recent content in Fintech on Asindu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018 Asindu Drileba</copyright>
-    <lastBuildDate>Sat, 11 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asindu.drileba.capital/tags/fintech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>On EIP 186 and Ethereum&#39;s Greatest Weakness</title>
-      <link>https://asindu.drileba.capital/blog/on-eip-186-and-ethereums-greatest-weakness/</link>
-      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
+      <title>Why Blockchain Is Not Yet Main Stream</title>
+      <link>https://asindu.drileba.capital/blog/why-bockchain-is-not-yet-main-stream/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/blog/on-eip-186-and-ethereums-greatest-weakness/</guid>
-      <description>On EIP 186 and Ethereum&amp;rsquo;s Greatest Weakness The arguments of BTC maximalists are starting to make sense I have followed the likes of [Beatyon]() &amp;amp; [Saife Dean Ammounis]() (author of [The Bitcoin Standard]()) for some time now &amp;amp; one of the things that facinate ma about their content is that how they consider Bitcoin the only cryptocurrency worth using &amp;amp; lable al other projects (alt coins) like Ethereum as scams.</description>
+      <guid>https://asindu.drileba.capital/blog/why-bockchain-is-not-yet-main-stream/</guid>
+      <description>The current state There is a lot of hype about what the global distributed ledger aka &amp;ldquo;Blockchain&amp;rdquo; can do for society. A &amp;ldquo;trust machine&amp;rdquo; as some people call it that will bring the power of finance, data sovereignty and inclusion to the people, hence rendering centralized intermediaries like Visa, Barclays &amp;amp; Facebook obsolete.
+We shall achieve this by using a combination of robust, battle tested cryptography &amp;amp; game theory.</description>
     </item>
     
   </channel>

@@ -37,3 +37,9 @@ For instance, you might declare:
 print "Hugo"
 ```
 
+
+
+
+Notary
+- english & written contracts
+- software & written contracts
