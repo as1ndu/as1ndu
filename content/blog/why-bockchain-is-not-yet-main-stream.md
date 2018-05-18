@@ -56,7 +56,7 @@ There is no "click here to remember your private key"
 
 We need to first come up with something as intuitive using ATM/Debit cards.
 
-Imagine you if bank told you, if you forgot your Debit card PIN, you loose access to all your money with *zero hope of recovering it how ever large a sum of money it would be*.
+Imagine if your bank told you, if you forgot your Debit card PIN, you loose access to all your money with *zero hope of recovering it how ever large a sum of money it would be*.
 
 If the above was the case, i dont think any one would use debit cards. For the reason, find it fair to call people that keep significant amounts of cryptocurrency  with under a private key *Ultra risk takers*.
 
@@ -97,7 +97,7 @@ No careful person wants that!
 
 ### 6. Price volatility.
 
- Very few people simple dont have  the stomach to hold a financial instrument that drops by over %50 with in [a few moths](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
+ Very few people simply don't have  the stomach to hold a financial instrument that drops by over %50 with in [a few moths](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
 
 
 
