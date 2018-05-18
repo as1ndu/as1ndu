@@ -129,7 +129,7 @@ For instance;
 
 **Contract safety:** [Zilliqa](http://zilliqa.com) with their automata based programming language called, scilica that employ's formal verification using Coq. That will allow contracts to run safely & predictably.
 
-**Consensus Algorithms:** [Alogorand](https://www.algorand.com/) using what they call a "rapid and efficient user consensus, enabling even the smallest transactions, regardless of transaction volume or number of users" to achieve transaction finality.
+**Consensus Algorithms:** [Algorand](https://www.algorand.com/) using what they call a "rapid and efficient user consensus, enabling even the smallest transactions, regardless of transaction volume or number of users" to achieve transaction finality.
 
 **Privacy:** [Zcash](https://z.cash/), [Zcoin](https://zcoin.io/) & [Monero](https://getmonero.org/) using [Zero knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof) and [Ring signatures](https://en.wikipedia.org/wiki/Ring_signature) respectively to achieve privacy benefits.
 
