@@ -103,7 +103,7 @@ No careful person wants that!
 
 ## What are People are doing?
 
-There are mostly two thing that go on in the blockchains industry, a) Building of blockchain solutions,
+There are majorly two things that go on in the blockchains industry, a) Building of blockchain solutions,
 and b) Speculation/Investing
 
 ### a) Building
