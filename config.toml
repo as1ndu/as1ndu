@@ -1,0 +1,21 @@
+baseurl = "https://asindu.drileba.capital/"
+title = "Synchronising Life & Dreams"
+author = "as1ndu"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+publishDir = "docs"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Synchronising Life & Dreams."
+
+[permalinks]
+  post = "/:year/:month/:title/:slug"
+
+[[menu.main]]
+    name = "@as1ndu"
+    url  = "https://twitter.com/as1ndu"
+

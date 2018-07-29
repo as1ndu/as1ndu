@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<section id=content>
+  <ul class=posts_listing>
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
+      <li>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <div id=date>
+          <time>{{ .Date.Format (.Site.Params.dateform | default "January 2006") }}</time>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+
+  <h4>Projects, Talks & Articles.</h4>
+  <ol>
+    <li><a href="http://digestafrica.com/bitcoin-remittances-uganda-asindu-willfred/">Interview: Bitcoin & remmitances.</a></li>
+    <li><a href="http://crowdax.club">Crowdax: Equity crowd funding for startups.</a></li>
+  </ol>
+</section>
+
+
+
+{{ partial "footer.html" . }}
+
