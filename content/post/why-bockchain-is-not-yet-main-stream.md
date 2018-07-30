@@ -25,7 +25,7 @@ The blockchain is not yet ready.
 
 The blockchain, while being a new concept in decentralized distributed databases has also presented very unique set of problems in computer science & economics that have never been solved at the time of this writing. 
 
-Is this post, I will talk about the the 6 most important issues only with which if solved, shall we blockchain enthusiasts ever achieve our vision.
+Is this post, I will talk about the the 6 most important issues only with which if solved, shall we (blockchain enthusiasts) ever achieve our vision.
 
 ### 1. Scalability Issues.
 
@@ -33,10 +33,10 @@ The current bandwidth, i.e the data that can be transmitted through a blockchain
 
 Ethereum for instance does a maximum of 13 transactions per second.  Visa on the other hand can do 24,000 Transaction per second and peak over 40,000 transactions per second.
 
-So as you can see, the blockchain is thousands of magnitudes unable to manage a global traffic fo financial transactions.
+So as you can see, the blockchain is thousands of magnitudes unable to manage a global traffic of financial transactions.
 This is what they call the "Scalability Problem"
 
-Coming up with a solution to scalability the problems without tarnishing the original value propositions of a blockchain (immutability/security, decentralisation & censorship resistance) is not trivial. It has been nick named the ["scalability trilemma"](https://github.com/ethereum/wiki/wiki/Sharding-FAQ#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it) by Vitalik Ethereum's co-author.
+Coming up with a solution to scalability the problems without tarnishing the original value propositions of a blockchain (immutability/security, decentralisation & censorship resistance) is not trivial. It has been nick named the ["scalability trilemma"](https://github.com/ethereum/wiki/wiki/Sharding-FAQ#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it) by Vitalik (Ethereum's co-author).
 
 
 ### 2. Lack of Intuitive Private Key Management.
@@ -44,11 +44,12 @@ Coming up with a solution to scalability the problems without tarnishing the ori
 Ordinary users will simply never wrap their heads around private keys.
 
 Private keys, which are a string of text  used to sign transactions and make other proofs(cryptographic).
+
 The purpose for these proofs or signatures is for other entities on a blockchain network to verify  identities & messages amongst themselves without reasonable doubt.
 
 Private keys have two main problems first, how to store them securely.  
 Anyone who can memorise, take a picture, or copy  your private key can literally steal all your money. 
-Because they have your private key, they can make the cryptographic proofs/signatures and *accurately prove to everyone on the network they are you* even with out your consent. Even when they are not you.
+Because they have your private key, they can make the cryptographic proofs/signatures and *accurately prove to everyone on the network they are you* even without your consent. Even when they are not you.
 
 Second, you loose your key you loose access to all your money & *no one can ever help you out*.
 There is no "click here to remember your private key"
@@ -56,9 +57,9 @@ There is no "click here to remember your private key"
 
 We need to first come up with something as intuitive using ATM/Debit cards.
 
-Imagine if your bank told you, if you forgot your Debit card PIN, you loose access to all your money with *zero hope of recovering it how ever large a sum of money it would be*.
+Imagine if your bank told you that, "if you forgot your Debit card PIN, you loose access to all your money with *zero hope of recovering it how ever large a sum of money it would be*".
 
-If the above was the case, i dont think any one would use debit cards. For the reason, find it fair to call people that keep significant amounts of cryptocurrency  with under a private key *Ultra risk takers*.
+If the above was the case, I dont think any one would use debit cards. For the reason, find it fair to call people that keep significant amounts of cryptocurrency  with under a private key *Ultra risk takers*.
 
 
 ### 3. Contract unsafety.
@@ -97,7 +98,7 @@ No careful person wants that!
 
 ### 6. Price volatility.
 
- Very few people simply don't have  the stomach to hold a financial instrument that drops by over %50 with in [a few moths](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
+ Very few people simply don't have  the stomach to hold a financial instrument that drops by over %50 with in [a few months](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
 
 
 
