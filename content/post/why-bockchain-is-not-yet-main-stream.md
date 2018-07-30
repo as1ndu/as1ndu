@@ -1,5 +1,5 @@
 ---
-title : "Why Blockchain Is Not Yet Main Stream."
+title : "Why blockchain is not yet main stream?"
 description : "In this post I will outline my reasons as to why blockchain based applications are not ready for the mass market. "
 slug : "why-bockchain-is-not-yet-main-stream"
 draft : "false"
