@@ -79,7 +79,7 @@ I was glad that Rick dudley [talked about this](https://youtu.be/1AGHAuWz_4U?t=9
 The popular blockchains only don't offer transaction finality i.e you will never be 100% sure that you have gotten funds.
 
 You can only be [probabilistically to a high degree](https://ethereum.stackexchange.com/questions/319/what-number-of-confirmations-is-considered-secure-in-ethereum) (but with zero guarantee) that you have received your funds. 
-This is because in major consensus algorithm called Proof Of Work the miners elect the longest chain with the most computational work 
+This is because in major consensus algorithm called Nakamoto Consensus, the miners elect the longest chain with the most computational work 
 that are with in the same protocol i.e consensus rules.
 
 For instance imagine  your bank tells you that you that, "there is a 95% chance that we *might* have your life savings, however you may also not poses it in 5 years in case we discovered that the longest chain with the most work does not have your transaction in it"
@@ -89,7 +89,7 @@ Yes, I dont think anyone wants to keep their life savings in such a bank.
 
 ### 5. Privacy.
 
-Just by knowing someone's cryptocurrency address, you can know there account balance & transaction history simply by pasting it in a blockchain explorer like [blockchain](https://blockchain.info) and [etherscan](https://etherscan.io)
+Just by knowing someone's cryptocurrency address, you can know their account balance & transaction history simply by pasting it in a blockchain explorer like [blockchain](https://blockchain.info) and [etherscan](https://etherscan.io)
 
 Meaning its very easy for anyone to keep track of your financial activities without permission.
 
@@ -126,9 +126,9 @@ For instance;
 
 **Scalability:**  [Rchain](https://www.rchain.coop/) Doing work on sharding, [HashGraph](https://www.hederahashgraph.com/) using the gossip protocol to achieve finality and consensus in permission systems.
 
-**Key Management:** [Ledger](https://www.ledgerwallet.com/) using Hierarchal  Key Derivation to store private keys in a secure easy manner. i.e easy to ready & store 24 english words fond in literature.
+**Key Management:** [Ledger](https://www.ledgerwallet.com/) using Hierarchal  Key Derivation to store private keys in a secure easy manner. i.e easy to read & store 24 english words found in literature.
 
-**Contract safety:** [Zilliqa](http://zilliqa.com) with their automata based programming language called, scilica that employ's formal verification using Coq. That will allow contracts to run safely & predictably.
+**Contract safety:** [Zilliqa](http://zilliqa.com) with their automata based programming language called, scilla that employ's formal verification using Coq. That will allow contracts to run safely & predictably.
 
 **Consensus Algorithms:** [Algorand](https://www.algorand.com/) using what they call a "rapid and efficient user consensus, enabling even the smallest transactions, regardless of transaction volume or number of users" to achieve transaction finality.
 
