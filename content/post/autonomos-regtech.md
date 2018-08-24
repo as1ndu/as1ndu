@@ -2,7 +2,7 @@
 title : "Regtech & Autonomous Agents"
 description : "Description of the post"
 slug : "regtech-and-autonomous-agents"
-draft : "false"
+draft : "true"
 tags : [
     "fintech"
 ]

@@ -13,7 +13,7 @@ pygmentscodefences  = true
   sitename = "Synchronising Life & Dreams."
 
 [permalinks]
-  post = "/:year/:month/:title/:slug"
+  post = "/:year/:month/:slug"
 
 [[menu.main]]
     name = "@as1ndu"
