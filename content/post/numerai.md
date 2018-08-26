@@ -7,6 +7,9 @@ tags : [
     "fintech"
 ]
 date : "2018-05-15"
+aliases : [
+    "/blog/a-practical-introduction-to-deeplearning-with-keras-and-numerai/"
+]
 ---
 
 ## Title of post
