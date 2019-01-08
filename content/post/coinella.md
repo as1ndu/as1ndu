@@ -6,7 +6,12 @@ draft : "true"
 tags : [
     "fintech"
 ]
-date : "2018-05-15"
+date : "2018-11-05"
 ---
 
-## Coinella: Fiat payment channels for bank wires
+
+### Too Long don't read
+
+```yaml
+International remitances through traditional channels
+```
