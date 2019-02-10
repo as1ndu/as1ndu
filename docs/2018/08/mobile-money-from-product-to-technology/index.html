@@ -9,7 +9,7 @@
     <meta name="referrer" content="no-referrer">
     
      
-    <link rel="shortcut icon" href="https://asindu.drileba.capital/favicon_16x16.png">
+    <link rel="shortcut icon" href="https://asindu.drileba.capital/images/avatar.png">
 
     <title>
       
@@ -20,24 +20,24 @@
     <link rel="canonical" href="https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/">
 
     <style>
-  * {
-    border:0;
-    font:inherit;
-    font-size:100%;
-    vertical-align:baseline;
-    margin:0;
-    padding:0;
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
     color: black;
     text-decoration-skip: ink;
   }
 
   body {
-    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
-    font-size:17px;
-    line-height:160%;
-    color:#1d1313;
-    max-width:700px;
-    margin:auto;
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #1d1313;
+    max-width: 700px;
+    margin: auto;
   }
 
   p {
@@ -45,7 +45,7 @@
   }
 
   a img {
-    border:none;
+    border: none;
   }
 
   img {
@@ -59,10 +59,11 @@
   }
 
   .right-justify {
-    float:right;
+    float: right;
   }
 
-  pre, code {
+  pre,
+  code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
     background-color: #f7f7f7;
   }
@@ -101,108 +102,129 @@
     line-height: inherit;
     word-wrap: normal;
     background-color: transparent;
-    border: 0;
+    border: 0;    
   }
+
+
 
   pre code::before,
   pre code::after {
     content: normal;
   }
 
-  em,q,em,dfn {
-    font-style:italic;
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
     padding: 2px;
     background-color: #403c3b;
     color: #f7f7f7;
   }
 
-  em a{
+  em a {
     padding: 2px;
     background-color: #403c3b;
     color: #f7f7f7;
   }
 
-  .sans,html .gist .gist-file .gist-meta {
-    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
   }
 
-  .mono,pre,code,tt,p code,li code {
-    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
   }
 
-  .heading,.serif,h1,h2,h3 {
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   strong {
-    font-weight:600;
+    font-weight: 600;
   }
 
   q:before {
-    content:"\201C";
+    content: "\201C";
   }
 
   q:after {
-    content:"\201D";
+    content: "\201D";
   }
 
-  del,s {
-    text-decoration:line-through;
+  del,
+  s {
+    text-decoration: line-through;
   }
 
   blockquote {
     border-left-style: solid;
-    border-width: 10px;   
+    border-width: 2px;
     border-left-color: #403c3b;
-    padding:10px;
+    padding: 10px;
   }
 
   blockquote p {
-    font-family:'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
   }
 
-  blockquote:before,blockquote:after {
-    font-family:"Old Standard TT",serif;
-    font-size:35px;
-    color:#403c3b;
+  blockquote:before,
+  blockquote:after {
+    font-family: "Old Standard TT", serif;
+    font-size: 35px;
+    color: #403c3b;
   }
 
   hr {
-    width:40%;
+    width: 40%;
     height: 1px;
-    background:#403c3b;
+    background: #403c3b;
     margin: 25px auto;
   }
 
   h1 {
-    font-size:35px;
+    font-size: 35px;
   }
 
   h2 {
-    font-size:28px;
+    font-size: 28px;
   }
 
   h3 {
-    font-size:22px;
-    margin-top:18px;
+    font-size: 22px;
+    margin-top: 18px;
   }
 
-  h1 a,h2 a,h3 a {
-    text-decoration:none;
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
   }
 
-  h1,h2 {
-    margin-top:28px;
+  h1,
+  h2 {
+    margin-top: 28px;
   }
 
-  h4{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
   }
 
-  #sub-header, time {
-    color:#403c3b;
-    font-size:13px;
+  #sub-header,
+  time {
+    color: #403c3b;
+    font-size: 13px;
   }
 
   #sub-header {
@@ -210,12 +232,13 @@
   }
 
   #nav h1 a {
-    font-size:35px;
-    color:#1d1313;
-    line-height:120%;
+    font-size: 35px;
+    color: #1d1313;
+    line-height: 120%;
   }
 
-  .posts_listing a,#nav a {
+  .posts_listing a,
+  #nav a {
     text-decoration: none;
   }
 
@@ -230,40 +253,43 @@
   ul li {
     list-style-type: none;
   }
+
   ul li:before {
-    content:"\00BB \0020";
+    content: "\00BB \0020";
   }
 
-  #nav ul li:before, .posts_listing li:before {
-    content:'';
-    margin-right:0;
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+    margin-right: 0;
   }
 
   #content {
-    text-align:left;
-    width:100%;
-    font-size:15px;
-    padding:60px 0 80px;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
   }
 
-  #content h1,#content h2 {
-    margin-bottom:5px;
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
   }
 
   #content h2 {
-    font-size:25px;
+    font-size: 25px;
   }
 
   #content .entry-content {
-    margin-top:15px;
+    margin-top: 15px;
   }
 
   #content time {
-    margin-left:3px;
+    margin-left: 3px;
   }
 
   #content h1 {
-    font-size:30px;
+    font-size: 30px;
   }
 
   .highlight {
@@ -271,21 +297,22 @@
   }
 
   .posts_listing {
-    margin:0 0 50px;
+    margin: 0 0 50px;
   }
 
   .posts_listing li {
-    margin:0 0 25px 15px;
+    margin: 0 0 25px 15px;
   }
 
-  .posts_listing li a:hover,#nav a:hover {
+  .posts_listing li a:hover,
+  #nav a:hover {
     text-decoration: underline;
   }
 
   #nav {
-    text-align:center;
-    position:static;
-    margin-top:60px;
+    text-align: center;
+    position: static;
+    margin-top: 60px;
   }
 
   #nav ul {
@@ -294,9 +321,9 @@
   }
 
   #nav li {
-    list-style-type:none;
-    display:table-cell;
-    font-size:15px;
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
     padding: 0 20px;
   }
 
@@ -305,7 +332,7 @@
   }
 
   #links :nth-child(2) {
-    float:right;
+    float: right;
   }
 
   #not-found {
@@ -313,7 +340,7 @@
   }
 
   #not-found a {
-    font-family:"Old Standard TT",serif;
+    font-family: "Old Standard TT", serif;
     font-size: 200px;
     text-decoration: none;
     display: inline-block;
@@ -322,73 +349,109 @@
 
   @media (max-width: 750px) {
     body {
-      padding-left:20px;
-      padding-right:20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     #nav h1 a {
-      font-size:28px;
+      font-size: 28px;
     }
 
     #nav li {
-      font-size:13px;
+      font-size: 13px;
       padding: 0 15px;
     }
 
     #content {
-      margin-top:0;
-      padding-top:50px;
-      font-size:14px;
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
     }
 
     #content h1 {
-      font-size:25px;
+      font-size: 25px;
     }
 
     #content h2 {
-      font-size:22px;
+      font-size: 22px;
     }
 
     .posts_listing li div {
-      font-size:12px;
+      font-size: 12px;
     }
   }
 
   @media (max-width: 400px) {
     body {
-      padding-left:20px;
-      padding-right:20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     #nav h1 a {
-      font-size:22px;
+      font-size: 22px;
     }
 
     #nav li {
-      font-size:12px;
+      font-size: 12px;
       padding: 0 10px;
     }
 
     #content {
-      margin-top:0;
-      padding-top:20px;
-      font-size:12px;
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
     }
 
     #content h1 {
-      font-size:20px;
+      font-size: 20px;
     }
 
     #content h2 {
-      font-size:18px;
+      font-size: 18px;
     }
 
-    .posts_listing li div{
-      font-size:12px;
+    .posts_listing li div {
+      font-size: 12px;
     }
   }
-</style>
 
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+sup a{
+  text-decoration: none;
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+th{
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+}
+
+td{
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+}
+
+th, td{
+  padding: 10px;
+}
+
+td{
+  color: gray;
+}
+
+
+</style>
 
     
   </head>
@@ -454,6 +517,14 @@ and actively use funds <em><a href="https://www.youtube.com/watch?v=CJvWm6VAjUE"
 
 <p>.. And as a result people like <a href="https://corporate.westernunion.com/leadership.html">Hikmet Ersek</a> can be successfully put out of the business of stealing money from diasporans.</p>
 
+
+    <script src="https://utteranc.es/client.js"
+        repo="as1ndu/as1ndu"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
   </div>
 
   <div id=links>

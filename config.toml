@@ -6,8 +6,10 @@ languagecode = "en"
 theme = "black-and-light"
 publishDir = "docs"
 
-pygmentsstyle       = "bw"
+pygmentsstyle       = "monokai"
 pygmentscodefences  = true
+# pygmentOptions = "linenos=table"
+
 
 [params]
   sitename = "Synchronising Life & Dreams."
@@ -20,4 +22,5 @@ pygmentscodefences  = true
     url  = "https://twitter.com/as1ndu"
 
 languageCode = "en-us"
-copyright = "Copyright (C) 2019 Asindu Willfred Drileba. All rights reserved."
+copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."
+
