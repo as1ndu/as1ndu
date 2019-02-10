@@ -27,7 +27,7 @@ date : "2019-02-09"
 - alien jurisdictions SEC vs Islamic banking
 - Finance is a utility
 
-```python 
+```python
 while count < nterms:
     print(n1,end=' , ')
     nth = n1 + n2
