@@ -21,6 +21,7 @@ pygmentscodefences  = true
     name = "@as1ndu"
     url  = "https://twitter.com/as1ndu"
 
+googleAnalytics = "UA-118402288-1"
 languageCode = "en-us"
 copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."
 
