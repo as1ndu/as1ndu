@@ -1,15 +1,16 @@
 ---
-title : "Title of post"
+title : "A practical introduction to deeplearning with keras and numerai"
 description : "Description of the post"
-slug : "slug-for-post"
+slug : "a-practical-introduction-to-deeplearning-with-keras-and-numerai"
+hidden: true
 draft : "true"
 tags : [
     "fintech"
 ]
-date : "2018-05-15"
+date : "2016-05-15"
 aliases : [
     "/blog/a-practical-introduction-to-deeplearning-with-keras-and-numerai/"
 ]
 ---
 
-## Title of post
+This article is undergoing an update

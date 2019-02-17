@@ -5,18 +5,21 @@
 To change something, build a new model that makes the existing model obsolete.”
 <br/>
 ― R. Buckminster Fuller
-<a href="#" style="color:brown;"></a>
 </pre>
 
 <section id=content>
   <ul class=posts_listing>
     {{ range .Data.Pages.ByPublishDate.Reverse }}
+      
+    {{ if not .Params.hidden }}
       <li>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
         <div id=date>
-          <time>{{ .Date.Format (.Site.Params.dateform | default "January 2006") }}</time>
+          <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }}</time>
         </div>
       </li>
+    {{ end }}
+
     {{ end }}
   </ul>
 

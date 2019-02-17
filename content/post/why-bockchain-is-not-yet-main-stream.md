@@ -1,12 +1,15 @@
 ---
-title : "Why blockchain is not yet main stream?"
+title : "Why blockchain is not yet working"
 description : "In this post I will outline my reasons as to why blockchain based applications are not ready for the mass market. "
-slug : "why-bockchain-is-not-yet-main-stream"
+slug : "why-bockchain-is-not-yet-working"
 draft : "false"
 tags : [
     "fintech"
 ]
 date : "2018-05-15"
+aliases : [
+    "/why-bockchain-is-not-yet-main-stream/"
+]
 ---
 
 ## The current state
@@ -62,7 +65,7 @@ Imagine if your bank told you that, "if you forgot your Debit card PIN, you loos
 If the above was the case, I dont think any one would use debit cards. For the reason, find it fair to call people that keep significant amounts of cryptocurrency  with under a private key *Ultra risk takers*.
 
 
-### 3. Contract unsafety.
+### 3. Contract security.
 
 It is simply not reliable & safe for responsible institutions & individuals to deploy smart contracts on blockchains like Ethereum.
 
@@ -98,7 +101,7 @@ No careful person wants that!
 
 ### 6. Price volatility.
 
- Very few people simply don't have  the stomach to hold a financial instrument that drops by over %50 with in [a few months](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
+ Very few people simply don't have  the stomach to hold a financial instrument that drops by over 50% with in [a few months](https://www.cnbc.com/2017/12/26/bitcoin-price-in-2018-could-hit-60000-but-another-crash-is-coming.html).
 
 
 
@@ -109,16 +112,16 @@ and b) Speculation/Investing
 
 ### a) Building
 
-Most projects are building on platforms that have these problems regardless in hopes that they will integrate solutions to the issues in the future.
+Most projects are building on platforms that have these problems regardless, in hopes that they will integrate solutions to these issues in the future.
 
-The risk they face however is that the platform they built on my become obsolete after a heavy investment of time & resources on the wrong platform.
+The risk they face however, is that the platform they built on my become obsolete after a heavy investment of time & resources on the wrong platform.
 
 Think how the [micro payments industry died in bitcoin because of high fees](https://bitcoinmagazine.com/articles/bitcoin-now-useless-micropayments-solutions-are-coming1/) 
 
-It's like building your phone app around a windows smart phone only to be made irrelevant because the next generation of your will not be using windows smart phones, but iOS and Android.
+It's like building your phone app around a windows smart phone only to be made irrelevant because the next generation of your app will not be using windows smart phones, but iOS and Android.
  
 
-### b) Solving
+### b) Solutions?
 
 A number of projects are working on the issues above.
 

@@ -6,8 +6,12 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="{{ if .Params.hidden }} noindex, {{ else }}index{{ end }}, follow">
     <meta name="referrer" content="no-referrer">
-    {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+
+    {{ if .Site.Params.description }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
      
     <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">

@@ -2,14 +2,25 @@
 
 <section id=content>
   <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
-
+  
+  {{ if  .Params.hidden }}
   <div id=sub-header>
-    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }} · {{ .ReadingTime }} minute read
+    Last modified · {{ .Lastmod.Format "January 2, 2006" }} · 
   </div>
+  {{ end }}
+
+
+  {{ if not .Params.hidden }}
+  <div id=sub-header>
+    {{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} · {{ .ReadingTime }} minute read
+  </div>
+  {{ end }}
 
   <div class="entry-content">
     {{ .Content }}
 
+
+    {{ if not .Params.hidden }}
     <script src="https://utteranc.es/client.js"
         repo="as1ndu/as1ndu.github.io"
         issue-term="title"
@@ -17,6 +28,8 @@
         crossorigin="anonymous"
         async>
     </script>
+     {{ end }}
+
   </div>
 
   <div id=links>
