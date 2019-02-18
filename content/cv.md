@@ -14,9 +14,9 @@ date : "2018-05-15"
 > Interested In Artificial Intelligence & Finance.
 
 ### Contact
-Phone                  |Email                        | Github                                 
------------------------|-----------------------------|----------------------
-[+256-755-351-743](#)  |[asindu@drileba.capital](#)  |[@as1ndu](#)          
+Phone                                     |Email                                                    | Github                                 
+------------------------------------------|---------------------------------------------------------|----------------------
+[+256-755-351-743](tel:+256-755-351-743)  |[asindu@drileba.capital](mailto:asindu@drileba.capital)  |[@as1ndu](https://github.com/as1ndu)          
 
 ### 🔨Skill Set
 
