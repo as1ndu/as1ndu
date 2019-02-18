@@ -51,7 +51,7 @@ Adding legal compliance to blockchain protocols hurts social scalability & a fai
 
 Dapps or Decentralized applications are basically software deployed on blockchains instead of traditional infrastructure like Cloud (Amazon Web Services, Google Cloud, VPS, Shared hosting). This decision is taken so as to leverage upon the value proposition of the blockchain (financial instruments that work for anyone, anywhere). 
 
->Dapps that don't scale socially are are useless.
+>Dapps that don't scale socially are useless.
 
 Examples of useless Dapps;
 
@@ -59,7 +59,7 @@ USDC by Coinbase is a unit of account on the blockchain that allows US dollar tr
 
 DX.exchange wants to distribute securities (Google, Facebook, Apple & Tesla Stock) via the blockchain. The service however is only available to millionaires[^13] so as to comply with accredited investor rules of the United States. It also  blocks several countries from accessing the service in attempts to comply regulation. [^14]
 
-DutchX from Gnosis claimed to be a decentralized exchange that allows trustlessly swapping of digital assets  via  Dutch Auction.[^15] DutchX however blocked about a dozen countries from accessing its countries. [^16]
+DutchX from Gnosis claimed to be a decentralized exchange that allows trustlessly swapping of digital assets  via  Dutch Auction.[^15] DutchX however blocked about a dozen countries from accessing its service. [^16]
 
 ## Conclusion
 

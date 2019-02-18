@@ -1,39 +1,58 @@
 ---
 title : "Curriculum Vitae"
 type: "page"
+layout: "cv"
 hidden: true
 description : "Interested in Flutter, Tensorflow & Ethereum"
 slug : "cv"
-draft : "true"
+draft : "false"
 date : "2018-05-15"
 ---
 
-> Interested In Machine Learning & Cryptography.
+# Asindu Willfred's CV
 
-## Skill Set
+> Interested In Artificial Intelligence & Finance.
 
-*Vanilla programming:*  
-Python, HTML, CSS5, JavaScript, Dart, Nim
+### Contact
+Phone                              |Email                                       | Github                         | Twitter         |
+-----------------------------------|--------------------------------------------|--------------------------------|-----------------|
+[+256-755-351-743](#)              |[asindu@drileba.capital](#)                 |[github.com/as1ndu](#)          |[@as1ndu](#)     |
 
-*Frameworks:*  
-TensorFlow, Flutter
+### 🔨Skill Set
 
-*Utilities:*  
-Git, Firebase, Cloudflare
+- **Vanilla programming:**  Python, JavaScript, HTML, CSS, Dart, Nim
 
-*Others:*  
-Driving & Writing
+- **Frameworks:**  TensorFlow, Flutter, MithrillJS, Flask
 
-## Previous Work
-- *Crowdax:* Crowd funding
-- *Coinpesa:*  Bitcoin Exchange
-- *Movies App:* Centuri cinemax
-- *PyKla Website:* PythonKampala commuity Website
+### 💼Recent Work
+- **Crowdax:** Crowd funding
 
-## Side projects
-- *LOXy:* Fiat on ramp
+- **Blockchain Asset Group:**  Director
 
-## Talks
+- **Movies App:** Century Cinemax
 
+- **PyKla Website:** Python Kampala community Website
 
+### 🔭Side projects & Open Source
+- **Synchronizing Life & Dreams:** A blog about Finance & Artificial intelligence
+
+- **LOXy:** A bridge between mobile money & Ethereum
+
+- **Ndege:** Mobile Money plugin for Flutter 
+
+- **Talla:** A TOTP client for Windows
+
+- **Shamin:** A Shamir secret sharing client for Windows
+
+- **Ruth RSS:** An RSS reader with text summarization & text to Speech
+
+### 🔌Patents
+
+- **[#UGP1467076]** A voting scheme for the visually impaired
+
+###  👥Talks
+- Introduction to smart contracts with Vyper at Outbox()
+- Automatic Text Summarization via Makerere's at Research Lab()
+
+Footnotes
 
