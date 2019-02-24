@@ -2,6 +2,7 @@
 title : "Curriculum Vitae"
 type: "page"
 layout: "cv"
+private: true
 hidden: true
 description : "Interested in Flutter, Tensorflow & Ethereum"
 slug : "cv"
