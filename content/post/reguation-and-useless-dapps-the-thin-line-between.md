@@ -35,7 +35,7 @@ My problem  with the SEC's approach is not that regulation is bad. My argument i
 
 One of the interpretations of Szabo's law is, "Do not implement changes to the blockchain protocol unless the changes are required for the purpose of technical maintenance."[^8]
 
-I find Szabo's law valid in the sense that, inviting regulators like the SEC to modify blockchain protocol's so they can be "complaint" with 72 year old case is a mistake.
+I find Szabo's law valid in the sense that, inviting regulators like the SEC to modify blockchain protocol's so they can be "compliant" with 72 year old case is a mistake.
 
 _Making a blockchain protocol "compliant" means;_
 

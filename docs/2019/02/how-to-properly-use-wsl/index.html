@@ -19,10 +19,10 @@
     <title>
       
       
-         Mobile Money, from product to technology. 
+         How to (properly) use Windows Subsystem for Linux 
       
     </title>
-    <link rel="canonical" href="https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/">
+    <link rel="canonical" href="https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/">
 
     <style>
     html {
@@ -492,57 +492,41 @@ td{
 
 
 <section id=content>
-  <h1> Mobile Money, from product to technology. </h1>
+  <h1> How to (properly) use Windows Subsystem for Linux </h1>
   
   
 
 
   
   <div id=sub-header>
-    Fri Aug 24 2018 · 3 minute read
+    Sun Feb 17 2019 · 1 minute read
   </div>
   
 
   <div class="entry-content">
     
 
-<p>Mobile Money is probably the most common narrative in the Ugandan the tech startup space. Unfortunately, the reluctancy of stake holders to upgrade it from a <strong>product</strong> to a <strong>technology</strong>  is a path to which the concept will die before we realise its ultimate potential.</p>
+<h2 id="what-is-wsl-windows-subsystem-for-linux">What is WSL (Windows Subsystem for Linux) ?</h2>
 
-<p>The vision of mobile money that we dream of, is having people send &amp; receive money amongst each other  exclusively using 4 digit PINs and <a href="https://en.wikipedia.org/wiki/Subscriber_identity_module">SIM Cards</a> for authentication/identification of users.</p>
+<ul>
+<li>inception</li>
+<li>use cases</li>
+<li>the problem</li>
+</ul>
 
-<p>The big plus of this design besides the convenience of having a bank in your pocket, is the  better security as attackers need both physical access to the SIM card &amp; Mobile Money PIN to pull off a successful attack &amp; <em>this provides Mobile Money accounts 2 factor Authentication by design</em>.</p>
+<h2 id="structuring-editing-a-project">Structuring &amp; editing a project</h2>
 
-<p>Mobile Money has robust security design that is often over looked, unlike banking web portals where someone only needs to glance at your username &amp; password, so they can comfortably clear out your bank balance from an obscure remote location.</p>
+<h2 id="dependencies">Dependencies</h2>
 
-<p>The second benefit of  mobile money&rsquo;s design is that through interfaces like <a href="https://en.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data">USSD</a> it is possible for people to access
-and actively use funds <em><a href="https://www.youtube.com/watch?v=CJvWm6VAjUE">without the need of a smart phone</a> or an internet connection</em>.</p>
+<h2 id="local-servers">Local servers</h2>
 
-<h2 id="from-a-product-to-a-technology">From a product to a technology</h2>
+<h2 id="limitations">Limitations</h2>
 
-<p>Mobile Money currently exists as solo spin-off products offered by distinctive telecommunication companies. For instance, MTN has <a href="https://www.mtn.co.ug/en/mobile-money/Pages/default.aspx">MTN Mobile Money</a>, Airtel Has <a href="https://www.airtel.co.ug/airtel_money">Airtel Money</a> and UTL has <a href="https://www.utl.co.ug/m-sente-6/">M-Sente</a></p>
-
-<p>The major limitation of these products is one thing,  <em><a href="https://en.wikipedia.org/wiki/Vendor%5Flock-in">Vendor lock-in</a></em>.</p>
-
-<p>Each mobile money provider only allows payments to happen within their network. For instance an MTN subscriber(MTN Mobile Money) cannot send money to a UTL subscriber(M-Sente).</p>
-
-<p>This lack of interoperability is a <em>very unnecessary glass wall</em> that kills a lot use cases &amp; leaves us open to
-<a href="https://medium.com/@stoneatwine/the-death-of-mobile-money-and-financial-inclusion-in-uganda-73609cb340dd">outrageous regulation</a> and <a href="https://secure.jpesa.com/en/fees.php">rent seekers</a> trying to &ldquo;solve&rdquo; this problem.</p>
-
-<p>What I mean by upgrading Mobile Money from a <strong>product</strong> to a <strong>technology</strong>  is that stake holders from telecom companies to banks, lawyers, &amp; businesses should form a coalition (Mobile Money Consortium or M2C for short).</p>
-
-<blockquote>
-<p>The focus of this coalition is to work on a formal spec analogous to what <a href="https://www.w3.org/Consortium/">W3C</a> is for the web, only that M2C will be  tasked with creating formal  specifications on Mobile Money interoperability.</p>
-</blockquote>
-
-<p>I have come to the opinion that all startups  building products on the currently siloed Mobile Money  products are building a business a sand.</p>
-
-<p>For the current <strong>products</strong> like Airtel Money, M-Sente, MTN Mobile Money, you are limited by what the cooperations think is  <em>possible and good for them</em>.</p>
-
-<p>If these <strong>products</strong> are to upgrade to a <strong>technology</strong>, then they need to build work groups &amp; achieve interoperability so entrepreneurs can implement <em>any</em> uncase they can imagine.</p>
-
-<p>If such an initiative is taken seriously, and a large enough number of countries adopt it, Mobile Money has the potential to become the <a href="https://en.wikipedia.org/wiki/Society_for_Worldwide_Interbank_Financial_Telecommunication">SWIFT</a> of mobile payments.  ( <em>in my context SWIFT &amp; the web is a technology not a product</em> )</p>
-
-<p>.. And as a result people like <a href="https://corporate.westernunion.com/leadership.html">Hikmet Ersek</a> can be successfully put out of the business of stealing money from diasporans.</p>
+<ul>
+<li>hardware support</li>
+<li>GUI</li>
+<li></li>
+</ul>
 
 
 
@@ -560,10 +544,8 @@ and actively use funds <em><a href="https://www.youtube.com/watch?v=CJvWm6VAjUE"
 
   <div id=links>
     
-      <a class="basic-alignment left" href="https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/">&laquo; Why blockchain is not yet working</a>
+      <a class="basic-alignment left" href="https://asindu.drileba.capital/2019/02/regulation-useless-dapps-and-the-thin-line-between/">&laquo; Regulation, useless dapps &amp; the thin line between.</a>
     
-    
-      <a class="basic-alignment left" href="https://asindu.drileba.capital/2019/02/regulation-useless-dapps-and-the-thin-line-between/">Regulation, useless dapps &amp; the thin line between. &raquo;</a>
     
   </div>
 </section>

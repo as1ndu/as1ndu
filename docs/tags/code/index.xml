@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Synchronising Life &amp; Dreams</title>
+    <link>https://asindu.drileba.capital/tags/code/</link>
+    <description>Recent content in Code on Synchronising Life &amp; Dreams</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asindu.drileba.capital/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to (properly) use Windows Subsystem for Linux</title>
+      <link>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</guid>
+      <description> What is WSL (Windows Subsystem for Linux) ?  inception use cases the problem  Structuring &amp;amp; editing a project Dependencies Local servers Limitations  hardware support GUI   </description>
+    </item>
+    
+  </channel>
+</rss>

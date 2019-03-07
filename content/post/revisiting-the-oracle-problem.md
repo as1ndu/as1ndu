@@ -1,7 +1,7 @@
 ---
-title : "How to (properly) use WSL"
+title : "Revisiting the oracle problem"
 description : "Description of the post"
-slug : "how-to-properly-use-wsl"
+slug : "revisiting-the-oracle-problem"
 draft : "true"
 tags : [
     "code"
@@ -9,8 +9,15 @@ tags : [
 date : "2019-02-17"
 ---
 
-## Structuring & editing a project
+## Description
 
-## Dependencies
+## Solutions
+- Gnosis
+- Augur
+- Chainlink
+- Bitcoin hive mind
+- Witnet
+- Delphi
+- Amoveo
 
 ## Local servers

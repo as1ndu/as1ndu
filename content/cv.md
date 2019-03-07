@@ -55,5 +55,5 @@ Phone                                     |Email                                
 - Introduction to smart contracts with Vyper at Outbox()
 - Automatic Text Summarization via Makerere's at Research Lab()
 
-Footnotes
+::Footnotes::
 
