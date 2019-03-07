@@ -34,7 +34,7 @@ Phone                                     |Email                                
 
 - **PyKla Website:** Python Kampala community Website
 
-### 🔭Side projects & Open Source
+### 🔭 Current Side projects & Open Source
 - **Synchronizing Life & Dreams:** A blog about Finance & Artificial intelligence
 
 - **LOXy:** A bridge between mobile money & Ethereum
@@ -46,10 +46,6 @@ Phone                                     |Email                                
 - **Shamin:** A Shamir secret sharing client for Windows
 
 - **Ruth RSS:** An RSS reader with text summarization & text to Speech
-
-### 🔌Patents
-
-- **[#UGP1467076]** A voting scheme for the visually impaired
 
 ###  👥Talks
 - Introduction to smart contracts with Vyper at Outbox()

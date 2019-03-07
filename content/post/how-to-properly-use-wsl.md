@@ -2,7 +2,7 @@
 title : "How to (properly) use Windows Subsystem for Linux"
 description : "How to properly use Windows Subsystem for Linux"
 slug : "how-to-properly-use-wsl"
-draft : "false"
+draft : "true"
 tags : [
     "code"
 ]
