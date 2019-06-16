@@ -12,12 +12,32 @@
     
     
     <item>
+      <title>Finally, the end of JavaScript</title>
+      <link>https://asindu.drileba.capital/2019/02/building-with-flutter/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/building-with-flutter/</guid>
+      <description>Why JS is successful V8 - electron - Nodejs
+HTML5 - Canvas - WebRTC
+Dart was redundant &amp;amp; exclusive  Notch&amp;rsquo;s game AngularDART  How JS becomes legacy.  Js problems   High performance code (js) -&amp;gt; WASM Highly custom UI&amp;rsquo;s (Dart VM) -&amp;gt; Flutter Cross platform code -&amp;gt; Flutter</description>
+    </item>
+    
+    <item>
       <title>How to (properly) use Windows Subsystem for Linux</title>
       <link>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</guid>
       <description> What is WSL (Windows Subsystem for Linux) ?  inception use cases the problem  Structuring &amp;amp; editing a project Dependencies Local servers Limitations  hardware support GUI   </description>
+    </item>
+    
+    <item>
+      <title>Revisiting the oracle problem</title>
+      <link>https://asindu.drileba.capital/2019/02/revisiting-the-oracle-problem/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/revisiting-the-oracle-problem/</guid>
+      <description> Description Solutions  Gnosis Augur Chainlink Bitcoin hive mind Witnet Delphi Amoveo  Local servers </description>
     </item>
     
   </channel>
