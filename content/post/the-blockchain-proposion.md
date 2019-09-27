@@ -1,7 +1,7 @@
 ---
-title : "Revisiting the oracle problem"
+title : “The “smart contracts” proposition"
 description : "Description of the post"
-slug : "the-blockchain-proposion"
+slug : "the-smart-contracts-proposition"
 draft : "true"
 tags : [
     "code"
