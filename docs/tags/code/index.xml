@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Synchronising Life &amp; Dreams</title>
+    <title>code on Synchronising Life &amp; Dreams</title>
     <link>https://asindu.drileba.capital/tags/code/</link>
-    <description>Recent content in Code on Synchronising Life &amp; Dreams</description>
+    <description>Recent content in code on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
@@ -12,32 +12,104 @@
     
     
     <item>
-      <title>Finally, the end of JavaScript</title>
+      <title>Finally, the end of JavaScript?</title>
       <link>https://asindu.drileba.capital/2019/02/building-with-flutter/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/2019/02/building-with-flutter/</guid>
-      <description>Why JS is successful V8 - electron - Nodejs
+      <description>Why JS is successful V8 - Electron - Nodejs
 HTML5 - Canvas - WebRTC
-Dart was redundant &amp;amp; exclusive  Notch&amp;rsquo;s game AngularDART  How JS becomes legacy.  Js problems   High performance code (js) -&amp;gt; WASM Highly custom UI&amp;rsquo;s (Dart VM) -&amp;gt; Flutter Cross platform code -&amp;gt; Flutter</description>
+How JS should have evolved Dart was redundant &amp;amp; exclusive  Notch&amp;rsquo;s game AngularDART  How JS becomes legacy.  Js problems   High performance code (js) -&amp;gt; WASM Highly custom UI&amp;rsquo;s (Dart VM) -&amp;gt; Flutter Cross platform code -&amp;gt; Flutter</description>
     </item>
     
     <item>
-      <title>How to (properly) use Windows Subsystem for Linux</title>
-      <link>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</link>
+      <title>Hess&#39;s Trust Theory: Quantifying trustlessness in smart contracts</title>
+      <link>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/2019/02/how-to-properly-use-wsl/</guid>
-      <description> What is WSL (Windows Subsystem for Linux) ?  inception use cases the problem  Structuring &amp;amp; editing a project Dependencies Local servers Limitations  hardware support GUI   </description>
+      <guid>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
     </item>
     
     <item>
-      <title>Revisiting the oracle problem</title>
-      <link>https://asindu.drileba.capital/2019/02/revisiting-the-oracle-problem/</link>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/2019/02/revisiting-the-oracle-problem/</guid>
-      <description> Description Solutions  Gnosis Augur Chainlink Bitcoin hive mind Witnet Delphi Amoveo  Local servers </description>
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
+    </item>
+    
+    <item>
+      <title>Placeholder for drafts posts in my blog</title>
+      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
+      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
     </item>
     
   </channel>

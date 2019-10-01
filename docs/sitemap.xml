@@ -1,18 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
 	  
 	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/regulation-useless-dapps-and-the-thin-line-between/</loc>
-	    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
+	    <loc>https://asindu.drileba.capital/2019/02/building-with-flutter/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
 	  </url>
 	  
   
 	  
 	  <url>
-	    <loc>https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/</loc>
-	    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+	    <loc>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
 	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/post/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/tags/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://asindu.drileba.capital/tags/code/</loc>
+	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
 	  
   
 	  
@@ -26,40 +115,16 @@
   
 	  
 	  <url>
+	    <loc>https://asindu.drileba.capital/tags/fintech/</loc>
+	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+	  
+	  <url>
 	    <loc>https://asindu.drileba.capital/categories/</loc>
 	    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/tags/fintech/</loc>
-	    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/post/</loc>
-	    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/</loc>
-	    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/tags/</loc>
-	    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  

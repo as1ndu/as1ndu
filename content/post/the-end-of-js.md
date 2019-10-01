@@ -1,11 +1,10 @@
 ---
 title : "Finally, the end of JavaScript?"
-description : "Description of the post"
+description : "JavaScript at the time of this writting is definately the higest programming laguae in demand. 
+               I however its mnopolistic reign of being the goto stack for programming user interfaces is about to come to an end. Heres why."
 slug : "building-with-flutter"
 draft : "true"
-tags : [
-    "code"
-]
+tags : ["code"]
 date : "2019-02-17"
 ---
 

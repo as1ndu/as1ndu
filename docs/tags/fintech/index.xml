@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fintech on Synchronising Life &amp; Dreams</title>
+    <title>fintech on Synchronising Life &amp; Dreams</title>
     <link>https://asindu.drileba.capital/tags/fintech/</link>
-    <description>Recent content in Fintech on Synchronising Life &amp; Dreams</description>
+    <description>Recent content in fintech on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asindu.drileba.capital/tags/fintech/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Regulation, useless dapps &amp; the thin line between.</title>
-      <link>https://asindu.drileba.capital/2019/02/regulation-useless-dapps-and-the-thin-line-between/</link>
-      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/regulation-useless-dapps-and-the-thin-line-between/</guid>
-      <description>&amp;ldquo;I can’t speak for what Satoshi intended, but I sure don’t think it involved bitcoin exchanges that have draconian rules about KYC, AML, passports, freezes on accounts and laws about reporting “suspicious activity” to the local secret police. There’s a real possibility that all the noise about “governance,” “regulation” and “blockchain” will effectively create a surveillance state, a dossier society.&amp;rdquo; - Timothy C. May 1
- New wine &amp;amp; old skins On the 10th of Feb 2019 the SEC (The United States body responsible for regulating financial instruments) announced its &amp;ldquo;Our guide to initial coin offerings&amp;rdquo; I found the documentation to be vague as it contained statements like, &amp;ldquo;ICOs, based on specific facts, may be securities offerings, and fall under the SEC’s jurisdiction of enforcing federal securities laws.</description>
-    </item>
-    
-    <item>
-      <title>Mobile Money, from product to technology.</title>
-      <link>https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/</link>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/</guid>
-      <description>Mobile Money is probably the most common narrative in the Ugandan the tech startup space. Unfortunately, the reluctancy of stake holders to upgrade it from a product to a technology is a path to which the concept will die before we realise its ultimate potential.
-The vision of mobile money that we dream of, is having people send &amp;amp; receive money amongst each other exclusively using 4 digit PINs and SIM Cards for authentication/identification of users.</description>
-    </item>
     
     <item>
       <title>Why blockchain is not yet working</title>

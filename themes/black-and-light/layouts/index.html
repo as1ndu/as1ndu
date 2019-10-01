@@ -7,54 +7,34 @@ To change something, build a new model that makes the existing model obsolete.�
 ― R. Buckminster Fuller
 </pre>
 
+<section style="float: right; padding-right: 25%; ">
+  <a style="padding: 5px; " href="/about">⛩ about</a>
+</section>
+
 <section id=content>
   <ul class=posts_listing>
     {{ range .Data.Pages.ByPublishDate.Reverse }}
-      
+
     {{ if not .Params.hidden }}
-      <li>
-        <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
-        <div id=date>
-          <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }}</time>
-        </div>
-      </li>
+    <li>
+      <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
+      <div id=date>
+        <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }}</time>
+      </div>
+
+      {{ if .Params.description }}
+      <blockquote>
+        {{ .Params.description }}
+      </blockquote>
+      {{ end }}
+
+    </li>
     {{ end }}
 
     {{ end }}
   </ul>
-
-  <!--
-  <h4>Projects, Talks & Articles.</h4>
-  <ol>
-    <li>
-      <ul>
-         Projects.
-        <li>Shamin</li>
-        <li>Win Authenticator</li>
-        <li>Ndege</li>
-      </ul>
-    </li>
-
-    <li>
-      <ul>
-        Talks.
-        <li>The Future of Justice</li>
-        <li>Smart Contracts with Vyper</li>
-      </ul>
-    </li>
-
-    <li>
-      <ul>
-        Press.
-        <li>Interview with Digest Africa</li>
-      </ul>
-    </li>
-  </ol>
--->
-  
 </section>
 
 
 
 {{ partial "footer.html" . }}
-

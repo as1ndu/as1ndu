@@ -1,9 +1,9 @@
 ---
-title : "The smart-contracts proposition"
-description : "In the mid 1990's computer scientist & cryptographer Nick Szabo proposed series of mechanisms that people can use to formalized agreements on                the internet. He labled them, smart-contracts. In this post I am going to talk about the very narrow & niche yet powerful problems that these                 smart contracts solve."
-slug : "the-smart-contracts-proposition"
+title : "An algorithm for indenting code"
+description : "I developed a simple angorithm that can be used for recursively indenting code. In this post, I will describe it in depth."
+slug : "an-algorithm-for-indenting-code"
 draft : "true"
-tags : ["fintech"]
+tags : ["code"]
 date : "2019-02-17"
 ---
 

@@ -34,10 +34,11 @@
 
   <div id=links>
     {{ if .PrevInSection }}
-      <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">&laquo; {{.PrevInSection.Title}}</a>
+      <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">⟸ {{.PrevInSection.Title}} </a>
     {{ end }}
+    
     {{ if .NextInSection }}
-      <a class="basic-alignment left" href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} &raquo;</a>
+      <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} ⟹</a>
     {{ end }}
   </div>
 </section>

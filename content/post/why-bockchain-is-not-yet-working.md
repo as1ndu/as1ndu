@@ -1,11 +1,9 @@
 ---
 title : "Why blockchain is not yet working"
-description : "In this post I will outline my reasons as to why blockchain based applications are not ready for the mass market. "
+description : "In this post I will outline my personal observations as to why blockchain based applications are (should) not adopted by the mainstream."
 slug : "why-bockchain-is-not-yet-working"
 draft : "false"
-tags : [
-    "fintech"
-]
+tags : ["fintech"]
 date : "2018-05-15"
 aliases : [
     "/why-bockchain-is-not-yet-main-stream/"
