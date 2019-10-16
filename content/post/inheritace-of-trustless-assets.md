@@ -1,10 +1,10 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Inheritace of trustless assets"
 description : "Description of the post"
-slug : "draft-post"
+slug : "inheritace-of-trustless-assets"
 draft : "true"
 tags : ["code"]
-date : "1995-08-08"
+date : "2019-08-08"
 private: true
 
 ---
@@ -18,6 +18,11 @@ To take a trivial example, which of us ever undertakes laborious physical exerci
 Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. 
 
 To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+
+- death cert reg/oracles
+- dead man's switch (pivate death certificate)
+- derivatives swaps 
+
 
 ```ocaml
 scilla_version 0 
@@ -53,7 +58,7 @@ transition getHello ()
 end
 
 transition multipleMsgs () 
-	msg1 = {_tag : ""; _recipient : _sender; _amount : Uint128 0}; 
+	msg1 = {_tag : ""; _recipient : _sender; _am ount : Uint128 0}; 
 	msg2 = {_tag : ""; _recipient : _sender; _amount : Uint128 0}; 
 	msgs1 = one_msg msg1; msgs2 = Cons {Message} msg2 msgs1; 
 	send msgs2 

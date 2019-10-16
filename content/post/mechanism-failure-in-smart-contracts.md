@@ -1,6 +1,6 @@
 ---
 title : "Mechanism failure in smart contracts"
-description : "In this post we ae going to explore a very niche form in which smart contracts fail, mechanism faliure."
+description : "In this post we ae going to explore a very niche form in which smart contracts fail, mechanism faliure"
 slug : "mechanism-failure-in-smart-contracts"
 draft : "true"
 tags : ["fintech"]

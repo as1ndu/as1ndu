@@ -1,5 +1,5 @@
 ---
-title : "Mitigatting disease epidemics with pandemic bonds."
+title : "Mitigatting disease epidemics with pandemic bonds"
 description : "Can disese epidemics be contained or mitigated using financial instruments? In this post, we explore such a possibility."
 slug : "pandemic-bonds"
 draft : "true"

@@ -1,17 +1,35 @@
 ---
-title : "About"
+title : "⛩ About"
 type: "page"
 layout: "vanilla"
 private: true
 hidden: true
-description : "About me & this blog"
+description : "About this blog"
 slug : "about"
 draft : "false"
 date : "2018-05-15"
 ---
 
-## This is a draft post.
+My name is Asindu. This is my blog where I explore assorted  topics around trustless mechanisms, smart-contracts, programming, machine intelligence amongst others.
 
-Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. 
+The blog is called "Synchronising Life & Dreams" because I believe the sole purpose of a humans is to work towards turning their present world (life) in to the world the want (dreams). We should always try to keep our life & dreams in sync, or else we loose a sense of purpose.🙂
 
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+I am very active on twitter & also keep a repository of notes on interesing papers, talks & experiments, mostly around software.
+
+My programming languages of choice usually revolve around Python, Q(kdb+), Nim & Dart. I also write smart-contract code in Scilla, Vyper & Solidty.
+As for my  main work, as of late revolves around designing & building dapps that run on Zilliqa.
+
+I also maintain various side projects;
+
+- [Scilla VScode](#) : VScode etension for the scilla smart contact language.
+- [Talla](#) : TOTP client for the desktop.
+- [Shamin](#) : A Shamir secret sharing client for Windows.
+- [Ruth RSS](#) : An RSS reader with autommatic text summarization & text to Speech.
+- [Rave](#) : Flutter plugin that supports Mobile Money transactions  via Flutterwave.
+- [EQN](#) : A math pre-processor for Eqn notation. 
+
+If you need to contact me, fell free to [send me an e-mail](mailto:adwillfred@gmail.com). 
+You can slo text me via Signal on [+256-655-767-356](tel:+256-655-767-356).
+
+
+

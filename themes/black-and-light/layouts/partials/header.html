@@ -13,8 +13,8 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     {{ end }}
      
-    <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://as1ndu.github.io/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://as1ndu.github.io/images/favicon.ico" type="image/x-icon">
 
     <title>
       {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
@@ -27,10 +27,6 @@
     <link rel="canonical" href="{{ .Permalink }}">
 
     {{ partial "styles.html" . }}
-
-    {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
   </head>
 
   <body>

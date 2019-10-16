@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+  <h1>{{ if .Draft }}[Draft] {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
   
   {{ if  .Params.hidden }}
   <div id=sub-header>
@@ -19,15 +19,16 @@
   <div class="entry-content">
     {{ .Content }}
 
-
-    {{ if not .Params.hidden }}
-    <script src="https://utteranc.es/client.js"
-        repo="as1ndu/blog"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script>
+    {{ if .Site.Params.blogRepository }}
+      {{ if not .Params.hidden }}
+      <script src="https://utteranc.es/client.js"
+          repo="{{ .Site.Params.blogRepository }}"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+      </script>
+      {{ end }}
      {{ end }}
 
   </div>

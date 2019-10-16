@@ -1,4 +1,4 @@
-baseurl = "https://asindu.drileba.capital/"
+baseurl = "https://as1ndu.github.io/"
 title = "Synchronising Life & Dreams"
 author = "as1ndu"
 canonifyurls = true
@@ -11,9 +11,11 @@ pygmentscodefences  = true
 # pygmentOptions = "linenos=table"
 
 
+
 [params]
-  sitename = "Synchronising Life & Dreams."
-  description = "as1ndu's blog"
+  sitename = "Synchronising Life & Dreams"
+  description = "Interested In Fintech & Machine Intelligence"
+  blogRepository = "as1ndu/blog"
 
 [permalinks]
   post = "/:year/:month/:slug"
@@ -21,8 +23,6 @@ pygmentscodefences  = true
 [[menu.main]]
     name = "@as1ndu"
     url  = "https://twitter.com/as1ndu"
-
-
 
 languageCode = "en-us"
 copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."
