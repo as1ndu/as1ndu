@@ -13,7 +13,11 @@
   {{ if not .Params.hidden }}
   <div id=sub-header>
     {{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} · {{ .ReadingTime }} minute read
+    · (last modified on {{ .Lastmod.Format "January 2, 2006" }})
   </div>
+
+  
+
   {{ end }}
 
   <div class="entry-content">
