@@ -15,7 +15,8 @@ pygmentscodefences  = true
 [params]
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
-  blogRepository = "as1ndu/blog"
+  blogRepository = "as1ndu/as1ndu.github.io"
+
 
 [permalinks]
   post = "/:year/:month/:slug"
