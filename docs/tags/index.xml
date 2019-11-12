@@ -1,31 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Synchronising Life &amp; Dreams</title>
-    <link>https://asindu.drileba.capital/tags/</link>
+    <link>https://as1ndu.github.io/tags/</link>
     <description>Recent content in Tags on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://asindu.drileba.capital/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://as1ndu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>code</title>
-      <link>https://asindu.drileba.capital/tags/code/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/tags/code/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>fintech</title>
-      <link>https://asindu.drileba.capital/tags/fintech/</link>
+      <link>https://as1ndu.github.io/tags/fintech/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/tags/fintech/</guid>
+      <guid>https://as1ndu.github.io/tags/fintech/</guid>
       <description></description>
     </item>
     

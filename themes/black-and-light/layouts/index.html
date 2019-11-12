@@ -13,9 +13,11 @@ To change something, build a new model that makes the existing model obsolete.â€
 
 <section id=content>
   <ul class=posts_listing>
-    {{ range .Data.Pages.ByPublishDate.Reverse }}
+    {{ range .Site.RegularPages }}
 
     {{ if not .Params.hidden }}
+
+    
     <li>
       <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
       <div id=date>

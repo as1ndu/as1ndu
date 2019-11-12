@@ -1,134 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Synchronising Life &amp; Dreams</title>
-    <link>https://asindu.drileba.capital/</link>
+    <link>https://as1ndu.github.io/</link>
     <description>Recent content on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://asindu.drileba.capital/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://as1ndu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Finally, the end of JavaScript?</title>
-      <link>https://asindu.drileba.capital/2019/02/building-with-flutter/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/building-with-flutter/</guid>
-      <description>Why JS is successful V8 - Electron - Nodejs
-HTML5 - Canvas - WebRTC
-How JS should have evolved Dart was redundant &amp;amp; exclusive  Notch&amp;rsquo;s game AngularDART  How JS becomes legacy.  Js problems   High performance code (js) -&amp;gt; WASM Highly custom UI&amp;rsquo;s (Dart VM) -&amp;gt; Flutter Cross platform code -&amp;gt; Flutter</description>
-    </item>
-    
-    <item>
-      <title>Hess&#39;s Trust Theory: Quantifying trustlessness in smart contracts</title>
-      <link>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
-    
-    <item>
-      <title>Placeholder for drafts posts in my blog</title>
-      <link>https://asindu.drileba.capital/2019/02/draft-post/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2019/02/draft-post/</guid>
-      <description>This is a draft post. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</description>
-    </item>
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>https://asindu.drileba.capital/cv/</link>
+      <link>https://as1ndu.github.io/cv/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/cv/</guid>
-      <description> Hello </description>
-    </item>
-    
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>https://asindu.drileba.capital/cv/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/cv/</guid>
+      <guid>https://as1ndu.github.io/cv/</guid>
       <description>Asindu Willfred&amp;rsquo;s CV  Interested In Artificial Intelligence &amp;amp; Finance.
- Contact    Phone Email Github     +256-755-351-743 asindu@drileba.capital @as1ndu    🔨Skill Set  Vanilla programming: Python, JavaScript, HTML, CSS, Dart, Nim
+ Contact    Phone Email Github     +256-755-351-743 asindu@drileba.xyz @as1ndu    🔨Skill Set  Vanilla programming: Python, JavaScript, HTML, CSS, Dart, Nim
  Frameworks: TensorFlow, Flutter, MithrillJS, Flask
   💼Recent Work  Crowdax: Crowd funding
  Blockchain Asset Group: Director
@@ -138,12 +28,22 @@ To take a trivial example, which of us ever undertakes laborious physical exerci
     
     <item>
       <title>Why blockchain is not yet working</title>
-      <link>https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/</link>
+      <link>https://as1ndu.github.io/2018/05/why-bockchain-is-not-yet-working/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/</guid>
+      <guid>https://as1ndu.github.io/2018/05/why-bockchain-is-not-yet-working/</guid>
       <description>The current state There is a lot of hype about what the global distributed ledger aka &amp;ldquo;Blockchain&amp;rdquo; can do for society. A &amp;ldquo;trust machine&amp;rdquo; as some people call it that will bring the power of finance, data sovereignty and inclusion to the people, hence rendering centralized intermediaries like Visa, Barclays &amp;amp; Facebook obsolete.
 We shall achieve this by using a combination of robust, battle tested cryptography &amp;amp; game theory.</description>
+    </item>
+    
+    <item>
+      <title>⛩ About</title>
+      <link>https://as1ndu.github.io/about/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://as1ndu.github.io/about/</guid>
+      <description>My name is Asindu. This is my blog where I explore assorted topics around trustless mechanisms, smart-contracts, programming, machine intelligence amongst others.
+The blog is called &amp;ldquo;Synchronising Life &amp;amp; Dreams&amp;rdquo; because I believe the sole purpose of a humans is to work towards turning their present world (life) in to the world the want (dreams). We should always try to keep our life &amp;amp; dreams in sync, or else we loose a sense of purpose.</description>
     </item>
     
   </channel>

@@ -1,131 +1,48 @@
  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
 	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/building-with-flutter/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
   
 	  
 	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/hess-trust-trust-theory/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2019/02/draft-post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/post/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/tags/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/tags/code/</loc>
-	    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-	  
-  
-	  
-  
-	  
-	  <url>
-	    <loc>https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/</loc>
+	    <loc>https://as1ndu.github.io/tags/fintech/</loc>
 	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
 	  </url>
 	  
   
 	  
 	  <url>
-	    <loc>https://asindu.drileba.capital/tags/fintech/</loc>
+	    <loc>https://as1ndu.github.io/post/</loc>
 	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
 	  </url>
 	  
   
 	  
 	  <url>
-	    <loc>https://asindu.drileba.capital/categories/</loc>
+	    <loc>https://as1ndu.github.io/</loc>
+	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://as1ndu.github.io/tags/</loc>
+	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+	  <url>
+	    <loc>https://as1ndu.github.io/2018/05/why-bockchain-is-not-yet-working/</loc>
+	    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+	  
+  
+	  
+	  <url>
+	    <loc>https://as1ndu.github.io/categories/</loc>
 	    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
 	  </url>
 	  
   
