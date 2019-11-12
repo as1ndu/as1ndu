@@ -16,6 +16,7 @@ pygmentscodefences  = true
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
   blogRepository = "as1ndu/as1ndu.github.io"
+  blogHeader = " “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
 
 
 [permalinks]

@@ -14,42 +14,4 @@ date : "2018-05-15"
 
 > Interested In Artificial Intelligence & Finance.
 
-### Contact
-Phone                                     |Email                                                    | Github                                 
-------------------------------------------|---------------------------------------------------------|----------------------
-[+256-755-351-743](tel:+256-755-351-743)  |[asindu@drileba.xyz](mailto:asindu@drileba.xyz)  |[@as1ndu](https://github.com/as1ndu)          
-
-### 🔨Skill Set
-
-- **Vanilla programming:**  Python, JavaScript, HTML, CSS, Dart, Nim
-
-- **Frameworks:**  TensorFlow, Flutter, MithrillJS, Flask
-
-### 💼Recent Work
-- **Crowdax:** Crowd funding
-
-- **Blockchain Asset Group:**  Director
-
-- **Movies App:** Century Cinemax
-
-- **PyKla Website:** Python Kampala community Website
-
-### 🔭 Current Side projects & Open Source
-- **Synchronizing Life & Dreams:** A blog about Finance & Artificial intelligence
-
-- **LOXy:** A bridge between mobile money & Ethereum
-
-- **Ndege:** Mobile Money plugin for Flutter 
-
-- **Talla:** A TOTP client for Windows
-
-- **Shamin:** A Shamir secret sharing client for Windows
-
-- **Ruth RSS:** An RSS reader with text summarization & text to Speech
-
-###  👥Talks
-- Introduction to smart contracts with Vyper at Outbox()
-- Automatic Text Summarization via Makerere's at Research Lab()
-
-::Footnotes::
 
