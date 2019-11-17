@@ -32,7 +32,7 @@ I also maintain various side projects;
 -->
 
 If you need to contact me, fell free to [send me an e-mail](mailto:adwillfred@gmail.com). 
-You can slo text me via Telegram on [as1ndu](https://t.me/as1ndu).
+You can also text me via Telegram on [as1ndu](https://t.me/as1ndu).
 
 
 
