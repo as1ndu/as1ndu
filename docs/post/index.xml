@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Synchronising Life &amp; Dreams</title>
-    <link>https://as1ndu.github.io/post/</link>
+    <link>https://asindu.drileba.capital/post/</link>
     <description>Recent content in Posts on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://as1ndu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://asindu.drileba.capital/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why blockchain is not yet working</title>
-      <link>https://as1ndu.github.io/2018/05/why-bockchain-is-not-yet-working/</link>
+      <link>https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://as1ndu.github.io/2018/05/why-bockchain-is-not-yet-working/</guid>
+      <guid>https://asindu.drileba.capital/2018/05/why-bockchain-is-not-yet-working/</guid>
       <description>The current state There is a lot of hype about what the global distributed ledger aka &amp;ldquo;Blockchain&amp;rdquo; can do for society. A &amp;ldquo;trust machine&amp;rdquo; as some people call it that will bring the power of finance, data sovereignty and inclusion to the people, hence rendering centralized intermediaries like Visa, Barclays &amp;amp; Facebook obsolete.
 We shall achieve this by using a combination of robust, battle tested cryptography &amp;amp; game theory.</description>
     </item>
