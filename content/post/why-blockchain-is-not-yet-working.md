@@ -1,16 +1,18 @@
 ---
 title : "Why blockchain is not yet working"
 description : "In this post I will outline my personal observations as to why blockchain based applications are (should) not adopted by the mainstream."
-slug : "why-bockchain-is-not-yet-working"
+slug : "why-blockchain-is-not-yet-working"
 draft : "false"
 tags : ["fintech"]
 date : "2018-05-15"
 aliases : [
-    "/why-bockchain-is-not-yet-main-stream/"
+    "/why-bockchain-is-not-yet-main-stream/",
+    "/why-bockchain-is-not-yet-working/"
 ]
 ---
 
 ## The current state
+
 There is a lot of hype about what the global distributed ledger aka "Blockchain" can do for society.
 A "trust machine" as some people call it that will bring the power of finance, data sovereignty and inclusion to the people,
 hence rendering  centralized intermediaries like Visa, Barclays & Facebook obsolete. 
@@ -37,7 +39,7 @@ Ethereum for instance does a maximum of 13 transactions per second.  Visa on the
 So as you can see, the blockchain is thousands of magnitudes unable to manage a global traffic of financial transactions.
 This is what they call the "Scalability Problem"
 
-Coming up with a solution to scalability the problems without tarnishing the original value propositions of a blockchain (immutability/security, decentralisation & censorship resistance) is not trivial. It has been nick named the ["scalability trilemma"](https://github.com/ethereum/wiki/wiki/Sharding-FAQ#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it) by Vitalik (Ethereum's co-author).
+Coming up with a solution to scalability the problems without tarnishing the original value propositions of a blockchain (immutability/security, decentralisation & censorship resistance) is not trivial. It has been nick named the ["scalability trilemma"](https://github.com/ethereum/wiki/wiki/Sharding-FAQ#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it) by Vitalik Buterine (Ethereum's co-author).
 
 
 ### 2. Lack of Intuitive Private Key Management.
@@ -92,9 +94,11 @@ Yes, I dont think anyone wants to keep their life savings in such a bank.
 
 Just by knowing someone's cryptocurrency address, you can know their account balance & transaction history simply by pasting it in a blockchain explorer like [blockchain](https://blockchain.info) and [etherscan](https://etherscan.io)
 
-Meaning its very easy for anyone to keep track of your financial activities without permission.
+Meaning it's very easy for anyone to keep track of your financial activities without permission.
 
 You buy HIV drugs? I now know your HIV positive, Your paying schools fees? now your local kidnapper knows where your kids study.
+
+Buying birth control pills? Now anyone in the world may acuratley guess that your a woman.
 No careful person wants that!
 
 ### 6. Price volatility.
@@ -103,37 +107,13 @@ No careful person wants that!
 
 
 
-## What are People are doing?
+## What can we do?
 
-There are majorly two things that go on in the blockchains industry, a) Building of blockchain solutions,
-and b) Speculation/Investing
+Most projects are building on platforms that have these problems regardless, in hopes that they will integrate solutions to respective issues in the future.
 
-### a) Building
-
-Most projects are building on platforms that have these problems regardless, in hopes that they will integrate solutions to these issues in the future.
-
-The risk they face however, is that the platform they built on my become obsolete after a heavy investment of time & resources on the wrong platform.
+The risk they face however, is that the platform they built on, my become obsolete after a heavy investment of time & resources on the wrong platform.
 
 Think how the [micro payments industry died in bitcoin because of high fees](https://bitcoinmagazine.com/articles/bitcoin-now-useless-micropayments-solutions-are-coming1/) 
 
-It's like building your phone app around a windows smart phone only to be made irrelevant because the next generation of your app will not be using windows smart phones, but iOS and Android.
+It's like building your phone app around a windows smart-phone only to be made irrelevant because the next generation of your app will not be using windows smart-phones, but iOS and Android.
  
-
-### b) Solutions?
-
-A number of projects are working on the issues above.
-
-For instance;
-
-**Scalability:**  [Rchain](https://www.rchain.coop/) Doing work on sharding, [HashGraph](https://www.hederahashgraph.com/) using the gossip protocol to achieve finality and consensus in permission systems.
-
-**Key Management:** [Ledger](https://www.ledgerwallet.com/) using Hierarchal  Key Derivation to store private keys in a secure easy manner. i.e easy to read & store 24 english words found in literature.
-
-**Contract safety:** [Zilliqa](http://zilliqa.com) with their automata based programming language called, scilla that employ's formal verification using Coq. That will allow contracts to run safely & predictably.
-
-**Consensus Algorithms:** [Algorand](https://www.algorand.com/) using what they call a "rapid and efficient user consensus, enabling even the smallest transactions, regardless of transaction volume or number of users" to achieve transaction finality.
-
-**Privacy:** [Zcash](https://z.cash/), [Zcoin](https://zcoin.io/) & [Monero](https://getmonero.org/) using [Zero knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof) and [Ring signatures](https://en.wikipedia.org/wiki/Ring_signature) respectively to achieve privacy benefits.
-
-**Price Volatility:** [Digix's DGD](https://digix.global/) tokenising gold tokens to offer protection from volatility, [Dai's Maker DAO](https://makerdao.com/) & [Basis](http://www.basis.io/) intend to create cryptocurrency with stable prices completely maintained by digital resources.
-

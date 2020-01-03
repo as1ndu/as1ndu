@@ -17,7 +17,7 @@ The blog is called "Synchronising Life & Dreams" because I believe the sole purp
 
 I am very active on twitter & also keep a repository of notes on interesing papers, talks & experiments, mostly around software.
 
-My programming languages of choice usually revolve around Python, Q(kdb+), Nim & Dart. I also write smart-contract code in Scilla, Vyper & Solidty.
+My programming languages of choice usually revolve around Python,  Nim & Dart. I also write smart-contract code in Scilla, Vyper & Solidty.
 As for my  main work, as of late revolves around designing & building dapps that run on Zilliqa.
 
 

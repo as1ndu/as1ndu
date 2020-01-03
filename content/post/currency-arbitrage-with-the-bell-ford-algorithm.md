@@ -1,11 +1,10 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Currency arbitrage with the Bell-Ford algorithm"
 description : "Description of the post"
-slug : "draft-post"
+slug : "arbitrage-with-the-bell-ford-algorithm"
 draft : true
 tags : ["code"]
-date : "1995-08-08"
-hidden: true
+date : "2019-08-08"
 ---
 
 ## This is a draft post.
