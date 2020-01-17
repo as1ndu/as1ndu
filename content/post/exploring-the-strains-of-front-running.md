@@ -9,8 +9,11 @@ date : "2018-04-02"
 
 # Strains
 
-- On native asset markets
-- On synthetic markets.
+- Over-riding transactions
+
+- Escaping penalty.
+
+Enabled by time-dilation that cases information assymetry.
 
 # Cases where it isn't justified.
 - sniping
@@ -21,4 +24,8 @@ date : "2018-04-02"
 - 
 
 # Mitigating front-running.
+- Nonce
+- time deplay
+- batched auctions
+- automated market makers
 

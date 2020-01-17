@@ -3,7 +3,7 @@ title : "Hess's Trust Theory: Quantifying trust-minimization in smart contracts"
 description : "How trust-minimized is your smart contract? 
              Using smart-contracts does not automatically guarantee trust-minimized applications. Smart contracts instead offer a spectrum of mechanisms that vary  on the trust-scale"
 slug : "hess-trust-trust-theory"
-draft : "true"
+draft : true
 tags : ["fintech"]
 date : "2019-02-17"
 ---

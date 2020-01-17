@@ -2,7 +2,7 @@
 title : "Inheritance of trust-minimized assets"
 description : "How does one ensure that their crypto-assets are disbursed as they accord in a  environment cluttered with liars, thieves & cheats?"
 slug : "inheritance-of-trust-minimized-assets"
-draft : "true"
+draft : true
 tags : ["code"]
 date : "2019-02-08"
 ---
