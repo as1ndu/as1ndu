@@ -2,7 +2,7 @@
 title : "Placeholder for drafts posts in my blog"
 description : "Description of the post"
 slug : "draft-post"
-draft : true
+draft : false
 tags : ["code"]
 date : "1995-08-08"
 hidden: true
@@ -67,11 +67,12 @@ Backticks can be used to write code inline also `main(){return 0}`
 
 1. As you can see.
 
-+ You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-⋅⋅⋅ To have a line break without a paragraph, you will need to use two trailing spaces.
-⋅⋅⋅ Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅ (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+    To have a line break without a paragraph, you will need to use two trailing spaces.
+
+    Note that this line is separate, but within the same paragraph.
+
+    (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 
 
