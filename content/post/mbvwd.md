@@ -1,3 +1,13 @@
+---
+title : "Placeholder for drafts posts in my blog"
+description : "Description of the post"
+slug : "draft-post"
+draft : true
+tags : ["code"]
+date : "1995-08-08"
+hidden: true
+---
+
 Mitigating BTC volatility with derivatives.
 
 The biggest problem with Bitcoin is volatility. Bitcoins wild variation in price within short intervals. It is not even scalability like advertised. 

@@ -1,3 +1,13 @@
+---
+title : "Placeholder for drafts posts in my blog"
+description : "Description of the post"
+slug : "draft-post"
+draft : true
+tags : ["code"]
+date : "1995-08-08"
+hidden: true
+---
+
 Atomic swaps & why they work.
 
 An atomic swap is a trust-minimized mechanism that allows transactions to happen across several different chains.

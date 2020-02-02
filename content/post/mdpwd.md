@@ -1,3 +1,13 @@
+---
+title : "Placeholder for drafts posts in my blog"
+description : "Description of the post"
+slug : "draft-post"
+draft : true
+tags : ["code"]
+date : "1995-08-08"
+hidden: true
+---
+
 Quantifying trust-minimization with Hess’s trust theory.
 
 Quantification of properties allows us to measure  how well a system might perform. 

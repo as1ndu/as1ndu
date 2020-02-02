@@ -1,3 +1,13 @@
+---
+title : "Placeholder for drafts posts in my blog"
+description : "Description of the post"
+slug : "draft-post"
+draft : true
+tags : ["code"]
+date : "1995-08-08"
+hidden: true
+---
+
 Clarifying the blockchain proposition.
 
 “If I knew what the killer app for blockchain is, I would be building it. Then we wouldn’t have time for this podcast” - Ian Grigg
