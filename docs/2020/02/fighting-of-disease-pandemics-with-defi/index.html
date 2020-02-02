@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="no-referrer">    
+    <meta name="description" content="Here we shall explore a plausible use case on  how  a society can use blockchain infrastructure to mitigate  disease pandemics.">
+     
+    <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+
+    <title>
+      
+      
+         Fighting disease pandemics with DeFi 
+      
+    </title>
+    <link rel="canonical" href="https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/">
+
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #1d1313;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+   
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    
+  }
+
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;    
+  }
+
+
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    padding: 2px;
+    background-color: #403c3b;
+    color: #f7f7f7;
+  }
+
+  em a {
+    padding: 2px;
+    background-color: #403c3b;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    border-left-style: solid;
+    border-width: 2px;
+    border-left-color: #403c3b;
+    background-color: rgba(255, 228, 196, 0.295);
+    padding: 10px;
+    font-family: "Old Standard TT", serif;
+  }
+
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #403c3b;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes{
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #403c3b;
+    font-size: 13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #1d1313;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li:before {
+    content: "▪ ";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+    margin-right: 0;
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+  width: 80%;
+  padding: 2px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+sup a{
+  text-decoration: none;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.credit{
+  background-color: white;
+  position: fixed;
+  bottom: 2px;
+  left:5px;
+  font-size: 14px;
+}
+
+
+
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+th{
+  font-weight:bold;
+}
+
+td{
+  padding: 5px;
+}
+
+table{
+  margin: auto;
+  width: 60%;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 2px;
+}
+
+
+
+
+
+</style>
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams</a></h1>
+      
+      <ul>
+        
+          <li><a href="https://twitter.com/as1ndu">@as1ndu</a></li>
+        
+      </ul>
+             
+      
+    </section>
+
+
+<section id=content>
+  <h1> Fighting disease pandemics with DeFi </h1>
+  
+  
+
+
+  
+  <div id=sub-header>
+    Sun Feb 2 2020 · 5 minute read
+    · (last modified on February 2, 2020)
+  </div>
+
+  
+
+  
+
+  <div class="entry-content">
+    <p>When Bill Gates was asked in a Vox interview <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> on what he feared most, his reply was not climate change or nuclear war.</p>
+
+<p>Mr. Gates was most worried about pandemics, deadly diseases that spread quickly over large regions, he goes ahead to cite some of the biggest &ldquo;death charts&rdquo; of history.</p>
+
+<p>These &ldquo;death charts&rdquo;, where several spikes in which a large numbers of people died in a very short period.</p>
+
+<p>The first &ldquo;death chart&rdquo; he mentions is World War I, the second one is World War II, the third spike or &ldquo;death chart&rdquo;  was about two times bigger than World War I (50 million deaths), but it was not caused by a war, it was the spanish flu <sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>. This isn&rsquo;t even the worst case, pandemics like the the black plague killed over 200 million (60% of Europe&rsquo;s population at the time) about 2 times  a bigger death toll than any war we have ever had<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>.</p>
+
+<p>Pandemics are real &amp; unpredictable as we have seen with Ebola <sup class="footnote-ref" id="fnref:4"><a href="#fn:4">4</a></sup>, SARs <sup class="footnote-ref" id="fnref:5"><a href="#fn:5">5</a></sup>, and at the time of this writing, the Corona virus<sup class="footnote-ref" id="fnref:6"><a href="#fn:6">6</a></sup>.</p>
+
+<p>The problem is that, we are often not prepared for these pandemics. For instance, during the Ebola pandemic in West Africa, 11,000 died simply because the responsible bureaucrats could not mobilize enough resources in time.</p>
+
+<p>There was an idea from the World Health Organization (WHO) to use create a kind of insurance market they call a Pandemic bond.<sup class="footnote-ref" id="fnref:7"><a href="#fn:7">7</a></sup></p>
+
+<p>How it would work is that, a pool of money (equivalent to whats needed to finance an Ebola pandemic) would be put up by speculators.</p>
+
+<p>The WHO would then continuously  pay  the speculators a kind of insurance premium. But if a new Ebola out break occurred in a new country, the WHO would use the pool of money (put up by the speculators) to facilitate the mitigation of Ebola in that region. This is obviously an over simplification of the 300 plus page document that explains how these pandemic bonds actually work<sup class="footnote-ref" id="fnref:8"><a href="#fn:8">8</a></sup> but I hope you get the idea? Its basically health insurance for everyone subsidized by the WHO.</p>
+
+<p>The pandemic bonds have however become controversial<sup class="footnote-ref" id="fnref:9"><a href="#fn:9">9</a></sup> probably due to their poor mechanism design<sup class="footnote-ref" id="fnref:10"><a href="#fn:10">10</a></sup>. Despite this fact, I think mechanism designers can come up with better mechanisms resembling these &ldquo;pandemic bonds&rdquo; that actually work in a society.</p>
+
+<p>The great thing about Smart-contracts like Solidity<sup class="footnote-ref" id="fnref:11"><a href="#fn:11">11</a></sup>, Scilla<sup class="footnote-ref" id="fnref:12"><a href="#fn:12">12</a></sup> &amp; Simplicity<sup class="footnote-ref" id="fnref:13"><a href="#fn:13">13</a></sup> is that, they allow us to design trust minimized financial instruments, thus incorporating a strain of these pandemic bonds into what is now popularly defined as DeFI or decentralized finance<sup class="footnote-ref" id="fnref:14"><a href="#fn:14">14</a></sup>.</p>
+
+<p>We can have several of these DeFi (Decentralized Finance) powered applications to mitigate several problems around disease.</p>
+
+<p>For instance, Animal husbandry businesses can pay these premiums to mitigate risks around animal disease pandemics like bird flu or mad cow disease.</p>
+
+<p>Charities  or Governments can pay these premiums to to secure resources for fighting pandemic out breaks like the recent Corona virus.
+The recent Corona virus for example is so new, there exists no cure<sup class="footnote-ref" id="fnref:15"><a href="#fn:15">15</a></sup>. In such a case, the pool speculators put up would be used for research towards the creation of a vaccine.</p>
+
+<p>Another way of using  DeFi to mitigate disease pandemics is by leveraging prediction markets like Augur<sup class="footnote-ref" id="fnref:16"><a href="#fn:16">16</a></sup> &amp; Gnosis<sup class="footnote-ref" id="fnref:17"><a href="#fn:17">17</a></sup> to create an &ldquo;event derivative&rdquo; that may assist in the mitigation of a disease.
+Event derivatives are markets that pay people for accurately predicting  events in the future<sup class="footnote-ref" id="fnref:18"><a href="#fn:18">18</a></sup></p>
+
+<p>An example event derivative is a market we can call,  &ldquo;Will it rain on Thursday, next week?&rdquo;.  Before Thursday next week, people can bet &ldquo;YES&rdquo; or &ldquo;NO&rdquo; on if it will really rain on that day.
+If it rains, people who bet &ldquo;YES&rdquo; win the bet &amp; people who voted &ldquo;NO&rdquo; have their money transferred to people that bet &ldquo;YES&rdquo;.</p>
+
+<p>Coming back to disease pandemics, we can have a question like &ldquo;Will there be a vaccine for Corona viral infections?&rdquo;. In theory, this &ldquo;event derivative&rdquo; should incentivize the release of information that may lead to the creation of an Corona viral infection.</p>
+
+<p>The market can also be subsidized by an entity through increasing the stakes to be won if incase the market outcome ins &ldquo;YES&rdquo;.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Here is the <a href="https://www.youtube.com/watch?v=9AEMKudv5p0">video</a> from VOX media.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">America&rsquo;s centre for disease control says this is the <a href="https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html">worsted pandemic in recent history</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3"><a href="https://en.wikipedia.org/wiki/Black_Death">Black Death</a>
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:4"><a href="https://www.cdc.gov/vhf/ebola/index.html">Resources on Ebola by the CDC</a>
+ <a class="footnote-return" href="#fnref:4"><sup>[return]</sup></a></li>
+<li id="fn:5"><a href="https://www.cdc.gov/sars/index.html">Resources on SARS by the CDC</a>
+ <a class="footnote-return" href="#fnref:5"><sup>[return]</sup></a></li>
+<li id="fn:6"><a href="https://www.cdc.gov/coronavirus/index.html">Resources on the Corona Virus by the CDC</a>
+ <a class="footnote-return" href="#fnref:6"><sup>[return]</sup></a></li>
+<li id="fn:7">A great article from the Economist is, <a href="https://www.economist.com/finance-and-economics/2017/07/27/pandemic-bonds-a-new-idea">Pandemic bonds, a new idea</a>. There is also one a <a href="https://www.worldbank.org/en/news/press-release/2017/06/28/world-bank-launches-first-ever-pandemic-bonds-to-support-500-million-pandemic-emergency-financing-facility">press release from world bank</a>
+ <a class="footnote-return" href="#fnref:7"><sup>[return]</sup></a></li>
+<li id="fn:8">Here is the full <a href="http://pubdocs.worldbank.org/en/882831509568634367/PEF-Final-Prospectus-PEF.pdf">PDF of the Pandemic bond prospectus</a>. You can also find more related documentation <a href="https://www.worldbank.org/en/topic/pandemics/brief/pandemic-emergency-financing-facility">here</a>.
+ <a class="footnote-return" href="#fnref:8"><sup>[return]</sup></a></li>
+<li id="fn:9"><a href="https://www.bloomberg.com/news/articles/2019-08-14/ebola-bond-pays-investors-millions-while-congo-battles-outbreak">Investors Cash In on Ebola Bonds That Haven&rsquo;t Paid Out</a>
+ <a class="footnote-return" href="#fnref:9"><sup>[return]</sup></a></li>
+<li id="fn:10"><a href="https://www.nature.com/articles/d41586-019-02415-9">Pandemic bonds: designed to fail in Ebola</a>
+ <a class="footnote-return" href="#fnref:10"><sup>[return]</sup></a></li>
+<li id="fn:11"><a href="https://en.wikipedia.org/wiki/Solidity">Solidity </a> is the most popular smart contracting language but has <a href="https://news.ycombinator.com/item?id=14691212">several limitations</a>
+ <a class="footnote-return" href="#fnref:11"><sup>[return]</sup></a></li>
+<li id="fn:12"><a href="https://scilla-lang.org/">Scilla </a> is designed to overcome the short comings of solidity.
+ <a class="footnote-return" href="#fnref:12"><sup>[return]</sup></a></li>
+<li id="fn:13"><a href="https://arxiv.org/abs/1711.03028">Simplicity </a> aims to improve smart-contracts on Bitcoin, it is however still under heavy development.
+ <a class="footnote-return" href="#fnref:13"><sup>[return]</sup></a></li>
+<li id="fn:14">&ldquo;<a href="https://www.ft.com/content/16db565a-25a1-11ea-9305-4234e74b0ef3">‘DeFi’ movement promises high interest but high risk</a>&rdquo;, is a great article from financial times to get familiarity with DeFi.
+ <a class="footnote-return" href="#fnref:14"><sup>[return]</sup></a></li>
+<li id="fn:15"><a href="https://www.bbc.com/news/health-51299735">Corona Virus: Scientists race to develop a vaccine</a>
+ <a class="footnote-return" href="#fnref:15"><sup>[return]</sup></a></li>
+<li id="fn:16">You can checkout the <a href="https://augur.casino">Augur</a> event derivatives or prediction markets.
+ <a class="footnote-return" href="#fnref:16"><sup>[return]</sup></a></li>
+<li id="fn:17">Another market for making event derivatives is <a href="https://gnosis.io/">Gnosis</a>
+ <a class="footnote-return" href="#fnref:17"><sup>[return]</sup></a></li>
+<li id="fn:18"><a href="http://www.marketswiki.com/wiki/Event_derivatives">A more comprehensive definition of event derivatives</a> can be found on the Markets Wiki
+ <a class="footnote-return" href="#fnref:18"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+    
+      
+      <script src="https://utteranc.es/client.js"
+          repo="as1ndu/blog"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+      </script>
+      
+     
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://asindu.drileba.capital/2018/05/why-blockchain-is-not-yet-working/">⟸ Why blockchain is not yet working </a>
+    
+    
+    
+  </div>
+</section>
+
+  
+
+  <span class="credit">
+    powered by
+    <a href="https://github.com/as1ndu/horus">
+      Horus Theme
+    </a>
+    & 
+    <a href="https://gohugo.io">
+      Hugo
+    </a>
+  </span>
+
+</body>
+</html>
+
+
+
