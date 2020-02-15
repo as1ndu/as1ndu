@@ -16,36 +16,26 @@
     · (last modified on {{ .Lastmod.Format "January 2, 2006" }})
   </div>
 
-  
-
   {{ end }}
 
   <div class="entry-content">
-    {{ .Content }}
-
-    {{ if .Site.Params.blogRepository }}
-      {{ if not .Params.hidden }}
-      <script src="https://utteranc.es/client.js"
-          repo="{{ .Site.Params.blogRepository }}"
-          issue-term="title"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
-      </script>
-      {{ end }}
-     {{ end }}
-
+    {{ .Content }}    
   </div>
 
   <div id=links>
     {{ if .PrevInSection }}
-      <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">⟸ {{.PrevInSection.Title}} </a>
+      <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}} </a>
     {{ end }}
     
     {{ if .NextInSection }}
-      <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} ⟹</a>
+      <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} →</a>
     {{ end }}
   </div>
+
+  {{ if not .Params.hidden }}
+      {{ template "_internal/disqus.html" . }}
+  {{ end }}
+
 </section>
 
 {{ partial "footer.html" . }}

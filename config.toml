@@ -5,19 +5,16 @@ canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
 publishDir = "docs"
-
+disqusShortname = "synchronising-life-and-dreams"
 pygmentsstyle       = "monokai"
 pygmentscodefences  = true
 # pygmentOptions = "linenos=table"
-
-
 
 [params]
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
   blogRepository = "as1ndu/blog"
   blogHeader = " “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
-
 
 [permalinks]
   post = "/:year/:month/:slug"
