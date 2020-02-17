@@ -10,6 +10,8 @@
       Hugo
     </a>
   </span>
-
+  {{ if .Params.katex }}
+    {{ partial "katex.html" . }} 
+  {{ end }}
 </body>
 </html>
