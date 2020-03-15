@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Proof of work on layer 2"
 description : "Description of the post"
-slug : "draft-post"
+slug : "proof-of-work-on-layer-two"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Proof of work on layer 2

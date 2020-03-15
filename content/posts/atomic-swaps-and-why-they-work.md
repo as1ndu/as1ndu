@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Atomic swaps & why they work."
 description : "Description of the post"
-slug : "draft-post"
+slug : "atomic-swaps-why-they-work"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Atomic swaps & why they work.

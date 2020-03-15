@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Quantifying trust-minimization with Hess’s trust theory."
 description : "Description of the post"
-slug : "draft-post"
+slug : "quantifying-trust-minimization-with-hess-trust-theory"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Quantifying trust-minimization with Hess’s trust theory.

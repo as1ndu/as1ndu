@@ -4,17 +4,19 @@
 {{ .Site.Params.blogHeader  }}
 </pre>
 
-<section style="float: right; padding-right: 25%; ">
-  <a style="padding: 5px; " href="/about">⛩ about</a>
+<section style="float: right; padding-right: 25%; text-decoration: none;">
+  <a style="padding: 5px;" href="/">&EmptySmallSquare; Home</a>
+  <a style="padding: 5px;" href="/posts">&circlearrowright; Posts</a>
+  <a style="padding: 5px;" href="/about">&bbrktbrk; About</a>
 </section>
 
 <section id=content>
   <ul class=posts_listing>
-    {{ range .Site.RegularPages }}
+    {{ range first 7 .Site.RegularPages }}
 
     {{ if not .Params.hidden }}
 
-    
+
     <li>
       <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
       <div id=date>

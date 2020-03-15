@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Mitigating BTC volatility with derivatives."
 description : "Description of the post"
-slug : "draft-post"
+slug : "mitigating-btc-volatility-with-derivatives"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Mitigating BTC volatility with derivatives.
@@ -40,7 +40,7 @@ We can even have further provisions like allowing a user to store money in porti
 I can recieve my expenditure (rent, groceris) say its 70%, in a futures contract thus hedging my risk from price volatility & my saving in bitcoin
 Incase I am also in to "digital gold", I get to save the $300 also in BTC but unhedged since I think bitcoin may be worth more that $300 in the distant future.
 
-We already have infrastructure for this, infact, Arthur Hayes talked about how we can create stable bicoin (sythnetic USD using Bitmex derivative contracts).
+We already have infrastructure for this, infact, Arthur Hayes talked about how we can create stable bicoins (sythnetic USD using Bitmex derivative contracts).
 Besides Bitmex, we also have like LedgerX offering this kind of institutional grade financial instruments. 
 On the other hand, decentralized derivative platforms like Synthetix & UMA are starting to pick up some steam.
 

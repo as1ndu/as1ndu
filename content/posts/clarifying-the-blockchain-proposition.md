@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Clarifying the blockchain proposition."
 description : "Description of the post"
-slug : "draft-post"
+slug : "clarifying-the-blockchain-proposition"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Clarifying the blockchain proposition.
@@ -40,7 +40,7 @@ Anyways, what I am saying is that "blockchain" is a new strain of governance, th
 
 Why Bitcoin maximalism is anti-bitcoin
 
-“You can’t do everything in one protocol, you can’t combine security & throughput and all that in one protocol” - Nick Szabo
+“You can’t do everything in one protocol, you can’t combine security, throughput and all that in one protocol” - Nick Szabo
 
 At times, people want different things, better security, scalability, governance.  
 

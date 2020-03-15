@@ -13,15 +13,24 @@ pygmentscodefences  = true
 [params]
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
-  blogRepository = "as1ndu/blog"
   blogHeader = " “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
 
 [permalinks]
-  post = "/:year/:month/:slug"
+  posts = "/:year/:month/:slug"
 
 [[menu.main]]
-    name = "@as1ndu"
+    name = "Github"
+    url  = "https://github.com/as1ndu"
+
+[[menu.main]]
+    name = "Twitter"
     url  = "https://twitter.com/as1ndu"
+
+[[menu.main]]
+    name = "Film"
+    url  = "https://letterboxd.com/as1ndu/lists/"
+
+
 
 languageCode = "en-us"
 copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."

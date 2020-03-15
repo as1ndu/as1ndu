@@ -1,11 +1,16 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h1>{{ if .Draft }}[Draft] {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
-  
+  <h4>
+    <a href="/">← Back Home</a>
+  </h4>
+
+  <h1>{{ if .Draft }}[Draft] {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+  </h1>
+
   {{ if  .Params.hidden }}
   <div id=sub-header>
-    Last modified · {{ .Lastmod.Format "January 2, 2006" }} · 
+    Last modified · {{ .Lastmod.Format "January 2, 2006" }} ·
   </div>
   {{ end }}
 
@@ -19,25 +24,23 @@
   {{ end }}
 
   <div class="entry-content">
-    {{ .Content }}    
+    {{ .Content }}
   </div>
 
   <div id=links>
     {{ if .PrevInSection }}
-      <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}} </a>
+    <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}} </a>
     {{ end }}
-    
+
     {{ if .NextInSection }}
-      <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} →</a>
+    <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} →</a>
     {{ end }}
   </div>
 
   {{ if not .Params.hidden }}
-      {{ template "_internal/disqus.html" . }}
+  {{ template "_internal/disqus.html" . }}
   {{ end }}
 
 </section>
 
 {{ partial "footer.html" . }}
-
-

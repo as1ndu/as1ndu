@@ -1,7 +1,7 @@
 ---
 title : "⛩ About"
 type: "page"
-layout: "vanilla"
+layout: "page"
 private: true
 hidden: true
 description : "About this blog"

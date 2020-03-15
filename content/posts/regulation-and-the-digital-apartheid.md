@@ -1,11 +1,11 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "Regulation & The Digital Apartheid."
 description : "Description of the post"
-slug : "draft-post"
+slug : "regulation-and-the-digital-apartheid"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 Regulation & The Digital Apartheid.

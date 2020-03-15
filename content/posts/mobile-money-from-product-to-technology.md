@@ -1,15 +1,12 @@
 ---
-title : "Placeholder for drafts posts in my blog"
-description : "Description of the post"
-slug : "draft-post"
+title : "Mobile Money, from product to technology."
+description : ""
+slug : "mobile-money-from-product-to-technology"
 draft : true
-tags : ["code"]
-date : "1995-08-08"
-hidden: true
+tags : ["fintech"]
+date : "2018-08-08"
+hidden: false
 ---
-
-Mobile Money, from product to technology.
-
 
 Mobile Money is probably the most common tech-narrative in the Ugandan the tech startup space. Unfortunately, the reluctancy of stake holders to upgrade it from a product to a technology  will make it useless before we realise its ultimate potential.
 
@@ -21,13 +18,14 @@ Mobile Money has robust security design that is often over looked, unlike bankin
 
 The second benefit of mobile money’s design is that through interfaces like USSD it is possible for people to access and actively use funds without the need of a smart phone or an internet connection. 
 
-From a product to a technology
+### From a product to a technology
+
 Mobile Money currently exists as solo spin-off products offered by distinctive telecommunication companies. For instance, MTN has MTN Mobile Money, Airtel Has Airtel Money and UTL has M-Sente.
-The major limitation of these products is one thing, Vendor lock-in. These diffrent products cannot talk to each other, anyways
+The major limitation of these products is one thing, vendor lock-in. These diffrent products cannot talk to each other.
 
-Each mobile money provider only allows payments to happen within their network. For instance an MTN subscriber(MTN Mobile Money) cannot send money to a UTL subscriber(M-Sente).
+Each mobile money provider only allows payments to happen within their network. For instance an MTN subscriber (MTN Mobile Money) cannot send money to a UTL subscriber(M-Sente).
 
-This lack of interoperability is a very unnecessary glass wall that kills a lot use cases & leaves us open to outrageous regulation and rent seekers trying to “solve” this problem.
+This lack of interoperability is a wall that kills a lot use cases & leaves us open to outrageous regulation and rent seekers trying to “solve” this problem.
 
 What I mean by upgrading Mobile Money from a product to a technology is that stake holders from telecom companies to banks, lawyers, & businesses should form a coalition (Mobile Money Consortium or M2C for short).
 

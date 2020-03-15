@@ -5,7 +5,7 @@ slug : "draft-post"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
 ## This is a draft post.

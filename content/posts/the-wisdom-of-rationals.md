@@ -1,20 +1,18 @@
 ---
-title : "Placeholder for drafts posts in my blog"
+title : "The Wisdom of rationals"
 description : "Description of the post"
 slug : "draft-post"
 draft : true
-tags : ["code"]
+tags : ["quantocracy-primitive"]
 date : "1995-08-08"
-hidden: true
+hidden: false
 ---
 
-The Wisdom of rationals
-
-Prediction markets  like Augur are used to bet  on events. 
+Prediction markets like Augur are used to bet  on events. 
 
 For instance you can bet on an event like  “It will rain tomorrow”. 
 
-And if it does rain tomorrow, you get a pay off from people that bet “it will not rain tomorrow”.
+And if it does rain tomorrow, you get a pay off from people that bet “It will not rain tomorrow”.
 
 There are three kinds of people who would bet in such a market.
 The pure gambler, this one doesn’t have the necessary meteorological information he is simply betting at random.
@@ -29,7 +27,7 @@ Rational participation means that, speculators  will always prefer to place bets
 
 For instance a rational person should not be a pure gambler because they have higher  chances of making  money by betting on information they know at least something about.
 
-The accurate information trader on the other hand will flourish in this market as they will always have the edge in the market & thus making money of clueless gamblers & people signaling wrong information.
+The accurate information trader on the other hand will flourish in this market as they will always have the edge in the market & thus making money off clueless gamblers & people signaling wrong information.
 
 Meanwhile people that alway bet on wrong information will go bust or switch to  markets where they do better.
 
