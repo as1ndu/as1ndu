@@ -69,4 +69,4 @@ This is because all agents have finite amounts of money. And it will not be poss
 agents with bad information.
 This may however improve in subsequent iterations of the market (agents signaling wrong information go bust )
 
-It is often mistaken that prediction markets are based on "The wisdom of the crowds", but they are actually based on the wisdom of the rationals, a system where people don’t talk about what they don’t know.
+It is often mentioned that prediction markets are based on "The wisdom of the crowds" & that creates a false analogy where people this it works for the same reason democracy does, but they are actually based on the wisdom of the rationals, _a system where people don’t talk about what they don’t know_.
