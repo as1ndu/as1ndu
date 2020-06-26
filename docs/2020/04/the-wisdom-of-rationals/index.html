@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="It doesn&#39;t matter how many you are. What matters are the incentives.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <title>
+    
+    
+     The Wisdom of rationals 
+    
+  </title>
+  <link rel="canonical" href="https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #f2a365;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #eedcdc;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    color: #eeeeee;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 7px auto 7px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    color: #eeeeee;
+  }
+
+  pre {
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  em a {
+    padding: 2px;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #e43f5a;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 17px;
+    border-left-style: solid;
+    font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
+  }
+
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #393e46;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: #e43f5a;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #e43f5a;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    color: #e43f5a;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes {
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #11999e;
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #eeeeee;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 10%;
+  }
+
+  .untyped {
+    list-style-type: none;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
+  ul li:before {
+    content: "";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+    width: 99%;
+    padding: 10px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .credit a {
+    color: #eeeeee;
+  }
+
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
+
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
+
+  .in-post-tag {
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+ 
+
+  <section id=nav>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
+
+    <ul>
+      
+      <li><a href="https://github.com/as1ndu">Github</a></li>
+      
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      
+      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      
+    </ul>
+    
+
+  </section>
+
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
+    </section>
+
+<section id=content>
+  <h1> The Wisdom of rationals 
+  </h1>
+
+  
+
+
+  
+  <div id=sub-header>
+    Wed Apr 8 2020 · 5 minute read
+    · (last modified on April 8, 2020)
+  </div>
+  
+
+  <p>
+    
+        
+        <strong>tags — </strong>
+        
+          
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/prediction-markets/">  ▪ prediction-markets</a>
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/homo-economicus/">  ▪ homo-economicus</a>
+      </p>
+
+  <div class="entry-content">
+    <p>For years now I have been fascinated by prediction markets. The source of excitement is  the idea is that you can use financial markets to do inference about the future — just like machine learning.</p>
+<p>A famous example of such prediction markets are the orange futures. The orange futures market is one that allows entities
+to buy oranges in advance.
+How it works, is that one can pay $1,000 to receive 1,000 oranges that will be delivered next year.
+An interesting side effect of this orange futures market is how it <a href="https://selectabstracts.wordpress.com/2011/11/16/can-orange-juice-help-forecast-the-weather/">accurately predicts temperatures in certain locations</a> more specifically, the temperature of the locations where the oranges are from.</p>
+<p>But how is information on temperature reflected in the market meant for selling oranges? Well, what actually happens, is that the <a href="https://www.wsj.com/articles/orange-juice-futures-soar-as-weather-turns-cold-1416604154">orange futures prices rise towards cold weather</a> and drops towards warm weather.</p>
+<p>This phenomenon can be easily explained by the fact that cold weather reduces orange yields thus causing prices to rise (reasoning from the perspective of supply &amp; demand).
+This explanation however doesn&rsquo;t account for the fact that the market prices start reacting to temperature changes
+<em>before</em> they occur. It is as if the market knew what the temperature would be <em>in the future</em>. Hence the name prediction markets.</p>
+<hr>
+<h2 id="how-to-buy-information-from-the-future">How to buy information from the future</h2>
+<p>In the example above, predicting temperatures was just a side effect of the orange futures market.<br>
+But how do we design a market to predict an explicit event? For example, say you want to know if it will
+rain tomorrow.</p>
+<ul>
+<li>Step 1: Declare an event that will reveal this information  —  Say you want a market that can predict the weather.
+For the rain example we can declare the event &ldquo;It will rain tomorrow&rdquo;.</li>
+<li>Step 2: Define events outcome  —  Formalize the outcomes of the event. The event &ldquo;It will rain tomorrow&rdquo; has two out comes <em>Yes</em> and <em>No</em>.</li>
+<li>Step 3: Sell betting tickets  —  Sell tickets for the event &ldquo;It will rain tomorrow&rdquo;. Buyers of the tickets have two options
+<em>Yes</em> tickets and <em>No</em> tickets at equal prices. Buyers are allowed to trade tickets with each other.
+<ul>
+<li>If it <em>does rain tomorrow</em>, those with <strong>Yes</strong> tickets receive money 2 times the price of the tickets &amp; those with <strong>No</strong>
+get nothing.</li>
+<li>If it <em>does not rain</em>, those with <strong>Yes</strong> tickets get nothing &amp; those with <strong>No</strong> tickets get money 2 times the price
+of the ticket.</li>
+</ul>
+</li>
+</ul>
+<p>Loosely following assumptions made by prediction market theory, the true information on the event &ldquo;It will rain tomorrow&rdquo; will be
+reflected reflected in the prices at which buyers are trading the tickets. <em>The ticket with the highest price is the event outcome that is most likely to occur</em>. If <strong>Yes</strong> tickets are selling for <em>$2</em> &amp; <strong>No</strong> tickets are selling for <em>$1</em>. Then we would assume that it will probably rain tomorrow.</p>
+<h2 id="the-assumptions-of-prediction-markets">The assumptions of prediction markets</h2>
+<p>Prediction markets operate upon 3 main assumptions. The first assumption is that markets are made up exclusively of 3 types agents.
+A classification of these agents is as follows.</p>
+<ol>
+<li><strong>The pure gambler</strong>, this one doesn’t have the necessary meteorological information. He/She is simply betting at random.</li>
+<li><strong>The accurate information trader</strong>, these traders have information they think points to the fact that it will rain &amp; they are right.</li>
+<li><strong>Inaccurate information traders</strong>, have information they think points to the fact that it will rain. <em>But</em> they are wrong.</li>
+</ol>
+<p>The second assumption, is that <strong>The Information is predictable</strong>, this means that amongst all the market participants, at least one person is an <strong>Accurate information trader</strong> and that this information will be accepted by the majority.</p>
+<p>The last assumption is that people in these market agents will perform a <strong>Rational participation</strong>. Rational participation means that, speculators  will always prefer to place bets on event outcomes which they think they will make money &amp; they will decline from participating in bets where they think they will lose money. For instance, a rational person should not be a pure gambler because they have higher  chances of making  money by betting on information they know at least something about.</p>
+<p>The accurate information trader on the other hand will flourish in this market as they will always have the edge in the market &amp; thus make money off clueless gamblers &amp; people signaling wrong information. Meanwhile, agents that always bet on wrong information will go bust or switch to markets where they do better. This is what makes prediction makers so resistant to market manipulation, <em>it’s a system in agents signaling wrong information actively subsidize people signaling  correct information.</em></p>
+<p>In theory, markets that repeat themselves should improve with every iteration (since most agents that signal wrong information are bust).
+Provided we maintain the same set of agents &amp; all agents have access to finite amounts of money.</p>
+<h2 id="how-to-break-a-prediction-market">How to break a prediction market</h2>
+<p>Prediction markets may be highly resistant to manipulation, but that does not mean they cannot break.
+For a market to continue doing correct inference (accurate predictions), the sum of money held by the<br>
+class of <strong>Accurate Information traders</strong> should always be greater than the some of money collectively owned by the rest of the agents.
+This is because all agents have finite amounts of money. And it will not be possible to offset noise incorporated into the market by
+agents with bad information.
+This may however improve in subsequent iterations of the market (agents signaling wrong information go bust )</p>
+<p>It is often mistaken that prediction markets are based on &ldquo;The wisdom of the crowds&rdquo;, but they are actually based on the wisdom of the rationals, a system where people don’t talk about what they don’t know.</p>
+
+  </div>
+
+  <div id=links>
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/">← Fighting disease pandemics with DeFi </a>
+    
+
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/"> Quantifying trust-minimization →</a>
+    
+  </div>
+
+  
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "synchronising-life-and-dreams" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</section>
+
+  
+
+  <span class="credit">
+    powered by
+    <a href="https://github.com/as1ndu/horus">
+      Horus Theme
+    </a>
+    & 
+    <a href="https://gohugo.io">
+      Hugo
+    </a>
+  </span>
+  
+</body>
+</html>

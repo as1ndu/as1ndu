@@ -6,14 +6,15 @@ languagecode = "en"
 theme = "black-and-light"
 publishDir = "docs"
 disqusShortname = "synchronising-life-and-dreams"
-pygmentsstyle       = "monokai"
-pygmentscodefences  = true
+# pygmentsstyle       = "monokai"
+# pygmentscodefences  = true
 # pygmentOptions = "linenos=table"
 
 [params]
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
   blogHeader = " “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
+  maxPosts = 3
 
 [permalinks]
   posts = "/:year/:month/:slug"
@@ -27,11 +28,9 @@ pygmentscodefences  = true
     url  = "https://twitter.com/as1ndu"
 
 [[menu.main]]
-    name = "Film"
-    url  = "https://letterboxd.com/as1ndu/lists/"
-
-
+    name = "RSS"
+    url  = "/index.xml"
 
 languageCode = "en-us"
-copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."
+copyright = "Copyright (C) 2019 Asindu. Permission to redistribute without alteration hereby granted."
 

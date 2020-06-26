@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+
+
+<section id=content>
+  <ul class=posts_listing>
+    <strong>List of posts with similar tags;</strong>
+
+    {{ range .Data.Pages }}
+
+    {{ if not .Params.hidden }}
+    <li class="untyped">
+      <h2><a href="{{.RelPermalink}}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
+
+      <div id=date>
+        <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} </time>
+      
+        {{ $taxonomy := "tags" }}
+        {{ with .Param $taxonomy }}
+        
+          {{ range $index, $tag := . }}
+          {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+          
+            <a class="tags" href="{{ .Permalink }}"> ▪ {{ $tag | urlize }}</a>
+          
+          {{- end -}}
+          {{- end -}}
+        
+        {{ end }}
+      </div>
+
+    </li>
+    {{ end }}
+
+    {{ end }}
+  </ul>
+</section>
+
+
+{{ partial "footer.html" . }}

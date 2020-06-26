@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content=" noindex, , follow">
-    <meta name="referrer" content="no-referrer">    
-    <meta name="description" content="Description of the post">
-     
-    <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
 
-    <title>
-      
-      
-         Placeholder for drafts posts in my blog 
-      
-    </title>
-    <link rel="canonical" href="https://asindu.drileba.capital/1995/08/draft-post/">
-
-    <style>
-    html {
-      scroll-behavior: smooth;
-    }
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="Description of the post">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <title>
     
+    
+     Placeholder for drafts posts in my blog 
+    
+  </title>
+  <link rel="canonical" href="https://asindu.drileba.capital/1995/08/draft-post/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
   *:not(code) {
     border: 0;
     font: inherit;
@@ -33,7 +36,7 @@
     vertical-align: baseline;
     margin: 0;
     padding: 0;
-    color: black;
+    color: #f2a365;
     text-decoration-skip: ink;
   }
 
@@ -41,7 +44,7 @@
     font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
     font-size: 17px;
     line-height: 160%;
-    color: #1d1313;
+    color: #eedcdc;
     max-width: 700px;
     margin: auto;
   }
@@ -50,12 +53,16 @@
     margin: 20px 0;
   }
 
+  a {
+    color: #eeeeee;
+  }
+
   a img {
     border: none;
   }
 
   img {
-    margin: 10px auto 10px auto;
+    margin: 7px auto 7px auto;
     max-width: 100%;
     display: block;
   }
@@ -71,24 +78,25 @@
   pre,
   code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-   
   }
 
   code {
     font-size: 12px;
     padding: 4px;
-    
+    border-radius: 2px;
+    color: #eeeeee;
   }
 
-
   pre {
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px !important;
     word-wrap: normal;
     padding: 16px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
   }
 
   pre>code {
@@ -97,7 +105,6 @@
     font-size: 100%;
     word-break: normal;
     white-space: pre;
-    background: transparent;
     border: 0;
   }
 
@@ -109,11 +116,8 @@
     overflow: visible;
     line-height: inherit;
     word-wrap: normal;
-    background-color: transparent;
-    border: 0;    
+    border: 0;
   }
-
-
 
   pre code::before,
   pre code::after {
@@ -125,14 +129,12 @@
   em,
   dfn {
     font-style: italic;
-    padding: 2px;
-    background-color: #403c3b;
     color: #f7f7f7;
+    border-radius: 3px;
   }
 
   em a {
     padding: 2px;
-    background-color: #403c3b;
     color: #f7f7f7;
   }
 
@@ -160,6 +162,7 @@
 
   strong {
     font-weight: 600;
+    color: #e43f5a;
   }
 
   q:before {
@@ -176,39 +179,51 @@
   }
 
   blockquote {
+    padding: 17px;
     border-left-style: solid;
-    border-width: 2px;
-    border-left-color: #403c3b;
-    background-color: rgba(255, 228, 196, 0.295);
-    padding: 10px;
     font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
   }
 
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
 
   blockquote:before,
   blockquote:after {
     font-size: 35px;
-    color: #403c3b;
+    color: #393e46;
   }
 
   hr {
     width: 40%;
     height: 1px;
-    background: #403c3b;
+    background: #eeeeee;
     margin: 25px auto;
   }
 
   h1 {
     font-size: 35px;
+    color: #e43f5a;
   }
 
   h2 {
     font-size: 28px;
+    color: #e43f5a;
   }
 
   h3 {
     font-size: 22px;
     margin-top: 18px;
+    color: #e43f5a;
   }
 
   h1 a,
@@ -227,7 +242,7 @@
     text-decoration: underline;
   }
 
-  #footnotes{
+  #footnotes {
     border-style: solid;
     border-width: 2px;
     font-family: 'Courier New', Courier, monospace;
@@ -235,8 +250,16 @@
 
   #sub-header,
   time {
-    color: #403c3b;
+    color: #11999e;
     font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
   }
 
   #sub-header {
@@ -245,7 +268,7 @@
 
   #nav h1 a {
     font-size: 35px;
-    color: #1d1313;
+    color: #eeeeee;
     line-height: 120%;
   }
 
@@ -255,25 +278,28 @@
   }
 
   li {
-    margin-left: 20px;
+    margin-left: 10%;
   }
 
-  ul li {
-    margin-left: 5px;
-  }
-
-  ul li {
+  .untyped {
     list-style-type: none;
   }
 
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
   ul li:before {
-    content: "▪ ";
+    content: "";
   }
 
   #nav ul li:before,
   .posts_listing li:before {
     content: '';
-    margin-right: 0;
   }
 
   #content {
@@ -306,8 +332,8 @@
 
   .highlight {
     margin: auto;
-  width: 80%;
-  padding: 2px;
+    width: 99%;
+    padding: 10px;
   }
 
   .posts_listing {
@@ -440,203 +466,149 @@
     top: 0.4em;
   }
 
-sup a{
-  text-decoration: none;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-}
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
-.credit{
-  background-color: white;
-  position: fixed;
-  bottom: 2px;
-  left:5px;
-  font-size: 14px;
-}
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
 
+  .credit a {
+    color: #eeeeee;
+  }
 
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
 
-tbody tr:nth-child(odd) {
-   background-color: #ccc;
-}
+  td {
+    padding: 5px;
+  }
 
-th{
-  font-weight:bold;
-}
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
 
-td{
-  padding: 5px;
-}
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
 
-table{
-  margin: auto;
-  width: 60%;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 2px;
-}
-
-
-
-
-
+  .in-post-tag {
+    text-decoration: none;
+  }
 </style>
-  </head>
+</head>
 
-  <body>
-    <section id=nav>
-      <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams</a></h1>
+<body>
+ 
+
+  <section id=nav>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
+
+    <ul>
       
-      <ul>
-        
-          <li><a href="https://twitter.com/as1ndu">@as1ndu</a></li>
-        
-      </ul>
-             
+      <li><a href="https://github.com/as1ndu">Github</a></li>
       
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      
+      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      
+    </ul>
+    
+
+  </section>
+
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
     </section>
 
-
 <section id=content>
-  <h1> Placeholder for drafts posts in my blog </h1>
+  <h1> Placeholder for drafts posts in my blog 
+  </h1>
+
   
+
+
   
   <div id=sub-header>
-    Last modified · August 8, 1995 · 
+    Tue Aug 8 1995 · 0 minute read
+    · (last modified on August 8, 1995)
   </div>
   
 
-
-  
+  <p>
+    
+        
+        <strong>tags — </strong>
+        
+          
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/code/">  ▪ code</a>
+      </p>
 
   <div class="entry-content">
     
-
-<h2 id="this-is-a-draft-post">This is a draft post.</h2>
-
-<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
-
-<hr />
-
-<h2 id="this-is-a-table">This is a table.</h2>
-
-<table>
-<thead>
-<tr>
-<th align="center">Tables</th>
-<th align="center">Are</th>
-<th align="center">Cool</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center">col 3 is</td>
-<td align="center">right-aligned</td>
-<td align="center">$1600</td>
-</tr>
-
-<tr>
-<td align="center">col 2 is</td>
-<td align="center">centered</td>
-<td align="center">$12</td>
-</tr>
-
-<tr>
-<td align="center">zebra stripes</td>
-<td align="center">are neat</td>
-<td align="center">$1</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="this-is-a-blockquote">This is a blockquote</h2>
-
-<blockquote>
-<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
-</blockquote>
-
-<h2 id="this-is-an-image">This is an image</h2>
-
-<p><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" /></p>
-
-<h2 id="unorderd-list">Unorderd list</h2>
-
-<ul>
-<li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-</ul>
-
-<h2 id="ordered-list">Ordered list</h2>
-
-<ol>
-<li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-</ol>
-
-<h2 id="code">Code</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">say_hi</span>():
-    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello World&#39;</span>)</code></pre></div>
-<h2 id="links">Links</h2>
-
-<p>This is the cool link you must <a href="#">checkout</a>, aslo you can youse foornotes<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>, words can alse bee footnotes<sup class="footnote-ref" id="fnref:see"><a href="#fn:see">2</a></sup>.</p>
-
-<p>Backticks can be used to write code inline also <code>main(){return 0}</code></p>
-
-<ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Write the press release</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Update the website</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Contact the media</label></li>
-</ul>
-
-<ol>
-<li><p>As you can see.</p>
-
-<p>To have a line break without a paragraph, you will need to use two trailing spaces.</p>
-
-<p>Note that this line is separate, but within the same paragraph.</p>
-
-<p>(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p></li>
-</ol>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:1">Footnote 1
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-<li id="fn:see">now look!
- <a class="footnote-return" href="#fnref:see"><sup>[return]</sup></a></li>
-</ol>
-</div>
-
-
-    
-      
-     
-
   </div>
 
   <div id=links>
     
-      <a class="basic-alignment left" href="https://asindu.drileba.capital/1/01/">⟸  </a>
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/1509/08/draft-post/">← Placeholder for drafts posts in my blog </a>
     
+
     
-    
-      <a class="basic-alignment left" href="https://asindu.drileba.capital/1995/08/mitigation-of-disease-pandemics-with-defi/"> Mitigation of disease pandemics with DeFi ⟹</a>
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/1995/08/draft-post/"> Placeholder for drafts posts in my blog →</a>
     
   </div>
+
+  
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "synchronising-life-and-dreams" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
 </section>
 
   
 
   <span class="credit">
     powered by
-    <a href="https://github.com/as1ndu/blog">
+    <a href="https://github.com/as1ndu/horus">
       Horus Theme
     </a>
     & 
@@ -644,9 +616,6 @@ Nor again is there anyone who loves or pursues or desires to obtain pain of itse
       Hugo
     </a>
   </span>
-
+  
 </body>
 </html>
-
-
-

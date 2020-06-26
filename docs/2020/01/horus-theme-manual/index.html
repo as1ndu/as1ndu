@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="A documentation of the features">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <title>
+    
+    
+     Horus Theme and its features 
+    
+  </title>
+  <link rel="canonical" href="https://asindu.drileba.capital/2020/01/horus-theme-manual/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #f2a365;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #eedcdc;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    color: #eeeeee;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 7px auto 7px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    color: #eeeeee;
+  }
+
+  pre {
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  em a {
+    padding: 2px;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #e43f5a;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 17px;
+    border-left-style: solid;
+    font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
+  }
+
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #393e46;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: #e43f5a;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #e43f5a;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    color: #e43f5a;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes {
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #11999e;
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #eeeeee;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 10%;
+  }
+
+  .untyped {
+    list-style-type: none;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
+  ul li:before {
+    content: "";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+    width: 99%;
+    padding: 10px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .credit a {
+    color: #eeeeee;
+  }
+
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
+
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
+
+  .in-post-tag {
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+ 
+
+  <section id=nav>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
+
+    <ul>
+      
+      <li><a href="https://github.com/as1ndu">Github</a></li>
+      
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      
+      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      
+    </ul>
+    
+
+  </section>
+
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
+    </section>
+
+<section id=content>
+  <h1> Horus Theme and its features 
+  </h1>
+
+  
+
+
+  
+  <div id=sub-header>
+    Wed Jan 8 2020 · 4 minute read
+    · (last modified on January 8, 2020)
+  </div>
+  
+
+  <p>
+    
+        
+        <strong>tags — </strong>
+        
+          
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/horus-theme/">  ▪ horus-theme</a>
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/hugo/">  ▪ hugo</a>
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/side-project/">  ▪ side-project</a>
+      </p>
+
+  <div class="entry-content">
+    <blockquote>
+<p>&quot;Try to refresh the site before it&rsquo;s finished building.. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&rdquo; - Author of hugo</p>
+</blockquote>
+<p>I have used several static site generators, from Jekyll to Lektor and now Hugo. As for now, I really like Hugo but couldn&rsquo;t find a theme that matched my  preferred aesthetics &amp; functional tastes. That&rsquo;s why I made Horus theme.</p>
+<p>This blog posts aims to document the theme&rsquo;s features for those that my be interested in using it.</p>
+<h2 id="inline-elements">Inline Elements</h2>
+<ul>
+<li><strong>Bold Text</strong> is written as <code>*Bold Text*</code></li>
+<li><em>Emphasis</em> is written as <code>__Emphasis__</code></li>
+<li><del>Strike Through</del> is written as <code>~~Strike Through~~</code></li>
+<li><code>Object.observe()</code> inline code is written as <code>Object.observe()</code></li>
+</ul>
+<h2 id="block-elements">Block Elements</h2>
+<h4 id="writting-a-block-of-code-with-syntax-highlighting">Writting a block of code with syntax highlighting</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">bar</span>) {
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">bar</span><span style="color:#f92672">++</span>;
+    };
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">foo</span>(<span style="color:#ae81ff">5</span>));
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">    <span style="color:#e6db74">`</span><span style="color:#e6db74">`</span><span style="color:#e6db74">`</span><span style="color:#e6db74">js
+</span><span style="color:#e6db74">    var foo = function (bar) {
+</span><span style="color:#e6db74">    return bar++;
+</span><span style="color:#e6db74">    };
+</span><span style="color:#e6db74">    console.log(foo(5));
+</span><span style="color:#e6db74">    </span><span style="color:#e6db74">`</span><span style="color:#e6db74">`</span><span style="color:#e6db74">`</span>
+</code></pre></div><h4 id="blockquotes">Blockquotes</h4>
+<blockquote>
+<p>&quot;An what makes you prompt for such charity?&rdquo; - Davie Jones</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown">&gt;&#34;An what makes you prompt for such charity?&#34; - Davie Jones
+</code></pre></div><h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>List Title
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown"><span style="color:#66d9ef">-</span> List Title
+    <span style="color:#66d9ef">*</span> First item
+    <span style="color:#66d9ef">*</span> Second item
+    <span style="color:#66d9ef">*</span> Third item
+</code></pre></div><h4 id="example-of-ordered-list">Example of ordered list</h4>
+<ul>
+<li>List Title
+<ol>
+<li>Fist item</li>
+<li>Second item</li>
+<li>Third Item</li>
+</ol>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown"><span style="color:#66d9ef">*</span> List Title
+    <span style="color:#66d9ef">1.</span> First item
+    <span style="color:#66d9ef">2.</span> Second item
+    <span style="color:#66d9ef">3.</span> Third item
+</code></pre></div><h4 id="tables">Tables</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Tables</th>
+<th align="center">Are</th>
+<th align="center">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="center">$1600</td>
+</tr>
+<tr>
+<td align="center">col 2 is</td>
+<td align="center">centered</td>
+<td align="center">$12</td>
+</tr>
+<tr>
+<td align="center">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="center">$1</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown">| Tables        | Are           | Cool  |
+|:-------------:|:-------------:|:-----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</code></pre></div><h4 id="images">Images</h4>
+<p><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown">![<span style="color:#f92672">Google</span>](<span style="color:#a6e22e">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png</span>)
+</code></pre></div><h4 id="links">Links</h4>
+<p>Here is a example <a href="#">checkout</a>, you can use footnotes<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<pre><code>Here is a example [checkout](#), you can use footnotes[^1].
+</code></pre><h2 id="this-is-a-simple-paragraph">This is a Simple paragraph</h2>
+<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
+<hr>
+<p><code>***</code> Is used to make a divider</p>
+<ol>
+<li>
+<p><em>Heading for sub paragraph</em></p>
+<p>To have a line break without a paragraph, you will need to use two trailing spaces.
+Note that this line is separate, but within the same paragraph.
+(This is contrary to the typical GFM line break behavior, where trailing spaces are not required.)</p>
+<p>You can also have sub-paragraphs such as this.</p>
+</li>
+</ol>
+<p><strong>Below are Heading examples.</strong></p>
+<h1 id="h1-heading">h1 Heading</h1>
+<h2 id="h2-heading">h2 Heading</h2>
+<h3 id="h3-heading">h3 Heading</h3>
+<h4 id="h4-heading">h4 Heading</h4>
+<h5 id="h5-heading">h5 Heading</h5>
+<h6 id="h6-heading">h6 Heading</h6>
+<pre><code># h1 Heading 
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+</code></pre><h2 id="latex-support">Latex Support</h2>
+<p>The Horus Theme has the ability to support latex syntax via MathJax, but in order to make it work on a post.
+set the <code>latex</code> variable to <code>true</code> in your font matter. An example is as shown below.</p>
+<p>Inline Math $z = x + y$ can e put such as <code>$z = x + y$</code></p>
+<p>As for blocks of equations we use <code>$$ ... $$</code></p>
+<p>$$
+\begin{equation}\label{label}
+\frac{\mathrm{d}}{\mathrm{d} x} \int_{a}^{x} f(s)ds = f(x)
+\end{equation}
+$$</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Latex" data-lang="Latex"><span style="color:#e6db74">$$</span>
+\begin{equation}\label{label}
+\frac{\mathrm{d}}{\mathrm{d} x} \int_{a}^{x} f<span style="color:#f92672">(</span>s<span style="color:#f92672">)</span>ds <span style="color:#f92672">=</span> f<span style="color:#f92672">(</span>x<span style="color:#f92672">)</span>
+\end{equation}
+<span style="color:#e6db74">$$</span>
+</code></pre></div><p>So the full example of a blog post containing markdown is as below.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Markdown" data-lang="Markdown">---
+title : &#34;Math article using Latex.&#34;
+description : &#34;Demonstration of Latex use in theme&#34;
+slug : &#34;math-usage-example&#34;
+draft : false
+tags : [&#34;math&#34;, &#34;calculus&#34;]
+date : &#34;2019-08-08&#34;
+hidden: false
+latex: true
+---
+
+Inline Math $z = x + y$ can e put such as <span style="color:#e6db74">`$z = x + y$`</span>. 
+As for blocks of equations we use <span style="color:#e6db74">`$$ ... $$`</span>.
+
+
+$$
+\begin{equation}\label{label}
+\frac{\mathrm{d}}{\mathrm{d} x} \int_{a}^{x} f(s)ds = f(x)
+\end{equation}
+$$
+
+</code></pre></div><h2 id="hidden-pages--posts">Hidden pages &amp; posts</h2>
+<p>A blog post can be hidden  but setting the <code>hidden</code> value to <code>true</code> as in the  snippet above. Hidden pages do not get unpublished, they are simply  withdrawn from the posts listing. Search engines are also instructed to not to index the post.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The footnote that you want to include goes here. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+  </div>
+
+  <div id=links>
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/">← Mobile Money, from product to technology. </a>
+    
+
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/"> Fighting disease pandemics with DeFi →</a>
+    
+  </div>
+
+  
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "synchronising-life-and-dreams" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</section>
+
+  
+
+  <span class="credit">
+    powered by
+    <a href="https://github.com/as1ndu/horus">
+      Horus Theme
+    </a>
+    & 
+    <a href="https://gohugo.io">
+      Hugo
+    </a>
+  </span>
+  
+    <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script> 
+  
+</body>
+</html>

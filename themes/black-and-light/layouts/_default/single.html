@@ -1,16 +1,13 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h4>
-    <a href="/">← Back Home</a>
-  </h4>
-
   <h1>{{ if .Draft }}[Draft] {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
   </h1>
 
   {{ if  .Params.hidden }}
   <div id=sub-header>
     Last modified · {{ .Lastmod.Format "January 2, 2006" }} ·
+   
   </div>
   {{ end }}
 
@@ -20,8 +17,23 @@
     {{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} · {{ .ReadingTime }} minute read
     · (last modified on {{ .Lastmod.Format "January 2, 2006" }})
   </div>
-
   {{ end }}
+
+  <p>
+    {{ $taxonomy := "tags" }}
+        {{ with .Param $taxonomy }}
+        <strong>tags — </strong>
+        
+          {{ range $index, $tag := . }}
+          {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+          
+            <a class="in-post-tag" href="{{ .Permalink }}">  ▪ {{ $tag | urlize }}</a>
+          
+          {{- end -}}
+          {{- end -}}
+        
+        {{ end }}
+      </p>
 
   <div class="entry-content">
     {{ .Content }}

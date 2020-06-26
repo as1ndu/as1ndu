@@ -24,10 +24,11 @@
   <link rel="canonical" href="https://asindu.drileba.capital/posts/">
 
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
   *:not(code) {
     border: 0;
     font: inherit;
@@ -35,7 +36,7 @@
     vertical-align: baseline;
     margin: 0;
     padding: 0;
-    color: black;
+    color: #f2a365;
     text-decoration-skip: ink;
   }
 
@@ -43,7 +44,7 @@
     font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
     font-size: 17px;
     line-height: 160%;
-    color: #1d1313;
+    color: #eedcdc;
     max-width: 700px;
     margin: auto;
   }
@@ -52,12 +53,16 @@
     margin: 20px 0;
   }
 
+  a {
+    color: #eeeeee;
+  }
+
   a img {
     border: none;
   }
 
   img {
-    margin: 10px auto 10px auto;
+    margin: 7px auto 7px auto;
     max-width: 100%;
     display: block;
   }
@@ -73,24 +78,25 @@
   pre,
   code {
     font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-   
   }
 
   code {
     font-size: 12px;
     padding: 4px;
-    
+    border-radius: 2px;
+    color: #eeeeee;
   }
 
-
   pre {
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px !important;
     word-wrap: normal;
     padding: 16px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
   }
 
   pre>code {
@@ -99,7 +105,6 @@
     font-size: 100%;
     word-break: normal;
     white-space: pre;
-    background: transparent;
     border: 0;
   }
 
@@ -111,11 +116,8 @@
     overflow: visible;
     line-height: inherit;
     word-wrap: normal;
-    background-color: transparent;
-    border: 0;    
+    border: 0;
   }
-
-
 
   pre code::before,
   pre code::after {
@@ -127,14 +129,12 @@
   em,
   dfn {
     font-style: italic;
-    padding: 2px;
-    background-color: #403c3b;
     color: #f7f7f7;
+    border-radius: 3px;
   }
 
   em a {
     padding: 2px;
-    background-color: #403c3b;
     color: #f7f7f7;
   }
 
@@ -162,6 +162,7 @@
 
   strong {
     font-weight: 600;
+    color: #e43f5a;
   }
 
   q:before {
@@ -178,39 +179,51 @@
   }
 
   blockquote {
+    padding: 17px;
     border-left-style: solid;
-    border-width: 2px;
-    border-left-color: #403c3b;
-    background-color: rgba(255, 228, 196, 0.295);
-    padding: 10px;
     font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
   }
 
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
 
   blockquote:before,
   blockquote:after {
     font-size: 35px;
-    color: #403c3b;
+    color: #393e46;
   }
 
   hr {
     width: 40%;
     height: 1px;
-    background: #403c3b;
+    background: #eeeeee;
     margin: 25px auto;
   }
 
   h1 {
     font-size: 35px;
+    color: #e43f5a;
   }
 
   h2 {
     font-size: 28px;
+    color: #e43f5a;
   }
 
   h3 {
     font-size: 22px;
     margin-top: 18px;
+    color: #e43f5a;
   }
 
   h1 a,
@@ -229,7 +242,7 @@
     text-decoration: underline;
   }
 
-  #footnotes{
+  #footnotes {
     border-style: solid;
     border-width: 2px;
     font-family: 'Courier New', Courier, monospace;
@@ -237,8 +250,16 @@
 
   #sub-header,
   time {
-    color: #403c3b;
+    color: #11999e;
     font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
   }
 
   #sub-header {
@@ -247,7 +268,7 @@
 
   #nav h1 a {
     font-size: 35px;
-    color: #1d1313;
+    color: #eeeeee;
     line-height: 120%;
   }
 
@@ -257,25 +278,28 @@
   }
 
   li {
-    margin-left: 20px;
+    margin-left: 10%;
   }
 
-  ul li {
-    margin-left: 5px;
-  }
-
-  ul li {
+  .untyped {
     list-style-type: none;
   }
 
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
   ul li:before {
-    content: "▪ ";
+    content: "";
   }
 
   #nav ul li:before,
   .posts_listing li:before {
     content: '';
-    margin-right: 0;
   }
 
   #content {
@@ -308,8 +332,8 @@
 
   .highlight {
     margin: auto;
-  width: 80%;
-  padding: 2px;
+    width: 99%;
+    padding: 10px;
   }
 
   .posts_listing {
@@ -442,45 +466,50 @@
     top: 0.4em;
   }
 
-sup a{
-  text-decoration: none;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-}
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
-.credit{
-  background-color: white;
-  position: fixed;
-  bottom: 2px;
-  left:5px;
-  font-size: 14px;
-}
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
 
+  .credit a {
+    color: #eeeeee;
+  }
 
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
 
-tbody tr:nth-child(odd) {
-   background-color: #ccc;
-}
+  td {
+    padding: 5px;
+  }
 
-th{
-  font-weight:bold;
-}
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
 
-td{
-  padding: 5px;
-}
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
 
-table{
-  margin: auto;
-  width: 60%;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 2px;
-}
-
-
-
-
-
+  .in-post-tag {
+    text-decoration: none;
+  }
 </style>
 </head>
 
@@ -488,13 +517,13 @@ table{
  
 
   <section id=nav>
-    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams</a></h1>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
 
     <ul>
       
-      <li><a href="https://letterboxd.com/as1ndu/lists/">Film</a></li>
-      
       <li><a href="https://github.com/as1ndu">Github</a></li>
+      
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
       
       <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
       
@@ -503,27 +532,152 @@ table{
 
   </section>
 
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
+    </section>
+
+
+
 <section id=content>
-  <h4>
-    <a href="https://asindu.drileba.capital/">← Back Home</a>
-  </h4>
-  <div>
-    <h2 id="title">All Posts.</h2>
+  <ul class=posts_listing>
     
-    <article class="post">
-    <br/>
-    <sup style="font-size: small; color: grey;">[ Sun, Feb 2, 2020]  &ThickSpace;</sup>
-    <a style="font-size:large;" href='https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/'> Fighting disease pandemics with DeFi</a>
-</article>
+
     
-    <article class="post">
-    <br/>
-    <sup style="font-size: small; color: grey;">[ Tue, May 15, 2018]  &ThickSpace;</sup>
-    <a style="font-size:large;" href='https://asindu.drileba.capital/2018/05/why-blockchain-is-not-yet-working/'> Why blockchain is not yet working</a>
-</article>
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/">Quantifying trust-minimization</a></h2>
+
+      <div id=date>
+        <time>Wed Apr 15 2020 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/trust-minimization/"> ▪ trust-minimization</a>
+          <a class="tags" href="https://asindu.drileba.capital/tags/trust-theory/"> ▪ trust-theory</a>
+      </div>
+
+    </li>
     
-  </div>
+
+    
+
+    
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/">The Wisdom of rationals</a></h2>
+
+      <div id=date>
+        <time>Wed Apr 8 2020 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/prediction-markets/"> ▪ prediction-markets</a>
+          <a class="tags" href="https://asindu.drileba.capital/tags/homo-economicus/"> ▪ homo-economicus</a>
+      </div>
+
+    </li>
+    
+
+    
+
+    
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/">Fighting disease pandemics with DeFi</a></h2>
+
+      <div id=date>
+        <time>Sun Feb 2 2020 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/fintech/"> ▪ fintech</a>
+      </div>
+
+    </li>
+    
+
+    
+
+    
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2020/01/horus-theme-manual/">Horus Theme and its features</a></h2>
+
+      <div id=date>
+        <time>Wed Jan 8 2020 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/horus-theme/"> ▪ horus-theme</a>
+          <a class="tags" href="https://asindu.drileba.capital/tags/hugo/"> ▪ hugo</a>
+          <a class="tags" href="https://asindu.drileba.capital/tags/side-project/"> ▪ side-project</a>
+      </div>
+
+    </li>
+    
+
+    
+
+    
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2018/08/mobile-money-from-product-to-technology/">Mobile Money, from product to technology.</a></h2>
+
+      <div id=date>
+        <time>Wed Aug 8 2018 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/mobile-money/"> ▪ mobile-money</a>
+      </div>
+
+    </li>
+    
+
+    
+
+    
+
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2018/05/why-blockchain-is-not-yet-working/">Why blockchain is not yet working</a></h2>
+
+      <div id=date>
+        <time>Tue May 15 2018 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/blockchain/"> ▪ blockchain</a>
+      </div>
+
+    </li>
+    
+
+    
+
+    
+
+    
+  </ul>
 </section>
+
 
   
 

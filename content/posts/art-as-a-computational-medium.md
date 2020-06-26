@@ -5,10 +5,16 @@ slug : "art-as-a-computational-medium"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: false
+hidden: true
 ---
+
+away of storing emotions
+carl jung n art
 
 Francis bacon
 Pablo picaso
 
-
+machine learning and art
+colorisation
+genetic drawing
+gans & dreaimng

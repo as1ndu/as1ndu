@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantocracy-primitive on Synchronising Life &amp; Dreams</title>
+    <link>https://asindu.drileba.capital/tags/quantocracy-primitive/</link>
+    <description>Recent content in quantocracy-primitive on Synchronising Life &amp; Dreams</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asindu.drileba.capital/tags/quantocracy-primitive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Wisdom of rationals</title>
+      <link>https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/</guid>
+      <description>Prediction markets like Augur are used to bet on events. For instance you could bet on an event like “It will rain tomorrow”. And if it does rain tomorrow, you get a pay off from people that bet “It will not rain tomorrow”. Further, if you are to replace the weather event of it raining with a sports event like &amp;ldquo;Will Arsenal win the premier league?&amp;rdquo; ypu will realise that this is typicly gambling.</description>
+    </item>
+    
+  </channel>
+</rss>

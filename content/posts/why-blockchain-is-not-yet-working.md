@@ -3,7 +3,7 @@ title : "Why blockchain is not yet working"
 description : "In this post I will outline my personal observations as to why blockchain based applications are (should) not adopted by the mainstream."
 slug : "why-blockchain-is-not-yet-working"
 draft : false
-tags : ["fintech"]
+tags : ["blockchain"]
 date : "2018-05-15"
 aliases : [
     "/why-bockchain-is-not-yet-main-stream/",
@@ -115,4 +115,3 @@ The risk they face however, is that the platform they built on, my become obsole
 Think how the [micro payments industry died in bitcoin because of high fees](https://bitcoinmagazine.com/articles/bitcoin-now-useless-micropayments-solutions-are-coming1/) 
 
 It's like building your phone app around a windows smart-phone only to be made irrelevant because the next generation of mobile users will not be using windows smart-phones, but iOS and Android.
- 

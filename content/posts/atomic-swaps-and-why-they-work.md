@@ -5,7 +5,7 @@ slug : "atomic-swaps-why-they-work"
 draft : true
 tags : ["code"]
 date : "1995-08-08"
-hidden: false
+hidden: true
 ---
 
 Atomic swaps & why they work.

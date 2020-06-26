@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trust-theory on Synchronising Life &amp; Dreams</title>
+    <link>https://asindu.drileba.capital/tags/trust-theory/</link>
+    <description>Recent content in trust-theory on Synchronising Life &amp; Dreams</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asindu.drileba.capital/tags/trust-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantifying trust-minimization</title>
+      <link>https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/</guid>
+      <description>Quantification of properties allows us to measure how well a system might perform. Quantification also allows us to effectively optimize systems, because if we can quantify something, we can know if things are getting better or worse. In 2017 Balaji S. Srinivasan, described how it’s possible to quantify decentralization of a project based on mining, client usage, Dev commits, exchange volume, liveliness of nodes &amp;amp; ownership of capital by crypto address.</description>
+    </item>
+    
+  </channel>
+</rss>

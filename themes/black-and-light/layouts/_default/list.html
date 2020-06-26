@@ -1,15 +1,39 @@
 {{ partial "header.html" . }}
 
+
+
 <section id=content>
-  <h4>
-    <a href="/">← Back Home</a>
-  </h4>
-  <div>
-    <h2 id="title">All Posts.</h2>
-    {{ range .Pages }}
-    {{ .Render "summary"}}
+  <ul class=posts_listing>
+    {{ range first 100 .Site.RegularPages }}
+
+    {{ if not .Params.hidden }}
+
+    <li class="untyped">
+      <h2><a href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
+
+      <div id=date>
+        <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} </time>
+      
+        {{ $taxonomy := "tags" }}
+        {{ with .Param $taxonomy }}
+        
+          {{ range $index, $tag := . }}
+          {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+          
+            <a class="tags" href="{{ .Permalink }}"> ▪ {{ $tag | urlize }}</a>
+          
+          {{- end -}}
+          {{- end -}}
+        
+        {{ end }}
+      </div>
+
+    </li>
     {{ end }}
-  </div>
+
+    {{ end }}
+  </ul>
 </section>
+
 
 {{ partial "footer.html" . }}

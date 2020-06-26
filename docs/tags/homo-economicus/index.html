@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <title>
+    
+    
+     homo-economicus 
+    
+  </title>
+  <link rel="canonical" href="https://asindu.drileba.capital/tags/homo-economicus/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #f2a365;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #eedcdc;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    color: #eeeeee;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 7px auto 7px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    color: #eeeeee;
+  }
+
+  pre {
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  em a {
+    padding: 2px;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #e43f5a;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 17px;
+    border-left-style: solid;
+    font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
+  }
+
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #393e46;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: #e43f5a;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #e43f5a;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    color: #e43f5a;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes {
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #11999e;
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #eeeeee;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 10%;
+  }
+
+  .untyped {
+    list-style-type: none;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
+  ul li:before {
+    content: "";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+    width: 99%;
+    padding: 10px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .credit a {
+    color: #eeeeee;
+  }
+
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
+
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
+
+  .in-post-tag {
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+ 
+
+  <section id=nav>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
+
+    <ul>
+      
+      <li><a href="https://github.com/as1ndu">Github</a></li>
+      
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      
+      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      
+    </ul>
+    
+
+  </section>
+
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
+    </section>
+
+
+
+<section id=content>
+  <ul class=posts_listing>
+    <strong>List of posts with similar tags;</strong>
+
+    
+
+    
+    <li class="untyped">
+      <h2><a href="https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/">The Wisdom of rationals</a></h2>
+
+      <div id=date>
+        <time>Wed Apr 8 2020 </time>
+      
+        
+        
+        
+          
+          <a class="tags" href="https://asindu.drileba.capital/tags/prediction-markets/"> ▪ prediction-markets</a>
+          <a class="tags" href="https://asindu.drileba.capital/tags/homo-economicus/"> ▪ homo-economicus</a>
+      </div>
+
+    </li>
+    
+
+    
+  </ul>
+</section>
+
+
+  
+
+  <span class="credit">
+    powered by
+    <a href="https://github.com/as1ndu/horus">
+      Horus Theme
+    </a>
+    & 
+    <a href="https://gohugo.io">
+      Hugo
+    </a>
+  </span>
+  
+</body>
+</html>

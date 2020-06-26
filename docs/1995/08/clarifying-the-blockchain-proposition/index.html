@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content=" noindex, , follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="Description of the post">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
+  <title>
+    
+    
+     Clarifying the blockchain proposition. 
+    
+  </title>
+  <link rel="canonical" href="https://asindu.drileba.capital/1995/08/clarifying-the-blockchain-proposition/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #f2a365;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #eedcdc;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    color: #eeeeee;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 7px auto 7px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    color: #eeeeee;
+  }
+
+  pre {
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  em a {
+    padding: 2px;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #e43f5a;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 17px;
+    border-left-style: solid;
+    font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 80%;
+    border-radius: 9px;
+    margin: auto;
+  }
+
+  blockquote p {
+    color: #eeeeee;
+    background-color: #1f4068;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #393e46;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: #e43f5a;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #e43f5a;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    color: #e43f5a;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes {
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #11999e;
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #eeeeee;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 10%;
+  }
+
+  .untyped {
+    list-style-type: none;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
+  ul li:before {
+    content: "";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+    width: 99%;
+    padding: 10px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .credit {
+    border-top-right-radius: 3px;
+    color: #f2a365;
+    position: fixed;
+    bottom: 2px;
+    left: 5px;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .credit a {
+    color: #eeeeee;
+  }
+
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
+
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
+
+  .in-post-tag {
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+ 
+
+  <section id=nav>
+    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
+
+    <ul>
+      
+      <li><a href="https://github.com/as1ndu">Github</a></li>
+      
+      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      
+      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      
+    </ul>
+    
+
+  </section>
+
+  <pre style="max-width:100%; white-space:normal;">
+     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+    </pre>
+    
+    <section style="float: right; padding-right: 25%; text-decoration: none;">
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
+      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
+    </section>
+
+<section id=content>
+  <h1> Clarifying the blockchain proposition. 
+  </h1>
+
+  
+  <div id=sub-header>
+    Last modified · August 8, 1995 ·
+   
+  </div>
+  
+
+
+  
+
+  <p>
+    
+        
+        <strong>tags — </strong>
+        
+          
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/code/">  ▪ code</a>
+      </p>
+
+  <div class="entry-content">
+    <p>Clarifying the blockchain proposition.</p>
+<p>“If I knew what the killer app for blockchain is, I would be building it. Then we wouldn’t have time for this podcast” - Ian Grigg</p>
+<p>Blockchain technology though trendy is elusive for some &amp; most inforation out there seems to e repeating words like &ldquo;decentralized&rdquo; a coherent explanation. Even big brains like robin hanson seem to be consusef about what exactly the blockchain proposition is.</p>
+<p>In writting this article I am aiming to improve that, but to understand what a blockchain is we need to firt nderstand Bitcoin, where it came from &amp; why it was invented.</p>
+<p>What’s is bitcoin?</p>
+<p>Just by looking at Bitcoin’s first block (the first chunk of data stored on the database), you will see the famous “chancellor on brink of second bail out for banks”  by Satoshi Nakamoto, Bitcoins inventor.</p>
+<p>In 2008, an entire nation, the nation of America  was scammed. The scam was not by an outside entity but a ruthless elite of bankers 
+that had power over the country’s central banking intuition.</p>
+<p>Like many ordinary people, Satoshi was clearly, dis-satisfied with an institution, particularly the Federal Reserve (the US central bank)</p>
+<p>Satoshi thought he could design an institution better than the Federal Reserve. That is what Bitcoin is, a better Federal Reserve.</p>
+<p>Bitcoin is a better federal reserve because it does everything  we need a monetary institution todo like minting money without the need for chairmen, politicians, or corporations.</p>
+<p>Politicians &amp; corporations  form institutions which we require so that a society can co-ordinate upon  goals, so as to provide items for the communities or it’s self.</p>
+<p>The items span from education (by institutions called schools), food (restaurants), smartphones (an institution called Apple) &amp; even security (armies).</p>
+<p>Central banks are institutions, in charge of minting money (the backbone of an economy) for a community.</p>
+<p>Anyways, what I am saying is that &ldquo;blockchain&rdquo; is a new strain of governance, that relies on game theory (the science of making rules). Instead of agression &amp; violence.</p>
+<p>Why Bitcoin maximalism is anti-bitcoin</p>
+<p>“You can’t do everything in one protocol, you can’t combine security, throughput and all that in one protocol” - Nick Szabo</p>
+<p>At times, people want different things, better security, scalability, governance.</p>
+<p>And from this simple fact, we know that it’s impossible to have  an institution that is a “one size that fits them all”.</p>
+<p>We need alternative chains to be able todo what bitcoin can’t. Like how Bitcoin allows us an opportunity to do things the Federal reserve can’t i.e decentralized monetary institution</p>
+<p>This is exactly how we ended up with Ethereum, Lightening, EOS, Zilliqa, Zcash &amp; others alternative chains.</p>
+<p>This the killer app.</p>
+<p>So, now that  we know that the generic purpose of blockchains  is to design institutions. What is the killer app?</p>
+<p>The killer app in my view would be someone who will find a way of bundling these decentralized institutions or “dapps” &amp; then offering them as a subscription plan.  For any one anywhere in the world. Kinda like Netflix for governments.</p>
+<p>Imagine living a world where you can pay a set of dapps, via tax or whatever &amp; they would for instance be in charge for providing you certain basic services we would expect from governments like health insurance, getting you a job, security telling you about food safety &amp; even protecting you from aggression of others.</p>
+<p>You into communism? Great! the dapps can assure you communist jobs, communist monetary policy, guaranteed accommodation.</p>
+<p>Or maybe you prefer capitalism, then you can subscribe to capitalist suite dapps that allow you to  access capitalist accommodation, capitalist jobs etc.</p>
+<p>The whole point of this will be to give people to be part of the institutions that they think work for them. And in the process, hopefully the world changes for the better.</p>
+
+  </div>
+
+  <div id=links>
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/1995/08/finally-the-end-of-javascript/">← Finally, the end of JavaScript? </a>
+    
+
+    
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/1995/08/atomic-swaps-why-they-work/"> Atomic swaps &amp; why they work. →</a>
+    
+  </div>
+
+  
+
+</section>
+
+  
+
+  <span class="credit">
+    powered by
+    <a href="https://github.com/as1ndu/horus">
+      Horus Theme
+    </a>
+    & 
+    <a href="https://gohugo.io">
+      Hugo
+    </a>
+  </span>
+  
+</body>
+</html>

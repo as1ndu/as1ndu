@@ -10,14 +10,14 @@ hidden: false
 
 Proof of work on layer 2
 
-Ever since Ethereum launched, they have had proof of stake on their road map.
+Ever since Ethereum launched, they have had proof of stake on their roadmap.
 
 The main decision often cited from this transition is the claim that Bitcoin’s proof of work is a “waste of electricity”.
 Even the creator of C++ complained about it.
 
 But now I am talking about why we may need proof of work on layer 2 yet everyone is trying to get rid of it from layer 1. Why?
 
-First, before we think of substitutes to proof of work, we need to acknowledge the role of  proof of work in a a system like bitcoin.
+First, before we think of substitutes to proof of work, we need to acknowledge the role of  proof of work in  a system like bitcoin.
 
 Emin Gun siere (working on avalanche) has a nice micro lecture explaining what proof of work is. 
 The conclusion is that proof of work is a Sybil resistance mechanism. Infact it was invented exactly for that back in 1990’s for Usenet.

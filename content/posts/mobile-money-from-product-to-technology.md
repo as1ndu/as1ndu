@@ -2,8 +2,8 @@
 title : "Mobile Money, from product to technology."
 description : ""
 slug : "mobile-money-from-product-to-technology"
-draft : true
-tags : ["fintech"]
+draft : false
+tags : ["mobile-money"]
 date : "2018-08-08"
 hidden: false
 ---
@@ -21,7 +21,7 @@ The second benefit of mobile money’s design is that through interfaces like US
 ### From a product to a technology
 
 Mobile Money currently exists as solo spin-off products offered by distinctive telecommunication companies. For instance, MTN has MTN Mobile Money, Airtel Has Airtel Money and UTL has M-Sente.
-The major limitation of these products is one thing, vendor lock-in. These diffrent products cannot talk to each other.
+The major limitation of these products is one thing, vendor lock-in. These different products cannot talk to each other.
 
 Each mobile money provider only allows payments to happen within their network. For instance an MTN subscriber (MTN Mobile Money) cannot send money to a UTL subscriber(M-Sente).
 
@@ -38,4 +38,4 @@ If these products are to upgrade to a technology, then they need to build work g
 
 If such an initiative is taken seriously, and a large enough number of countries adopt it, Mobile Money has the potential to become the SWIFT of Africa. (in my context SWIFT & the web are  a technology not a product)
 
-And as a result people like Hikmet Ersek can be successfully put out of the business of stealing money from diasporans.
+And as a result people like Hikmet Ersek can be successfully put out of the business of stealing money from diaspora's.
