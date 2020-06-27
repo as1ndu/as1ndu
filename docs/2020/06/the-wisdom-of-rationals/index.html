@@ -10,7 +10,7 @@
   <meta name="robots" content="index, follow">
   <meta name="referrer" content="no-referrer">
   <meta name="description"
-    content="A brief post on trust-minimization and how to measure it">
+    content="It doesn&#39;t matter how many you are. What matters are the incentives.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
     integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
   <link rel="shortcut icon" href="https://asindu.drileba.capital/images/favicon.ico" type="image/x-icon">
@@ -18,10 +18,10 @@
   <title>
     
     
-     Quantifying trust-minimization 
+     The Wisdom of rationals 
     
   </title>
-  <link rel="canonical" href="https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/">
+  <link rel="canonical" href="https://asindu.drileba.capital/2020/06/the-wisdom-of-rationals/">
 
   <style>
   html {
@@ -543,7 +543,7 @@
     </section>
 
 <section id=content>
-  <h1> Quantifying trust-minimization 
+  <h1> The Wisdom of rationals 
   </h1>
 
   
@@ -551,8 +551,8 @@
 
   
   <div id=sub-header>
-    Wed Apr 15 2020 · 5 minute read
-    · (last modified on April 15, 2020)
+    Fri Jun 26 2020 · 5 minute read
+    · (last modified on June 26, 2020)
   </div>
   
 
@@ -562,77 +562,70 @@
         <strong>tags — </strong>
         
           
-          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/trust-minimization/">  ▪ trust-minimization</a>
-          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/trust-theory/">  ▪ trust-theory</a>
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/prediction-markets/">  ▪ prediction-markets</a>
+          <a class="in-post-tag" href="https://asindu.drileba.capital/tags/homo-economicus/">  ▪ homo-economicus</a>
       </p>
 
   <div class="entry-content">
-    <p>Quantification of properties allows us to measure  how well a system might perform. Quantification also allows us to effectively optimize systems, because if we can quantify something, we can know if things are getting better or worse.
-In 2017 Balaji S. Srinivasan, <a href="https://news.ycombinator.com/item?id=18586092">described how it’s possible to quantify decentralization</a> of a project based on mining, client usage, dev commits, exchange volume, liveliness of nodes &amp; ownership of capital by crypto address.</p>
-<p>Decentralization is not however the goal of a particular blockchain project, I think the decentralization metric is great to have as an overview of how power is distributed within a blockchain project. The use of decentralization (transfer of authority from a single institution to multiple local authorities) is to achieve trust-minimization.</p>
-<blockquote>
-<p>&quot;Decentralization is  what allows Bitcoin to substitute an army of computers for an army of accountants, investigators,  and lawyer’s&rdquo; - Nick Szabo</p>
-</blockquote>
-<p>Bitcoin is basically designed around  payments. So decentralization of the bitcoin network vaguely guarantees that the payment mechanism will be trust-minimized at the same security level.
-One thing with smart-contract platforms like Ethereum is that, they are plain platforms without a specification for it&rsquo;s applications. 
-For this reason, the security mechanisms of the platform like Ethereum are detached from the security mechanisms of the applications or “dapps” layer.
-This is why the Ethereum network can be decentralized &amp; trust-minimized but the dapps on it may not be trust-minimized.</p>
-<h3 id="what-trust-minimization-is">What trust-minimization is</h3>
-<p>Trust minimization is basically the ability for one to mitigate a specific class of harmful agents (also known as defectors).</p>
-<p><strong>Liars</strong>
-Liars are agents that feed the system with false information.</p>
-<p><strong>Thieves</strong>
-These take assets from other agents, without the original owners consent.</p>
-<p><strong>Cheats</strong>
-Cheats are people that break rules of a game.</p>
-<p>Most people mistakenly regard trust-minimization as a binary circumstance where a dapp is either centralized (you are relying on the kindness of strangers to not rip you off) or  trust-minimized (complete protection from defectors via cryptography, game-theory or both).<br>
-But trust-minimization is a spectrum &amp; we need ways of measuring it. This is what <a href="http://https://github.com/zack-bitcoin/amoveo-docs/blob/master//basics/trust_theory.md">Zack Hess</a> is trying to develop with trust theory.</p>
-<p>It goes as follows;</p>
+    <p>For years now I have been fascinated by prediction markets. The source of excitement is  the idea is that you can use financial markets to do <a href="https://en.wikipedia.org/wiki/Inference">inference</a> — just like machine learning.</p>
+<p>A famous example of such prediction markets are the orange futures. The orange futures market is one that allows entities
+to buy oranges in advance.
+How it works, is that one can pay $1,000 to receive 1,000 oranges that will be delivered next year.
+An interesting side effect of this orange futures market is how it <a href="https://selectabstracts.wordpress.com/2011/11/16/can-orange-juice-help-forecast-the-weather/">accurately predicts temperatures in certain locations</a> more specifically, the temperature of the locations where the oranges are from.</p>
+<p>But how is information on temperature reflected in the market meant for selling oranges? Well, what actually happens, is that the <a href="https://www.wsj.com/articles/orange-juice-futures-soar-as-weather-turns-cold-1416604154">orange futures prices rise towards cold weather</a> and drop towards warm weather.</p>
+<p>This phenomenon can be easily explained by the fact that cold weather reduces orange yields thus causing prices to rise (reasoning from the perspective of supply &amp; demand).
+This explanation however doesn&rsquo;t account for the fact that the market prices start reacting to temperature changes
+<em>before</em> they occur. It is as if the market knew what the temperature would be <em>in the future</em>. Hence the name prediction markets.</p>
+<hr>
+<h2 id="how-to-buy-information-from-the-future">How to buy information from the future</h2>
+<p>In the example above, predicting temperatures was just a side effect of the orange futures market.<br>
+But how do we design a market to predict an explicit event? For example, say you want to know if it will
+rain tomorrow.</p>
 <ul>
-<li>First we pick a dapp whose trust-minimization we want to quantify.</li>
-<li>Then, we outline the mechanisms that make it up.</li>
-<li>Each mechanisms is given a scale, the smaller the number the better;</li>
-</ul>
-<p><strong>Level 1</strong>
-These are provably secure cryptographic  protocols often relying on entropy as a security mechanism. Like hashing algorithms &amp; public key cryptography. In level 1, it doesn&rsquo;t matter how much resources an attacker has as it is practically impossible to guess the source of randomness since the numbers are astronomically large.
-Level 1 mechanisms can be considered fully trust-less.</p>
-<p><strong>Level 2</strong>
-Mechanisms where the costs of breaking a system are are more than the payoff an attacker gets from behaving maliciously.
-Basically, these are mechanisms where it&rsquo;s  possible to cheat, but it will be unprofitable to do so. One thing worth noting is that here, we should have attribution. i.e On top of it being unprofitable to cheat, lie or steal. We can know who behaved maliciously &amp; can act accordingly by punishing the defector (e.g forking, slashing, reduce reputation)</p>
-<p><strong>Level 3</strong>
-In level 3 it is possible to cheat, &amp; the pay off from behaving maliciously is either profitable or net.
-Here we can also know who did what &amp; can punish them accordingly like in level 2</p>
-<p><strong>Level 4</strong>
-This is the worst security level (completely centralized). Here, it is possible &amp; profitable to cheat. Plus no one can know who did what for a significant period.</p>
-<h2 id="example-of-usage">Example of usage</h2>
-<p>If we have a crypto-economic primitive like <a href="https://en.bitcoin.it/wiki/Hash_Time_Locked_Contracts">hash-time-locks</a>.
-Hash time locks are crypto economic primitives that allow execution of instructions only when two conditions are satisfied.</p>
+<li>Step 1: Declare an event that will reveal this information  —  Say you want a market that can predict the weather.
+For the rain example we can declare the event &ldquo;It will rain tomorrow&rdquo;.</li>
+<li>Step 2: Define events outcome  —  Formalize the outcomes of the event. The event &ldquo;It will rain tomorrow&rdquo; has two out comes <em>Yes</em> and <em>No</em>.</li>
+<li>Step 3: Sell betting tickets  —  Sell tickets for the event outcomes &ldquo;It will rain tomorrow&rdquo;. Buyers of the tickets have two options
+<em>Yes</em> tickets and <em>No</em> tickets at equal prices. Buyers are allowed to trade tickets with each other.
 <ul>
-<li>The first condition is that the number of mined blocks or &ldquo;block-time&rdquo; should be greater than a given value.</li>
-<li>The second condition is that the user must submit a unique secret piece of data</li>
+<li>If it <em>does rain tomorrow</em>, those with <strong>Yes</strong> tickets receive money 2 times the price of the tickets &amp; those with <strong>No</strong>
+get nothing.</li>
+<li>If it <em>does not rain</em>, those with <strong>Yes</strong> tickets get nothing &amp; those with <strong>No</strong> tickets get money 2 times the price
+of the ticket.</li>
 </ul>
-<p>For simplicity, lets say, hashlocks rely on  only two things to achieve this;</p>
-<p><strong>a) Time locks (block headers)</strong>
-Time-locks only execute instructions when the number of blocks are beyond a given number. Since <a href="https://en.wikipedia.org/wiki/Blockchain#Block_time">block-time</a> is not based on cryptography but game theory (i.e can be attacked via 51% attack) and would probably be unprofitable for the attacker, we put this at level 2.</p>
-<p><strong>b) Hash locks (cryptography)</strong>
-Hashlocks only execute  instructions when a unique piece of data/secret is submitted. If a hash-lock is secure, that is,  collusion resistant hashing algorithm,  we can say it’s protected by entropy &amp; hence put it in the level 1</p>
-<h2 id="sub-levels-of-security">Sub-levels of security</h2>
-<p>So now, we have a crypto economic mechanism with two separate levels of security. To have a metric that represents levels of security
-for both mechanisms. We sum up both levels of security.</p>
-<p>For example, time-locks would be put in level 2 and hash-locks have a trust security level of 1.
-This gives us a combined trust level of 2.1, &ldquo;.&rdquo; is an indication of sub-levels in the crypto-economic mechanism &amp; 1 to indicate it also has a component of being purely cryptographic.
-When adding different trust levels, it&rsquo;s important that the bigger number comes first, and the smaller number comes second.</p>
-<p>Trust theory, clarifies the spectrum of risks that come with  a dapp instead of every one having to read a white-paper, they may not fully understand. On the other hand several,  dapp rating agencies using Hess’s trust theory would also to used rate dapps.</p>
+</li>
+</ul>
+<p>Loosely following assumptions made by prediction market theory, the true information on the event outcome for &ldquo;It will rain tomorrow&rdquo; will be
+reflected reflected in the prices at which buyers are trading the tickets. <em>The ticket with the highest price is the event outcome that is most likely to occur</em>. If <strong>Yes</strong> tickets are selling for <em>$2</em> &amp; <strong>No</strong> tickets are selling for <em>$1</em>. Then we would assume that it will probably rain tomorrow.</p>
+<h2 id="the-assumptions-of-prediction-markets">The assumptions of prediction markets</h2>
+<p>Prediction markets operate upon 3 main assumptions. The first assumption is that markets are made up exclusively of 3 types agents.
+A classification of these agents is as follows.</p>
+<ol>
+<li><strong>The pure gambler</strong>, this one doesn’t have the necessary meteorological information. He/She is simply betting at random.</li>
+<li><strong>The accurate information trader</strong>, these traders have information they think points to the fact that it will rain &amp; they are right.</li>
+<li><strong>Inaccurate information traders</strong>, have information they think points to the fact that it will rain. <em>But</em> they are wrong.</li>
+</ol>
+<p>The second assumption, is that <strong>The Information is predictable</strong>, this means that amongst all the market participants, at least agent is an <strong>Accurate information trader</strong>.</p>
+<p>The last assumption is that people in these market agents will perform a <strong>Rational participation</strong>. Rational participation means that, speculators  will always prefer to place bets on event outcomes which they think they will make money &amp; they will decline from participating in bets where they think they will lose money. For instance, a rational person should not be a pure gambler because they have higher  chances of making  money by betting on information they know at least something about.</p>
+<p>The accurate information trader on the other hand will flourish in this market as they will always have the edge in the market &amp; thus make money off clueless gamblers &amp; people signaling wrong information. Meanwhile, agents that always bet on wrong information will go bust or switch to markets where they do better. This is what makes prediction makers so resistant to market manipulation, <em>it’s a system where agents signaling wrong information actively subsidizes people signaling  correct information.</em></p>
+<p>In theory, markets that repeat themselves should improve with every iteration (since most agents that signal wrong information are bust).
+Provided all agents have access to finite amounts of money.</p>
+<h2 id="how-to-break-a-prediction-market">How to break a prediction market</h2>
+<p>Prediction markets may be highly resistant to manipulation, but that does not mean they cannot break.
+For a market to continue doing correct inference (accurate predictions), the sum of money held by the<br>
+class of <strong>Accurate Information traders</strong> should always be greater than the sum of money collectively owned by the rest of the agents.
+This is because all agents have finite amounts of money. And it will not be possible to offset noise incorporated into the market by
+agents with bad information.
+This may however improve in subsequent iterations of the market (agents signaling wrong information go bust) thus giving prediction markets a self healing like property.</p>
+<p>It is often mentioned that prediction markets are based on &ldquo;The wisdom of the crowds&rdquo; &amp; that creates a false analogy where people this it works for the same reason democracy does, but they are actually based on the wisdom of the rationals, <em>a system where people don’t talk about what they don’t know</em>.</p>
 
   </div>
 
   <div id=links>
     
-    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/02/fighting-of-disease-pandemics-with-defi/">← Fighting disease pandemics with DeFi </a>
+    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/">← Quantifying trust-minimization </a>
     
 
-    
-    <a class="basic-alignment left" href="https://asindu.drileba.capital/2020/06/the-wisdom-of-rationals/"> The Wisdom of rationals →</a>
     
   </div>
 

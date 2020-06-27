@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asindu.drileba.capital/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>homo-economicus</title>
+      <link>https://asindu.drileba.capital/tags/homo-economicus/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/tags/homo-economicus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prediction-markets</title>
+      <link>https://asindu.drileba.capital/tags/prediction-markets/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/tags/prediction-markets/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>trust-minimization</title>
@@ -26,24 +44,6 @@
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/tags/trust-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homo-economicus</title>
-      <link>https://asindu.drileba.capital/tags/homo-economicus/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/tags/homo-economicus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>prediction-markets</title>
-      <link>https://asindu.drileba.capital/tags/prediction-markets/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/tags/prediction-markets/</guid>
       <description></description>
     </item>
     
@@ -80,6 +80,15 @@
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/tags/side-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proof-of-work</title>
+      <link>https://asindu.drileba.capital/tags/proof-of-work/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/tags/proof-of-work/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asindu.drileba.capital/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Wisdom of rationals</title>
+      <link>https://asindu.drileba.capital/2020/06/the-wisdom-of-rationals/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2020/06/the-wisdom-of-rationals/</guid>
+      <description>For years now I have been fascinated by prediction markets. The source of excitement is the idea is that you can use financial markets to do inference — just like machine learning.
+A famous example of such prediction markets are the orange futures. The orange futures market is one that allows entities to buy oranges in advance. How it works, is that one can pay $1,000 to receive 1,000 oranges that will be delivered next year.</description>
+    </item>
     
     <item>
       <title>Quantifying trust-minimization</title>
@@ -17,17 +27,7 @@
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/2020/04/quantifying-trust-minimization-with-hess-trust-theory/</guid>
-      <description>Quantification of properties allows us to measure how well a system might perform. Quantification also allows us to effectively optimize systems, because if we can quantify something, we can know if things are getting better or worse. In 2017 Balaji S. Srinivasan, described how it’s possible to quantify decentralization of a project based on mining, client usage, Dev commits, exchange volume, liveliness of nodes &amp;amp; ownership of capital by crypto address.</description>
-    </item>
-    
-    <item>
-      <title>The Wisdom of rationals</title>
-      <link>https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://asindu.drileba.capital/2020/04/the-wisdom-of-rationals/</guid>
-      <description>For years now I have been fascinated by prediction markets. The source of excitement is the idea is that you can use financial markets to do inference about the future — just like machine learning.
-A famous example of such prediction markets are the orange futures. The orange futures market is one that allows entities to buy oranges in advance. How it works, is that one can pay $1,000 to receive 1,000 oranges that will be delivered next year.</description>
+      <description>Quantification of properties allows us to measure how well a system might perform. Quantification also allows us to effectively optimize systems, because if we can quantify something, we can know if things are getting better or worse. In 2017 Balaji S. Srinivasan, described how it’s possible to quantify decentralization of a project based on mining, client usage, dev commits, exchange volume, liveliness of nodes &amp;amp; ownership of capital by crypto address.</description>
     </item>
     
     <item>
@@ -49,6 +49,15 @@ These &amp;ldquo;death charts&amp;rdquo;, where several spikes in which a large 
       <guid>https://asindu.drileba.capital/2020/01/horus-theme-manual/</guid>
       <description>&amp;quot;Try to refresh the site before it&amp;rsquo;s finished building.. I double dare you. Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&amp;rdquo; - Author of hugo
  I have used several static site generators, from Jekyll to Lektor and now Hugo. As for now, I really like Hugo but couldn&amp;rsquo;t find a theme that matched my preferred aesthetics &amp;amp; functional tastes. That&amp;rsquo;s why I made Horus theme.</description>
+    </item>
+    
+    <item>
+      <title>Proof of work on layer 2</title>
+      <link>https://asindu.drileba.capital/2019/11/proof-of-work-on-layer-two/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asindu.drileba.capital/2019/11/proof-of-work-on-layer-two/</guid>
+      <description>Ever since Ethereum launched, they have had proof of stake on their road map. The main decision often cited from this transition is the claim that Bitcoin’s proof of work is a “waste of electricity”. Even the creator of C++ complained about it. But now I am talking about why we may need proof of work on layer 2 yet everyone is trying to get rid of it from layer 1 (the networking layer at which consensus is made).</description>
     </item>
     
     <item>
