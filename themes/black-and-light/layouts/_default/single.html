@@ -41,11 +41,11 @@
 
   <div id=links>
     {{ if .PrevInSection }}
-    <a class="basic-alignment left" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}} </a>
+    <a style="text-decoration: none;" class="basic-alignment left" href="{{.PrevInSection.Permalink}}"><h3 style="color: #eeeeee; text-transform: capitalize;" >← {{.PrevInSection.Title}}.</h3></a>
     {{ end }}
 
     {{ if .NextInSection }}
-    <a class="basic-alignment left" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} →</a>
+    <a style="text-decoration: none;" class="basic-alignment left" href="{{.NextInSection.Permalink}}"><h3 style="color: #eeeeee; text-transform: capitalize;" > {{.NextInSection.Title}} →</h3></a>
     {{ end }}
   </div>
 
