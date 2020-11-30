@@ -1,17 +1,21 @@
   {{ template "_internal/google_analytics_async.html" . }}
 
-  <span class="credit">
-    powered by
+  <hr/>
+
+  <center>
+    powered by the 
     <a href="https://github.com/as1ndu/horus">
-      Horus Theme
+      horus Theme
     </a>
     & 
     <a href="https://gohugo.io">
-      Hugo
+      hugo.
     </a>
-  </span>
+  </center>
+
   {{ if .Params.latex }}
     {{ partial "latex.html" . }} 
   {{ end }}
 </body>
+
 </html>

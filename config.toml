@@ -13,22 +13,22 @@ disqusShortname = "synchronising-life-and-dreams"
 [params]
   sitename = "Synchronising Life & Dreams"
   description = "Interested In Fintech & Machine Intelligence"
-  blogHeader = " “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
+  blogHeader = " “To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
   maxPosts = 3
 
 [permalinks]
   posts = "/:year/:month/:slug"
 
 [[menu.main]]
-    name = "Github"
+    name = "git"
     url  = "https://github.com/as1ndu"
 
 [[menu.main]]
-    name = "Twitter"
+    name = "@as1ndu"
     url  = "https://twitter.com/as1ndu"
 
 [[menu.main]]
-    name = "RSS"
+    name = "rss"
     url  = "/index.xml"
 
 languageCode = "en-us"

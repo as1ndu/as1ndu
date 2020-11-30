@@ -49,8 +49,13 @@
     margin: auto;
   }
 
+  body section {
+    display: block;
+  }
+
   p {
     margin: 20px 0;
+    font-size: 16px;
   }
 
   a {
@@ -88,13 +93,15 @@
   }
 
   pre {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
     margin-top: 7px;
     margin-bottom: 7px !important;
     word-wrap: normal;
     padding: 16px;
     overflow: auto;
-    font-size: 85%;
+    font-size: 14px;
     line-height: 1.45;
+    font-weight: bold;
     border-radius: 9px;
     background-color: #1f4068 !important;
   }
@@ -158,6 +165,9 @@
   h2,
   h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform:uppercase;
+    line-height: 105%;
   }
 
   strong {
@@ -183,14 +193,14 @@
     border-left-style: solid;
     font-family: "Old Standard TT", serif;
     color: #f2a365;
-    max-width: 80%;
+    max-width: 90%;
     border-radius: 9px;
     margin: auto;
   }
 
   blockquote p {
     color: #eeeeee;
-    background-color: #1f4068;
+    background-color: #0d2644;
     min-width: 100%;
     padding: 15px;
     margin: auto;
@@ -473,11 +483,9 @@
   }
 
   .credit {
-    border-top-right-radius: 3px;
     color: #f2a365;
-    position: fixed;
     bottom: 2px;
-    left: 5px;
+    left: 2px;
     font-size: 14px;
     padding: 3px;
   }
@@ -517,65 +525,81 @@
  
 
   <section id=nav>
-    <h1><a href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a></h1>
-
+    <h1>
+      <a style="font-weight: 900px; text-transform:capitalize;" href="https://asindu.drileba.capital/">Synchronising Life &amp; Dreams.</a>
+    </h1>
     <ul>
       
-      <li><a href="https://github.com/as1ndu">Github</a></li>
+      <li><a href="https://twitter.com/as1ndu">@as1ndu</a></li>
       
-      <li><a href="https://asindu.drileba.capital/index.xml">RSS</a></li>
+      <li><a href="https://github.com/as1ndu">git</a></li>
       
-      <li><a href="https://twitter.com/as1ndu">Twitter</a></li>
+      <li><a href="https://asindu.drileba.capital/index.xml">rss</a></li>
       
     </ul>
-    
-
   </section>
 
   <pre style="max-width:100%; white-space:normal;">
-     “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
-    </pre>
+   “To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller
+  </pre>
     
-    <section style="float: right; padding-right: 25%; text-decoration: none;">
-      <a style="padding: 5px;" href="https://asindu.drileba.capital/">&EmptySmallSquare; Home</a>
-      <a style="padding: 5px;" href="https://asindu.drileba.capital/posts">&circlearrowright; Posts</a>
-      <a style="padding: 5px;" href="https://asindu.drileba.capital/about">&bbrktbrk; About</a>
-    </section>
+  <section style="float: left; position: absolute;;">
+    
+      <a style="text-decoration: none;" href="https://asindu.drileba.capital/">
+        <h3 style="color: #eeeeee;">&EmptySmallSquare; Home</h3>
+      </a>
+
+      <a style="text-decoration: none; color: #eeeeee;" href="https://asindu.drileba.capital/posts">
+        <h3 style="color: #eeeeee;">&circlearrowright; Posts</h3>
+      </a>
+
+      <a style="text-decoration: none; color: #eeeeee;" href="https://asindu.drileba.capital/about">
+        <h3 style="color: #eeeeee;">&bbrktbrk; About</h3>
+      </a>
+  </section>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+
 
 <section id="content">
- 
-  <h1> ⛩ About </h1>
-  
-  <div id=sub-header>
-  Last modified on May 15, 2018   
-  </div>
 
-  <div class="entry-content">
-    <p>My name is Asindu. This is my blog where I explore assorted  topics around trustless mechanisms, smart-contracts, programming, machine intelligence amongst others.</p>
+  <section>
+    <h1> ⛩ About </h1>
+    <div id=sub-header>
+      Last modified on May 15, 2018
+    </div>
+    <div class="entry-content">
+      <p>My name is Asindu. This is my blog where I explore assorted  topics around trustless mechanisms, smart-contracts, programming, machine intelligence amongst others.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>If you need to contact me, fell free to <a href="mailto:adwillfred@gmail.com">send me an e-mail</a>. 
 You can also text me via Telegram on <a href="https://t.me/as1ndu">as1ndu</a>.</p>
 
-  </div>
+    </div>
+  </section>
 
 </section>
 
   
 
-  <span class="credit">
-    powered by
+  <hr/>
+
+  <center>
+    powered by the 
     <a href="https://github.com/as1ndu/horus">
-      Horus Theme
+      horus Theme
     </a>
     & 
     <a href="https://gohugo.io">
-      Hugo
+      hugo
     </a>
-  </span>
+  </center>
+
   
 </body>
+
 </html>
-
-
-

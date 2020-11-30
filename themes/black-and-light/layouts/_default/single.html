@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h1>{{ if .Draft }}[Draft] {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+  <h1>{{ if .Draft }}<span style="color: #eeeeee;">[Draft]</span> {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
   </h1>
 
   {{ if  .Params.hidden }}

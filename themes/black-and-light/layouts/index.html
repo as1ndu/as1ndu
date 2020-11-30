@@ -1,12 +1,12 @@
 {{ partial "header.html" . }}
 <section id=content>
   <ul class=posts_listing>
-    {{ range first      .Site.Params.maxPosts     .Site.RegularPages }}
+    {{ range first  .Site.Params.maxPosts   .Site.RegularPages }}
 
     {{ if not .Params.hidden }}
 
     <li class="untyped">
-      <h2><a  href="{{ .Permalink }}">{{ if .Draft }}[Draft] {{ end }}{{ .Title }}</a></h2>
+      <h2><a style="color:#e43f5a;"  href="{{ .Permalink }}">{{ if .Draft }} <span style="color: #eeeeee;">[Draft]</span> {{ end }}{{ .Title }}</a></h2>
       <div id=date>
         <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }}</time>
       </div>
@@ -22,6 +22,12 @@
 
     {{ end }}
   </ul>
+
+  <p>
+    <blockquote>
+      <a style="text-decoration: none; font-size: 25px; font-weight: bolder;" href="/posts">see all posts →</a>
+    </blockquote>
+  </p>
 </section>
 
 

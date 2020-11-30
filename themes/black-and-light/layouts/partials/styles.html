@@ -24,8 +24,13 @@
     margin: auto;
   }
 
+  body section {
+    display: block;
+  }
+
   p {
     margin: 20px 0;
+    font-size: 16px;
   }
 
   a {
@@ -63,13 +68,15 @@
   }
 
   pre {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
     margin-top: 7px;
     margin-bottom: 7px !important;
     word-wrap: normal;
     padding: 16px;
     overflow: auto;
-    font-size: 85%;
+    font-size: 14px;
     line-height: 1.45;
+    font-weight: bold;
     border-radius: 9px;
     background-color: #1f4068 !important;
   }
@@ -133,6 +140,9 @@
   h2,
   h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform:uppercase;
+    line-height: 105%;
   }
 
   strong {
@@ -158,14 +168,14 @@
     border-left-style: solid;
     font-family: "Old Standard TT", serif;
     color: #f2a365;
-    max-width: 80%;
+    max-width: 90%;
     border-radius: 9px;
     margin: auto;
   }
 
   blockquote p {
     color: #eeeeee;
-    background-color: #1f4068;
+    background-color: #0d2644;
     min-width: 100%;
     padding: 15px;
     margin: auto;
@@ -448,11 +458,9 @@
   }
 
   .credit {
-    border-top-right-radius: 3px;
     color: #f2a365;
-    position: fixed;
     bottom: 2px;
-    left: 5px;
+    left: 2px;
     font-size: 14px;
     padding: 3px;
   }

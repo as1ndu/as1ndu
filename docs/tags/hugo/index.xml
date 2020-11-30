@@ -6,18 +6,14 @@
     <description>Recent content in hugo on Synchronising Life &amp; Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://asindu.drileba.capital/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://asindu.drileba.capital/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Horus Theme and its features</title>
       <link>https://asindu.drileba.capital/2020/01/horus-theme-manual/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://asindu.drileba.capital/2020/01/horus-theme-manual/</guid>
-      <description>&amp;quot;Try to refresh the site before it&amp;rsquo;s finished building.. I double dare you. Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&amp;rdquo; - Author of hugo
+      <description>&amp;ldquo;Try to refresh the site before it&amp;rsquo;s finished building.. I double dare you. Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&amp;rdquo; - Author of hugo
  I have used several static site generators, from Jekyll to Lektor and now Hugo. As for now, I really like Hugo but couldn&amp;rsquo;t find a theme that matched my preferred aesthetics &amp;amp; functional tastes. That&amp;rsquo;s why I made Horus theme.</description>
     </item>
     

@@ -32,23 +32,37 @@
  
 
   <section id=nav>
-    <h1><a href="/">{{ .Site.Params.sitename }}.</a></h1>
-
+    <h1>
+      <a style="font-weight: 900px; text-transform:capitalize;" href="/">{{ .Site.Params.sitename }}.</a>
+    </h1>
     <ul>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
-    
-
   </section>
 
   <pre style="max-width:100%; white-space:normal;">
-    {{ .Site.Params.blogHeader  }}
-    </pre>
+  {{ .Site.Params.blogHeader  }}
+  </pre>
     
-    <section style="float: right; padding-right: 25%; text-decoration: none;">
-      <a style="padding: 5px;" href="/">&EmptySmallSquare; Home</a>
-      <a style="padding: 5px;" href="/posts">&circlearrowright; Posts</a>
-      <a style="padding: 5px;" href="/about">&bbrktbrk; About</a>
-    </section>
+  <section style="float: left; position: absolute;;">
+    
+      <a style="text-decoration: none;" href="/">
+        <h3 style="color: #eeeeee;">&EmptySmallSquare; Home</h3>
+      </a>
+
+      <a style="text-decoration: none; color: #eeeeee;" href="/posts">
+        <h3 style="color: #eeeeee;">&circlearrowright; Posts</h3>
+      </a>
+
+      <a style="text-decoration: none; color: #eeeeee;" href="/about">
+        <h3 style="color: #eeeeee;">&bbrktbrk; About</h3>
+      </a>
+  </section>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
