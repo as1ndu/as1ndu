@@ -11,7 +11,7 @@ disqusShortname = "synchronising-life-and-dreams"
 # pygmentOptions = "linenos=table"
 
 [params]
-  sitename = "Synchronising Life & Dreams"
+  sitename = "Asindu's journal"
   description = "Interested In Fintech & Machine Intelligence"
   blogHeader = " “To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
   maxPosts = 3
