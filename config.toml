@@ -5,7 +5,7 @@ canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
 publishDir = "docs"
-disqusShortname = "synchronising-life-and-dreams"
+disqusShortname = "asindus-journal"
 # pygmentsstyle       = "monokai"
 # pygmentscodefences  = true
 # pygmentOptions = "linenos=table"
@@ -14,7 +14,7 @@ disqusShortname = "synchronising-life-and-dreams"
   sitename = "Asindu's journal"
   description = "Interested In Fintech & Machine Intelligence"
   blogHeader = " “To change something, build a new model that makes the existing model obsolete.”  ― R. Buckminster Fuller"
-  maxPosts = 3
+  maxPosts = 7
 
 [permalinks]
   posts = "/:year/:month/:slug"

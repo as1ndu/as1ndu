@@ -1,6 +1,6 @@
 ---
 title : "The Wisdom of rationals"
-description : "It doesn't matter how many you are. What matters are the incentives."
+description : "For years now I have been fascinated by prediction markets. The source of excitement is  the idea is that you can use financial markets to do inference — as if they are capable of processing information. Here I will explain a plausible theory that aims to articulate why that may be possible."
 slug : "the-wisdom-of-rationals"
 draft : false
 tags : ["prediction-markets", "homo-economicus"]

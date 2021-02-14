@@ -1,6 +1,6 @@
 ---
 title : "Proof of work on layer 2"
-description : "The role of proof of work stretches beyond blockchain consensus"
+description : "Ever since Ethereum launched, they have had proof of stake on their road map. The main decision often cited from this transition is the claim that Bitcoin’s proof of work is a “waste of electricity”. In this post, I want to explain why he role of proof of work stretches beyond blockchain consensus."
 slug : "proof-of-work-on-layer-two"
 draft : false
 tags : ["proof-of-work"]

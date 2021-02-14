@@ -1,6 +1,6 @@
 ---
-title : "Mobile Money, from product to technology."
-description : ""
+title : "Mobile Money, from product to technology"
+description : "Mobile Money is probably the most common tech-narrative in the Ugandan the tech startup space. Unfortunately, the reluctancy of stake holders to upgrade it from a product to a technology  will make it useless before we realise its ultimate potential."
 slug : "mobile-money-from-product-to-technology"
 draft : false
 tags : ["mobile-money"]

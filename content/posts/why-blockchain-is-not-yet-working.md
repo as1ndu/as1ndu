@@ -1,6 +1,6 @@
 ---
 title : "Why blockchain is not yet working"
-description : "In this post I will outline my personal observations as to why blockchain based applications are (should) not adopted by the mainstream."
+description : "The blockchain, while being a new concept in decentralized distributed databases has also presented a very unique set of problems in computer science & economics that have never been solved at the time of this writing."
 slug : "why-blockchain-is-not-yet-working"
 draft : false
 tags : ["blockchain"]
