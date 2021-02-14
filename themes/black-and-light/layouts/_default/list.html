@@ -10,7 +10,7 @@
       <h2><a style="color:#e43f5a;" href="{{ .Permalink }}">{{ if .Draft }} <span style="color: #eeeeee;">[Draft]</span> {{ end }}{{ .Title }}</a></h2>
 
       <div id=date>
-        <time>{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} </time>
+        <time style="font-family: 'Courier New', monospace;">{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} </time>
       
         {{ $taxonomy := "tags" }}
         {{ with .Param $taxonomy }}
