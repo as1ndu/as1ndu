@@ -16,15 +16,24 @@ These "death charts", where several spikes in which a large numbers of people di
 
 The first "death chart" he mentions is World War I, the second one is World War II, the third spike or "death chart"  was about two times bigger than World War I (50 million deaths), but it was not caused by a war, it was the spanish flu [^2]. This isn't even the worst case, pandemics like the the black plague killed over 200 million (60% of Europe's population at the time) about 2 times  a bigger death toll than any war we have ever had[^3].
 
+***
+
+## Pandemics & Preparedness
+
 Pandemics are real & unpredictable as we have seen with Ebola [^4], SARs [^5], and at the time of this writing, the Corona virus[^6].
 
 The problem is that, we are often not prepared for these pandemics. For instance, during the Ebola pandemic in West Africa, 11,000 died simply because the responsible bureaucrats could not mobilize enough resources in time.
 
+## Pandemic Bonds and how they work
+
 There was an idea from the World Health Organization (WHO) to use create a kind of insurance market they call a Pandemic bond.[^7]
 
-How it would work is that, a pool of money (equivalent to whats needed to finance an Ebola pandemic) would be put up by speculators.
+How it would work is that, 
 
-The WHO would then continuously  pay  the speculators a kind of insurance premium. But if a new Ebola out break occurred in a new country, the WHO would use the pool of money (put up by the speculators) to facilitate the mitigation of Ebola in that region. This is obviously an over simplification of the 300 plus page document that explains how these pandemic bonds actually work[^8] but I hope you get the idea? Its basically health insurance for everyone subsidized by the WHO.
+- **First**, a pool of money (equivalent to whats needed to finance an Ebola pandemic) would be put up by speculators.
+- **Second**, The WHO would then continuously  pay  the speculators a kind of insurance premium. But if a new Ebola out break occurred in a new country, the WHO would use the pool of money (put up by the speculators) to facilitate the mitigation of Ebola in that region. This is obviously an over simplification of the 300 plus page document that explains how these pandemic bonds actually work[^8] but I hope you get the idea? Its basically health insurance for everyone subsidized by the WHO.
+
+## Trust minimized  pandemic bonds
 
 The pandemic bonds have however become controversial[^9] probably due to their poor mechanism design[^10]. Despite this fact, I think mechanism designers can come up with better mechanisms resembling these "pandemic bonds" that actually work in a society.
 
@@ -32,10 +41,10 @@ The great thing about Smart-contracts like Solidity[^11], Scilla[^12] & Simplici
 
 We can have several of these DeFi (Decentralized Finance) powered applications to mitigate several problems around disease. 
 
-For instance, Animal husbandry businesses can pay these premiums to mitigate risks around animal disease pandemics like bird flu or mad cow disease.
+- For instance, Animal husbandry businesses can pay these premiums to mitigate risks around animal disease pandemics like bird flu or mad cow disease.
+- Charities  or Governments can pay these premiums to to secure resources for fighting pandemic out breaks like the recent Corona virus.  The recent Corona virus for example is so new, there exists no cure[^15]. In such a case, the pool speculators put up would be used for research towards the creation of a vaccine.
 
-Charities  or Governments can pay these premiums to to secure resources for fighting pandemic out breaks like the recent Corona virus. 
-The recent Corona virus for example is so new, there exists no cure[^15]. In such a case, the pool speculators put up would be used for research towards the creation of a vaccine.
+## Event Derivatives
 
 Another way of using  DeFi to mitigate disease pandemics is by leveraging prediction markets like Augur[^16] & Gnosis[^17] to create an "event derivative" that may assist in the mitigation of a disease. 
 Event derivatives are markets that pay people for accurately predicting  events in the future[^18]
