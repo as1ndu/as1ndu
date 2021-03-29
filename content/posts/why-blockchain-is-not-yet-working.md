@@ -1,5 +1,5 @@
 ---
-title : "Why blockchain is not yet working"
+title : "Blockchain isn't working"
 description : "The blockchain, while being a new concept in decentralized distributed databases has also presented a very unique set of problems in computer science & economics that have never been solved at the time of this writing."
 slug : "why-blockchain-is-not-yet-working"
 draft : false

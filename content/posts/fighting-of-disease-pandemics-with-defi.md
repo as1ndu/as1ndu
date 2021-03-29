@@ -1,5 +1,5 @@
 ---
-title : "Fighting disease pandemics with DeFi"
+title : "Decentralized Pandemic Bonds"
 description : "When Bill Gates was asked in a Vox interview on what he feared most, his reply was not climate change or nuclear war. It was a flu."
 slug : "fighting-of-disease-pandemics-with-defi"
 draft : false

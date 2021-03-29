@@ -1,5 +1,5 @@
 ---
-title : "Horus Theme and its features"
+title : "Horus Theme"
 description : "I have used several static site generators, from Jekyll to Lektor and now Hugo. As for now, I really like Hugo but couldn't find a theme that matched my  preferred aesthetics & functional tastes. That's why I made Horus theme."
 slug : "horus-theme-manual"
 draft : false

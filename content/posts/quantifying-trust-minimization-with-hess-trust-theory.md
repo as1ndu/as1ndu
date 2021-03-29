@@ -1,5 +1,5 @@
 ---
-title : "Quantifying trust-minimization"
+title : "Trust minimization"
 description : "Quantification of properties allows us to measure  how well a system might perform. Quantification also allows us to effectively optimize systems, because if we can quantify something, we can know if things are getting better or worse."
 slug : "quantifying-trust-minimization-with-hess-trust-theory"
 draft : false
