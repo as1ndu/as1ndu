@@ -7,7 +7,7 @@
     {{ if not .Params.hidden }}
 
     <li class="untyped">
-      <h2><a style="color:#e43f5a;" href="{{ .Permalink }}">{{ if .Draft }} <span style="color: #eeeeee;">[Draft]</span> {{ end }}{{ .Title }}</a></h2>
+      <h2><a style="color:#e43f5a;" href="{{ .Permalink }}">{{ if .Draft }} <span style="color: #eeeeee;">[Draft]</span> {{ end }} {{ if .Params.number }} <span>{{ .Params.number }}</span> {{ end }} {{ .Title }}</a></h2>
 
       <div id=date>
         <time style="font-family: 'Courier New', monospace;">{{ .Date.Format (.Site.Params.dateform | default "Mon Jan 2 2006") }} </time>

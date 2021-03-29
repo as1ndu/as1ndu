@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-  <h1>{{ if .Draft }}<span style="color: #eeeeee;">[Draft]</span> {{ end }}{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+  <h1>{{ if .Draft }}<span style="color: #eeeeee;">[Draft]</span> {{ end }}  {{ if .Params.number }} <span>{{ .Params.number }}</span> {{ end }} {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
   </h1>
 
   {{ if  .Params.hidden }}
@@ -10,7 +10,6 @@
    
   </div>
   {{ end }}
-
 
   {{ if not .Params.hidden }}
   <div id=sub-header style="font-family: 'Courier New', monospace;">

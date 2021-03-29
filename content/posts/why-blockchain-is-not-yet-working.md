@@ -5,6 +5,7 @@ slug : "why-blockchain-is-not-yet-working"
 draft : false
 tags : ["blockchain"]
 date : "2018-05-15"
+number: "000"
 aliases : [
     "/why-bockchain-is-not-yet-main-stream/",
     "/why-bockchain-is-not-yet-working/"

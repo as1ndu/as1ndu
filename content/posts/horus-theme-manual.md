@@ -6,6 +6,7 @@ draft : false
 tags : ["horus-theme", "hugo", "side-project"]
 date : "2020-01-08"
 hidden: false
+number: "003"
 latex: true
 ---
 

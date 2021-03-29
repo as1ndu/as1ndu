@@ -10,6 +10,6 @@ hidden: false
 
 the cardinal states of markets
 
-- complete (empty) markets
 - excess supply markets
 - excess demand market
+- complete (empty) markets

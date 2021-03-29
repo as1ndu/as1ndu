@@ -5,6 +5,7 @@ slug : "quantifying-trust-minimization-with-hess-trust-theory"
 draft : false
 tags : ["trust-minimization", "trust-theory"]
 date : "2020-04-15"
+number: "005"
 hidden: false
 ---
 

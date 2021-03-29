@@ -5,6 +5,8 @@ slug : "fighting-of-disease-pandemics-with-defi"
 draft : false
 tags : ["fintech"]
 date : "2020-02-02"
+lastmod: "2021-02-28"
+number: "004"
 hidden: false
 ---
 
