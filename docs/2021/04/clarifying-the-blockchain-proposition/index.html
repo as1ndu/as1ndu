@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description"
+    content="At the time of this writing, the price of Bitcoin is up again and, the “blockchain” is part of a stack to over 5,000 startups. What exactly is the Blockchain Proposition? When is a blockchain needed? And when is it useful?">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://as1ndu.xyz/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://as1ndu.xyz/images/favicon.ico" type="image/x-icon">
+  <title>
+    
+    
+     Clarifying the &#34;blockchain&#34; 
+    
+  </title>
+  <link rel="canonical" href="https://as1ndu.xyz/2021/04/clarifying-the-blockchain-proposition/">
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+    background-color: #162447;
+  }
+
+  *:not(code) {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #f2a365;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #eedcdc;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  body section {
+    display: block;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  a {
+    color: #eeeeee;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 7px auto 7px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    color: #eeeeee;
+  }
+
+  pre {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.45;
+    font-weight: bold;
+    border-radius: 9px;
+    background-color: #1f4068 !important;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+    color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  em a {
+    padding: 2px;
+    color: #f7f7f7;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 105%;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #e43f5a;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 17px;
+    border-left-style: solid;
+    font-family: "Old Standard TT", serif;
+    color: #f2a365;
+    max-width: 90%;
+    border-radius: 9px;
+    margin: auto;
+  }
+
+  blockquote p {
+    color: #eeeeee;
+    background-color: #0d2644;
+    min-width: 100%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 9px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 35px;
+    color: #393e46;
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: #e43f5a;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #e43f5a;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    color: #e43f5a;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+
+  #footnotes {
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #sub-header,
+  time {
+    color: #11999e;
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 13px;
+    background-color: #403c3b;
+    border-radius: 3px;
+    color: #f2a365;
+    font-size: 18px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #eeeeee;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 10%;
+  }
+
+  .untyped {
+    list-style-type: none;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: upper-roman;
+  }
+
+  ul li:before {
+    content: "";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content time {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: auto;
+    width: 99%;
+    padding: 10px;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0  15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float: right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  sup,
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
+  sub {
+    top: 0.4em;
+  }
+
+  sup a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .credit {
+    color: #f2a365;
+    bottom: 2px;
+    left: 2px;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .credit a {
+    color: #eeeeee;
+  }
+
+  th {
+    font-weight: bold;
+    color: #eeeeee;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  table {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #eeeeee;
+    padding: 2px;
+  }
+
+  .tags {
+    color: #f2a365;
+    text-decoration: none;
+  }
+
+  .in-post-tag {
+    text-decoration: none;
+  }
+</style>
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PC6BEWNDH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PC6BEWNDH');
+</script>
+
+<script data-ad-client="ca-pub-9326484175676024" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+
+<body>
+ 
+
+  <section id=nav>
+    <h1>
+      <a style="font-weight: 900; text-transform:capitalize; color: #f2a365;" href="https://as1ndu.xyz/">Asindu&#39;s journal.</a>
+    </h1>
+    <ul>
+      
+      <li><a style="font-weight: 700; color: #e43f5a;" href="https://twitter.com/as1ndu">@as1ndu</a></li>
+      
+      <li><a style="font-weight: 700; color: #e43f5a;" href="https://github.com/as1ndu">git</a></li>
+      
+      <li><a style="font-weight: 700; color: #e43f5a;" href="https://as1ndu.xyz/index.xml">rss</a></li>
+      
+    </ul>
+  </section>
+
+  
+    
+  <section style="float: left; position: absolute;">
+    
+      <a style="text-decoration: none; font-size: 25px; font-weight: 900;" href="https://as1ndu.xyz/">
+        HOME
+      </a>
+
+      <br/>
+
+      <a style="text-decoration: none; font-size: 25px; font-weight: 900;" href="https://as1ndu.xyz/posts">
+        POSTS
+      </a>
+
+      <br/>
+
+      <a style="text-decoration: none; font-size: 25px; font-weight: 900;" href="https://as1ndu.xyz/about">
+        ABOUT
+      </a>
+  </section>
+
+  <br />
+  <br />
+  
+
+<section id=content>
+  <h1>   <span>007</span>   Clarifying the &#34;blockchain&#34; 
+  </h1>
+
+  
+
+  
+  <div id=sub-header style="font-family: 'Courier New', monospace;">
+    Mon Apr 26 2021 · 8 minute read
+    · (last modified on April 26, 2021)
+  </div>
+  
+
+  <p>
+    
+        
+        <strong>tags — </strong>
+        
+          
+          <a class="in-post-tag" href="https://as1ndu.xyz/tags/fintech/">  ▪ fintech</a>
+          <a class="in-post-tag" href="https://as1ndu.xyz/tags/blockchain/">  ▪ blockchain</a>
+      </p>
+
+  <div class="entry-content">
+    <p>At the time of this writing, the price of <a href="https://www.ft.com/content/3e196e5c-afb7-4450-a5cc-3e4f7d17a40c">Bitcoin is up again</a> and,  the &ldquo;blockchain&rdquo; is part of a <a href="https://angel.co/blockchains">stack to over 5,000 startups</a>.</p>
+<p>But what exactly is the &ldquo;blockchain&rdquo; proposition? Most information out there seems to be repeating words like &ldquo;decentralized&rdquo; without a coherent explanation, others are simply selling <a href="https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861">pre-packaged notions of monetary theory</a>.</p>
+<p>Even &ldquo;big brains&rdquo; like Robin Hanson and Bruce Schneir don&rsquo;t seem to understand what exactly the blockchain proposition is <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The reason for incoherence that there are too many wages, pitch decks  &amp;  hopes of getting rich that rely on this proposition — everyone has their own spin.</p>
+<p>In writing this article I am aiming to improve that, but to understand what a blockchain is, we need to first understand <strong>Bitcoin</strong>, where it came from, why it was invented, and why it works (not how it works).</p>
+<hr>
+<h2 id="the-principle-agent-problem">The principle-agent problem</h2>
+<p>On the bitcoin blockchain, whenever a new block is created i.e a slot for storing  transactions on the bitcoin network, the creator of the block (called the miner) is allowed by the network to pay himself a predetermined amount of money as compensation for use of their computational resources.</p>
+<p>This transaction is called a <a href="https://blog.cex.io/bitcoin-dictionary/coinbase-transaction-12088">coinbase transaction</a>, and it&rsquo;s also what the silicon valley startup of the same is referencing <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>On the first ever block, the so called &ldquo;Genesis Block&rdquo;  Satoshi Nakamoto, Bitcoin&rsquo;s creator left  a <a href="https://en.bitcoin.it/wiki/Genesis_block">brief note</a>.</p>
+<blockquote>
+<p>&ldquo;The Times 03/Jan/2009 Chancellor on brink of second bailout for banks&rdquo;</p>
+</blockquote>
+<p>To provide context to the above quote, American Banks had scammed their citizens though the use of political figures<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> — people that where supposed to protect them from such abuse.</p>
+<p>This problem is what is referred to as the <strong>principal-agent problem</strong> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.
+The <em>principle</em> , in this case the citizens of America delegated powers to their government  — the <em>agent</em> that was supposed to execute actions that are in the best interest of the citizens.</p>
+<p>But when things don&rsquo;t go according to plan (<a href="https://www.youtube.com/watch?v=_ZAlj2gu0eM">like  in the 2009 financial crisis</a>), civilized  people tend to cannibalize each other, so bankers got paid with public money via &ldquo;bailouts&rdquo;<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>,  government agents  also  got paid<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> and the citizens where kicked in the teeth<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. 
+The notion of <a href="https://en.wikipedia.org/wiki/Collusion">collision</a> had occurred <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.</p>
+<p>The core implication of the principal-agent problem however, is that if you delegate power over your assets to someone other that yourself, <em>you could get scammed</em>.</p>
+<h2 id="now-how-do-you-solved-this-principal-agent--problem">Now, how do you solved this principal-agent  problem?</h2>
+<p>This is the essence of Satoshi Nakamoto&rsquo;s problem, and the solution was Bitcoin.</p>
+<p>Bitcoin solves this problem by using a decentralized group of agents, the so called miners are free to drop in and out of the Bitcoin network as they please — <a href="https://www.nasdaq.com/articles/byzantine-fault-tolerance-key-blockchains-2017-06-29">a feature known as fault tolerance</a>.</p>
+<p>So if a miner fails for some reason (gets married, power cuts, internet cuts, hardware failure, government intervention e.t.c)  anyone is free to replace their spot.</p>
+<p>The Bitcoin network is held together by a series of rules, the <a href="https://en.bitcoin.it/wiki/Protocol_rules">consensus rules</a> (a sort of constitution if you will).
+And for the important question, <em>why do miners follow these rules?</em> ,  Why should they exclusively rely on the kindness of strangers?</p>
+<p>Why don&rsquo;t they cheat, lie and steal from each other (if this happens, the bitcoin network will fall apart)? Especially given that <a href="https://coinmarketcap.com/currencies/bitcoin/"><em>hundreds of billions of dollars are at play</em></a>.</p>
+<p>The reason why miners don&rsquo;t defect from consensus rules is because they are bonded to each other — similarly to how criminal suspects pay a bond (to the courts) to make sure they don&rsquo;t run away (the bond is paid back if you show up to court).</p>
+<h2 id="bonding-of-miners">Bonding of miner&rsquo;s</h2>
+<p>Miners participate on the bitcoin network to earn from two sources of revenue.</p>
+<ul>
+<li><strong>First</strong> , a self-subsidy permitted by the network I outlined previously as the &ldquo;coinbase transaction&rdquo;, currently its 12.5 BTC (about $600k given current BTC prices at $50k).</li>
+<li><strong>Second</strong> , miner&rsquo;s revenue originates transaction fees from users on the bitcoin network transferring money this amount depends of the level of traffic so it can be zero and way more.</li>
+</ul>
+<p>Now for the bond, miners bond to each other though spending  computational power measured in hashes per second, not money.<br>
+A procedure known as &ldquo;proof of work&rdquo;, but in my opinion is simply an auction <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>.</p>
+<p>Whoever wins this  auction (spends the most hashes per second), is given a golden ticket <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> — the authority to collect miner revenue such as transaction fees &amp; the coinbase transaction. This auction happens approximately every 10 minutes <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>.</p>
+<p>For a miner to be profitable, they need to satisfy this condition,</p>
+<p><code>expenses_on_computational_power_used_to_get_golden_ticket &lt; coinbase_subsidy + transaction_fees</code></p>
+<p>To explain it further, <em>the cost of becoming a miner</em> should be <em>less</em> than <em>the sum of all potential revenues</em>.</p>
+<p>There is however one small detail that is very important, the cost of being a miner is all paid  a head of time that is, before they are allowed to claim any of the revenues.</p>
+<p>This means that before before the miner actually starts aggregating transactions, they are already in debt. 
+When this happens, we can say the miners are <em>bonded</em>.</p>
+<h2 id="making-cheating-irrational">Making cheating irrational</h2>
+<p>Every transaction on the blockchain is attributable beyond reasonable doubt via <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a>.</p>
+<p>So if a miner is caught making fraudulent transactions (transactions that violate the consensus rules) they are instantly replaced by other miners — leaving them with the losses incurred through the cost of being a miner (proof of work).</p>
+<p>The fraudulent miners,  <em>in all possible future secenarios end up loosing money</em>. Bitcoin therefore works by making it <em>&ldquo;irrational&rdquo;</em> to cheat on the network.</p>
+<p>By <em>irrationality</em> I mean the strategy  of cheating is harmful to one&rsquo;s self (in terms of earnings). And the optimal or beneficial strategy (in terms of earnings) is to play by the consensus rules.</p>
+<p>As a result, bitcoin is a kind of monetary institution that has never existed before. One that isn&rsquo;t governed by politicians, directors or rule of law its an institution constructed upon game theory, specifically the notion of expensive talk (the inverse of <a href="https://en.wikipedia.org/wiki/Cheap_talk">cheap talk</a>), also referred to as skin in the game <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>.</p>
+<p>Bitcoin is  inherently a self-organizing, self-financing monetary institution and payment network. One that of free of the principal-agent problem<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>.</p>
+<h2 id="applications-of-blockchain">Applications of blockchain.</h2>
+<p>Now that I have  hopefully clarified that <em>the value proposition of a blockchain is to solve  the principal-agent problem</em>, Where else does the problem exist?</p>
+<p>The principal-agent problem occasionally rares its ugly head,  as observed recently with the  Wirecard, a payment service that <a href="https://www.dw.com/en/how-wirecards-19-billion-could-go-missing/av-57284578">defrauded its customers of over $2 Billion dollars</a>.</p>
+<p>These things simply cannot happen if a blockchain is used for managing and making financial transactions.</p>
+<p>Places where the principal-agent problem  persists include bank accounts (banks do mismanagement customer deposits <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>), brokerage accounts (what if Robin Hood is an elaborate scam?<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>), PayPal freezing your money for unexplained reasons<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup>, management of donations for an open source<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
+<p>The irony is that &ldquo;crypto&rdquo; companies specializing in blockchain applications like Coinbase have re-introduced  the principal-agent problem by taking control of users assets through owning their private key.
+But exchanges do get &ldquo;mismanaged&rdquo; as we have seen with <a href="https://www.wired.com/2014/03/bitcoin-exchange/">Mt. Gox</a>, <a href="https://www.bbc.com/news/world-us-canada-47203706">Quadriga</a>,  and mostly recently a <a href="https://www.aljazeera.com/economy/2021/4/22/turkey-crypto-exchange-ceo-flees-country-as-probe-is-launched">Turkish exchange</a>.
+Unfortunately, recovering stolen crypto funds is  almost impossible.</p>
+<p>Another category of &ldquo;crypto&rdquo; companies that have re-introduced the principal-agent problem are &ldquo;permissioned&rdquo; blockchain startups (take <a href="https://www.r3.com/">R3</a> or IBM&rsquo;s <a href="https://www.ibm.com/blockchain/platform">permissioned blockchain</a>) where the chain is controlled by a single corporation.</p>
+<p>This is just a slow database,  given that the corporation has a monopoly on transactions and by this, can administer dishonest behavior without penalty.</p>
+<p>So a quick heuristic of identifying blockchain &ldquo;snake-oil&rdquo; is to see if it solves a principal-agent problem. If it doesn&rsquo;t, its a waste of time.</p>
+<p>Only business applications that have a principal-agent problem need a blockchain nothing else does.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Robin Hanson called it <a href="https://www.overcomingbias.com/2015/02/31017.html">&ldquo;a tough call&rdquo;</a> and Bruce Schneier thinks it&rsquo;s out right useless. He thinks it just <a href="https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/">shifts trust around</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Coinbase recently listed publically in a <a href="https://www.coindesk.com/coinbase-ipo-not-ipo-direct-listing">&ldquo;liquidity event&rdquo;</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Lawmakers explicitly passed a law to buy <a href="https://en.wikipedia.org/wiki/Toxic_asset">&ldquo;toxic assets&rdquo;</a> from Banks. Thus transfering hundreds of billions of dollars in <em>losses</em> from the private sector to the citizens. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>The <a href="https://www.investopedia.com/terms/p/principal-agent-problem.asp">principal-agent problem</a> also goes by the name &ldquo;agency dilema&rdquo;, or informally &ldquo;the sucker problem&rdquo; <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p><a href="https://en.wikipedia.org/wiki/Troubled_Asset_Relief_Program">The Troubled Asset Relief Program</a>  ot &ldquo;TARP&rdquo; was designed to facilitate this. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p><a href="https://en.wikipedia.org/wiki/Emergency_Economic_Stabilization_Act_of_2008#Potential_conflict_of_interest">Conflict&rsquo;s of interest were pointed out</a>, and some  people alledge <a href="https://fundamentalfinanceplaybook.com/bob-rubin-trade/">Bob Rubin collected over $120M from CitiBank</a> in the decade preceding the 2009 financial crisis. <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p>Tax payer money was used to finance all of this. <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p>Nomi Prins has a great book where she articulates the phenomena  of <a href="https://www.amazon.com/Collusion-Central-Bankers-Rigged-World/dp/1568585624">collusion in central banking</a>. <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p>Most people will agree that a proof of work epoch is a competition. By this I am analogizing it as an <a href="https://en.wikipedia.org/wiki/Auction">auction</a> where the currency used is computational power not cash. <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10" role="doc-endnote">
+<p>The golden ticket or <a href="https://github.com/progranism/Bitcoin-JavaScript-Miner/blob/master/miner.js#L44">golden nonce</a>, is a value you get only when you spend the most hashes per second. It allow one to construct a coinbase transaction. And it&rsquo;s only valid for about 10 min. <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11" role="doc-endnote">
+<p>I am referring to the element of <a href="https://www.investopedia.com/terms/b/block-time-cryptocurrency.asp">blocktime</a>. Which is approximately every 10 minutes on Bitcoin. <a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12" role="doc-endnote">
+<p>Nassim Taleb talks about how &ldquo;dis-incentives&rdquo; should be used for countering issues of the principle-agent problem. <a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13" role="doc-endnote">
+<p>Of course not by 100%, But at leave it &ldquo;dis-incentivises&rdquo; opportunistic behavior by taking the monetary gain out of it. Breaking th law on the blockchain literally doesn&rsquo;t pay. <a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14" role="doc-endnote">
+<p>I suggest you look into the story of then, Britain&rsquo;s second oldest bank, <a href="https://en.wikipedia.org/wiki/Barings_Bank">Baring Bank</a>, <a href="https://thoughtmaybe.com/25-million-pounds/">I suggest you watch &ldquo;25 Million Pounds&rdquo;</a>. <a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15" role="doc-endnote">
+<p>You just can&rsquo;t know 😂 <a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16" role="doc-endnote">
+<p><a href="https://www.paypal.com/us/brc/article/understanding-account-limitations">Paypal freezing</a> can put some merchant&rsquo;s earnings at risk. <a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17" role="doc-endnote">
+<p>It would be a nice idea to have a way open source curators could have a trust minimized way of managing their donations. <a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+  </div>
+
+  <div id=links>
+    
+    <a style="text-decoration: none;" class="basic-alignment left" href="https://as1ndu.xyz/2020/06/the-wisdom-of-rationals/"><h3 style="color: #eeeeee; text-transform: capitalize;" >← The Wisdom of rationals.</h3></a>
+    
+
+    
+  </div>
+
+  
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "asindus-journal" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</section>
+
+  
+
+  <hr/>
+
+  <center>
+    powered by 
+    <a href="https://gohugo.io">
+      hugo.
+    </a>
+  </center>
+
+  
+</body>
+
+</html>

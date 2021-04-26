@@ -5,7 +5,7 @@ slug : "robin-hansons-lmsr-inplain-english"
 draft : true
 tags : ["smart-contracts", "prediction-markets"]
 date : "2019-08-08"
-hidden: false
+hidden: true
 latex: true
 ---
 
